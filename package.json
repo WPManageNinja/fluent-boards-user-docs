@@ -1,0 +1,23 @@
+{
+  "name": "fluent-boards-user-docs",
+  "version": "1.0.0",
+  "description": "FluentBoards User Documentation",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "docs:dev": "vitepress dev",
+    "build": "vitepress build",
+    "docs:build": "vitepress build",
+    "preview": "vitepress preview",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [
+    "documentation",
+    "vitepress"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}

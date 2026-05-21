@@ -1,0 +1,93 @@
+/* Changelog page — layout aligned with FluentCart docs (tabs + release blocks) */
+
+.changelog-page .vp-doc > h1 {
+  margin-bottom: 0.35rem;
+}
+
+.changelog-page .vp-doc > h1 + p {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--vp-c-text-2);
+  max-width: 52rem;
+  margin-bottom: 1.75rem;
+}
+
+.changelog-page .vp-doc h2 {
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--vp-c-divider);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.changelog-page .vp-doc h2:first-of-type {
+  margin-top: 0.25rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.changelog-page .vp-doc h2 + p {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-size: 0.9375rem;
+  color: var(--vp-c-text-2);
+}
+
+.changelog-page .vp-code-group {
+  margin: 0 0 0.75rem;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--vp-c-text-1) 6%, transparent);
+}
+
+.changelog-page .vp-code-group .tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  padding: 0.35rem 0.5rem 0;
+  background: var(--vp-c-bg-soft);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.changelog-page .vp-code-group .tabs label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.45rem 0.65rem;
+  border-radius: 6px 6px 0 0;
+  margin-right: 0.15rem;
+  cursor: pointer;
+  color: var(--vp-c-text-2);
+  transition: color 0.15s, background 0.15s;
+}
+
+.changelog-page .vp-code-group .tabs input:checked + label {
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg);
+}
+
+.changelog-page .vp-code-group .blocks {
+  background: var(--vp-c-bg);
+}
+
+.changelog-page .vp-code-group div[class*='language-'] {
+  margin: 0 !important;
+  border-radius: 0 !important;
+  background: var(--vp-c-bg) !important;
+}
+
+.changelog-page .vp-code-group div[class*='language-'] .lang {
+  display: none;
+}
+
+.changelog-page .vp-code-group button.copy {
+  display: none;
+}
+
+.changelog-page .vp-doc > p:has(a[href*='fluentboards.com/blog']) {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9375rem;
+}
