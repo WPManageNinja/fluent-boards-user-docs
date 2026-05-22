@@ -163,7 +163,8 @@ export default defineConfig({
         items: [
           { text: 'Card View Preferences', link: '/card-view-preference-settings' },
           { text: 'Frontend Portal', link: '/frontend-portal-settings' },
-          { text: 'Menu Position in WordPress', link: '/fluentboards-menu-position-in-wordpress' }
+          { text: 'Menu Position in WordPress', link: '/fluentboards-menu-position-in-wordpress' },
+          { text: 'MCP for AI Agents', link: '/mcp-for-ai-agents' }
         ]
       },
       {
