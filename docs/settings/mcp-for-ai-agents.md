@@ -1,4 +1,4 @@
-## MCP for AI Agents
+# MCP for AI Agents
 
 FluentBoards includes a built-in MCP (Model Context Protocol) server that connects your project boards with AI tools like Anthropic Claude Desktop, Claude Code, Cursor, and OpenAI Codex. This integration allows AI agents to read, create, and manage your project data through natural conversations without requiring third-party tools, extra hosting services, or multiple API keys.
 
