@@ -22,6 +22,12 @@ If you prefer an existing page, select **Use a pre-defined page via shortcode** 
 
 ![via shortcode](../public/images/settings/frontend-portal-settings/Via-Shortcode-scaled.webp)
 
+### Single Board Shortcode
+
+If you only want to share one specific board, such as with a client or a stakeholder, instead of your entire frontend portal, you can generate a shortcode for that individual board.
+
+Go to the board you want to share and click on the **project info** icon. Copy the board shortcode shown there, then paste it into the page where you want that board displayed.
+
 ### Frontend Portal Login
 
 You'll see a login page on your website where your board members need to log in using their WordPress **User ID** and **Password**.

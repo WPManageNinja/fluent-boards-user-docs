@@ -14,6 +14,8 @@ FluentBoards provides various settings for your Roadmap. To access them, go to t
 
 **User need to be logged in to add a comment:** Requires users to log in before commenting.
 
+You can also reply to a user's comment right from your task dashboard and choose whether your reply is **Public** or **Private**. Public comments appear automatically to the user, while private comments stay within your team.
+
 #### **Enable Vote Submission**
 
 **User need to be logged in to vote for an idea:** Requires users to log in before voting.

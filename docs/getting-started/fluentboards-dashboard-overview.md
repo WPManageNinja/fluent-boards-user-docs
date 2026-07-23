@@ -24,6 +24,10 @@ The My Tasks section is structured to optimize your user experience, categorized
 
 **Others**: This section displays tasks that have no status updates and have passed their deadlines. These overdue or unaddressed tasks will be shown here.
 
+**Assigned**: Shows tasks that have been assigned to you.
+
+**Mentioned**: Shows tasks where you've been mentioned in a comment.
+
 ![my task all 033](../public/images/getting-started/fluentboards-dashboard-overview/My-Task-all-033-scaled.webp)
 
 ## Configure Tab in My Dashboard
