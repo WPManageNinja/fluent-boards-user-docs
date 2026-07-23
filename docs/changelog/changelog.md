@@ -6,6 +6,71 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v1.95.3
+
+Released on July 14, 2026
+
+::: code-group
+
+``` [🐞 Bug fixes]
+• Fixed a minor security issue
+```
+
+:::
+
+
+## FluentBoards v1.95.2
+
+Released on June 12, 2026
+
+::: code-group
+
+``` [🐞 Bug fixes]
+• Tasks filter issue
+• Table View title sort issue
+• UI issue in stage reorder
+• Critical error from task comment email links
+• Attachment issue when moving a task to another board
+• Folder edit issue
+• Other Improvements & Bug Fixes
+```
+
+:::
+
+
+## FluentBoards v1.95
+
+Released on May 21, 2026
+
+::: code-group
+
+``` [✨ Newly Added]
+• Gantt Chart View
+• MCP support for AI Agents
+• Pin Tasks
+• Anyone with permission can create Boards
+• Recently opened tasks now highlighted in Kanban
+• Task dependency
+```
+
+``` [🐞 Bug fixes]
+• Task reminder timezone issue
+• Repeat task date issue
+• Other Improvements & Bug Fixes
+```
+
+``` [🚀 Improvements]
+• Improved handling for large JSON imports
+• Optimized CSV export for boards with a large number of tasks
+• Attachments and cover images now cloned when moving boards
+• UI improvements in the My Tasks section
+```
+
+:::
+👉 [Detailed Release Note](https://fluentboards.com/blog/fluentboards-1-95/){:target="_blank"}
+
+
+
 ## FluentBoards v1.91.3
 
 Released on April 08, 2025
