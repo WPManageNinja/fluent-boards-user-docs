@@ -6,6 +6,8 @@ You can easily add tasks with several features to your boards. FluentBoards make
 
 Just head over to the board where you want to add the task. Then, you can either click on the **Add Task** button within the stages or click on the **Plus** icon button at the top of the stage to add a task.
 
+You can also drag and drop or paste an image directly onto the Kanban view, and FluentBoards will instantly create a new task with that image attached.
+
 ![task creation in boards ](../public/images/task-management/how-to-create-a-new-task/Task-Creation-in-Boards--scaled.webp)
 
 Give a **Title** for your **Task** and click on the **Save** button then your task will be added to your board stage.
@@ -29,6 +31,10 @@ Click on the **Assignee Add** button to see all the board members listed. Click 
 You have the option to add a start date and due date with time to your task. Simply click on the **Set Dates** button to access these options, input your desired dates, and then click **Save**. Your dates will be added to your task with time accordingly.
 
 ![adding date](../public/images/task-management/how-to-create-a-new-task/Adding-Date-scaled.webp)
+
+### Task and Subtask Reminders
+
+Once you've set a due date for a task or subtask, you can also add a reminder so you're notified exactly when you need to be. Choose to be reminded 30 minutes, 1 hour, 1 day, or 1 week before the due date, and never miss a deadline again.
 
 ### Priority
 

@@ -5,6 +5,7 @@ The task creation pop-up includes several task actions that provide additional o
 - **Join as Assignee**: Assign the task to yourself.
 - **Move**: Allows you to move the task to any board and stage.
 - **Watching**: The **Watching** option lets users stay updated on changes and activities for a specific task.
+- **Pin Task**: Pin your most critical tasks so they stay at the top of your board, easy to find on busy boards.
 - **Change Cover**: Let you change the task card's cover color. Also, you can **Upload an Image** as a Task Cover.
 - **Custom Field**: If you need a custom field for your task to add extra information based on your use case, you can easily do that in FluentBoards. To know more about **Custom Fields** read the [Custom Fields](/custom-fields-for-task) guide.
 - **Make Template**: This enables you to create a template from the task.

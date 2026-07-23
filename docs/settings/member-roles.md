@@ -20,7 +20,9 @@ We are describing all the roles within FluentBoards:
 
 **Admin/Manager:** An Admin or Manager can manage only those boards where they have been designated as Admin or Manager by a WordPress Administrator or FluentBoards Admin. Admin or Manager can be selected from any WordPress user role.
 
-Admin/ Manager can't create new boards they can only manage their boards where they are assigned as an Admin/ Manager. They also have the ability to delete boards, add members on boards, and add another Admin/Manager on boards.
+Admin/ Manager can manage the boards where they are assigned as an Admin/ Manager. They also have the ability to delete boards, add members on boards, and add another Admin/Manager on boards.
+
+By default, only a WordPress Administrator or FluentBoards Admin can create new boards. If you want to let any team member create their own boards, go to the FluentBoards **Settings** and select **General Settings**, then toggle on **Board Creation Permission**.
 
 **Members:** The roles mentioned above (WordPress Administrator, FluentBoards Admin, Admin/Manager) can add any WordPress user as a member to a board. Members have access only to the boards to which they are assigned. Members cannot delete or create boards. They can only manage board tasks and assign members to board tasks.
 
