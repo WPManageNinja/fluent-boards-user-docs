@@ -8,6 +8,7 @@ There are three types of board view, and you can select any of them. Those are:
 - List View
 - Calendar View
 - Table View
+- Gantt Chart View
 
 Below are details about FluentBoards view.
 
@@ -19,7 +20,7 @@ Navigate to the FluentBoards Dashboards **Boards** section from the top menu. No
 
 ## Kanban view
 
-By default, this is Kanban's view. The Kanban view is the card-based view. This view is very user-friendly to grow your productivity. Here, it shows data by stage.
+By default, this is Kanban's view. The Kanban view is the card-based view. This view is very user-friendly to grow your productivity. Here, it shows data by stage. Recently opened tasks are also highlighted, so you can quickly spot what you were just working on.
 
 ![kanban view](../public/images/boards/boards-view/Kanban-View-scaled.webp)
 
@@ -27,7 +28,7 @@ By default, this is Kanban's view. The Kanban view is the card-based view. This 
 
 A list view is a user interface design that displays a collection of items in a vertical or horizontal list, allowing for easy navigation and interaction with each item.
 
-The board's List view shows your task data stage by stage, Priority, start and due date, and tasker profile.
+The board's List view shows your task data stage by stage, Priority, start and due date, and tasker profile. Just like in Kanban view, you can customize which task details are visible in List view to match your workflow.
 
 ![list view 1](../public/images/boards/boards-view/List-View-1-scaled.webp)
 
@@ -62,5 +63,11 @@ Available bulk actions include:
 - **Add Labels:** Apply one or more labels to all selected tasks.
 
 ![table view](../public/images/boards/boards-view/table-view.webp)
+
+## Gantt Chart View
+
+The Gantt Chart View lays your tasks out across a timeline, so you can spot overlaps and get a bird's-eye view of how your entire project is progressing, all in one place.
+
+> This is the initial version of the Gantt Chart View, so its design and options may continue to change in upcoming updates.
 
 So, here is the whole overview of the FluentBoards View section. If you have any queries please feel free to contact our [support](https://wpmanageninja.com/support-tickets/){:target="_blank"} team.

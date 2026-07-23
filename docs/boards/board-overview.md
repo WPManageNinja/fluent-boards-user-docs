@@ -21,7 +21,7 @@ Click the **Apply** button to update your view with the selected options.
 - **F. Add Board Button** Click the + Add Board button to create a new board. This will open a setup window where you can define the new board's name, description, and other settings.
 - **G. Import Boards** Clicking the three-dot menu reveals several options for importing boards. This allows you to easily migrate your existing projects from other services like Trello and Asana, or import boards from a CSV file or another FluentBoards export.
 - **H. Pinned Boards** Click the Pinned button to instantly filter your view to show only the boards that you have pinned for quick and easy access.
-- **I. Notifications** Click the **bell icon** to open the notifications panel, where you can see recent updates and mentions related to your tasks and boards.
+- **I. Notifications** Click the **bell icon** to open the notifications panel, where you can see recent updates and mentions related to your tasks and boards. Use the **Assigned** and **Mentioned** filters here to separate tasks assigned to you from comments where you've been mentioned.
 
 ![fluentboards boards overview](../public/images/boards/board-overview/FluentBoards-Boards-OverView--scaled.webp)
 
