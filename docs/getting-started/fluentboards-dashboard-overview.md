@@ -4,6 +4,20 @@ Welcome to the FluentBoards Dashboard, designed to streamline your work experien
 
 ![fluent board dashboard](../public/images/getting-started/fluentboards-dashboard-overview/fluent-board-dashboard-scaled.webp)
 
+## Light, Dark, and System Mode
+
+FluentBoards lets you choose how the interface looks. Simply click on the theme icon in the top navbar to choose between **Light**, **Dark**, and **System** mode.
+
+Choosing **System** automatically matches FluentBoards to your device's own light or dark setting.
+
+![Dark and light Mode](../public/images/getting-started/fluentboards-dashboard-overview/dark-mode.webp)
+
+### Notifications
+
+Click on the **bell icon** in the top navbar to see your latest notifications from across your boards.
+
+To customize which notifications you receive, check out our [Notification Settings](/notification-settings) guide.
+
 ## Dashboard Stats
 
 Right at the top of your Dashboard, you'll find four quick stats that give you an instant read on how your work is progressing across every board.
@@ -52,7 +66,21 @@ Click on **View All** to open the full **My Tasks** page, where you can also sel
 
 ### Sort Your Tasks
 
-Click on the **Sort** icon next to **View All** to arrange your tasks by **Created Date**, **Priority**, **Title**, or **Due Date**, in **Ascending** or **Descending** order.
+Click on the **Sort** icon next to **View All** to arrange your tasks by one of the following:
+
+**Created Date**: Sorts your tasks by when they were created.
+
+**Priority**: Sorts your tasks by their **Priority** level, from **Urgent** to **Low**.
+
+**Title**: Sorts your tasks alphabetically by their title.
+
+**Due Date**: Sorts your tasks by their due date.
+
+Once you've picked one, choose **Ascending** or **Descending** to set the order:
+
+**Ascending**: Shows your tasks from oldest to newest, lowest to highest priority, A to Z, or earliest to latest due date, depending on your choice above.
+
+**Descending**: Shows your tasks from newest to oldest, highest to lowest priority, Z to A, or latest to earliest due date, depending on your choice above.
 
 ![Sort By](../public/images/getting-started/fluentboards-dashboard-overview/sort-4.webp)
 
