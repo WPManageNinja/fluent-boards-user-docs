@@ -5,7 +5,7 @@ The MCP (Model Context Protocol) integration in FluentBoards allows you to conne
 This integration works through a secure connection using a WordPress Application Password, giving you full control over access and permissions.
 
 > [!Note]
-> Looking for AI help inside a task itself, like writing descriptions or summarizing a card? That's a separate, built-in feature — check out the [AI Features in Task Cards](/ai-features-in-task-cards) guide instead.
+> Looking for AI help inside a task itself, like writing descriptions or summarizing a card? That's a separate, built-in feature check out the [AI Features in Task Cards](/ai-features-in-task-cards) guide instead.
 
 ### Open the MCP Settings
 
@@ -17,7 +17,7 @@ To access the configuration panel, log in to your WordPress dashboard. From the 
 To allow external AI assistants to discover your FluentBoards environment, toggle the **Enable MCP for AI Agents** switch located at the top of the configuration page. When turned on, FluentBoards dynamically exposes its underlying capabilities to authorized MCP clients.
 
 > [!Note]
-> If you need to instantly pause access for all connected AI tools simultaneously, simply flip this toggle off. The endpoint immediately stops responding to incoming MCP requests without altering your saved configurations.
+> If you need to stop all connected AI tools from accessing FluentBoards, simply turn this toggle off. The MCP endpoint will stop accepting requests right away, while keeping all your settings unchanged.
 
 ![Enabling MCP Toggle Switch](../public/images/settings/mcp-for-ai-agents/enable-mcp-for-ai-agents-1.webp)
 
