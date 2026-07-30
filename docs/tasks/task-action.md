@@ -3,7 +3,7 @@
 The task creation pop-up includes several task actions that provide additional options for better task organization. These actions make task management easier and more effective:
 
 - **Join as Assignee**: Assign the task to yourself.
-- **Move**: Allows you to move the task to any board and stage.
+- **Move**: Allows you to move the task to any board and stage. This experience has been redesigned to make changing a task's stage or board quicker and clearer.
 - **Watching**: The **Watching** option lets users stay updated on changes and activities for a specific task.
 - **Pin Task**: Pin your most critical tasks so they stay at the top of your board, easy to find on busy boards.
 - **Change Cover**: Let you change the task card's cover color. Also, you can **Upload an Image** as a Task Cover.
