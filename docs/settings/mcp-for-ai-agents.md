@@ -4,6 +4,8 @@ The MCP (Model Context Protocol) integration in FluentBoards allows you to conne
 
 This integration works through a secure connection using a WordPress Application Password, giving you full control over access and permissions.
 
+> [!Note]
+> Looking for AI help inside a task itself, like writing descriptions or summarizing a card? That's a separate, built-in feature — check out the [AI Features in Task Cards](/ai-features-in-task-cards) guide instead.
 
 ### Open the MCP Settings
 

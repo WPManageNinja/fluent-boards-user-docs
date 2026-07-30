@@ -7,6 +7,9 @@ This guide walks you through enabling AI, selecting an AI provider, and configur
 > [!Note]
 > This is different from connecting external AI assistants to FluentBoards. If you want an AI assistant to access your boards directly, check out the [MCP for AI Agents](/mcp-for-ai-agents) guide instead.
 
+> [!Note]
+> Once you've enabled AI here, head to the [AI Features in Task Cards](/ai-features-in-task-cards) guide to start using the AI Writing Assistant, task summaries, and other AI tools inside your tasks.
+
 ## Step 1: Enable AI
 
 To enable AI features in FluentBoards:
