@@ -4,52 +4,55 @@ FluentCRM automatically integrates with FluentBoards. To manage the Tasks of you
 
 In this article, we will be explaining those features.
 
-### **CRM Contacts in** Boards
+## CRM Contacts in Boards
 
-FluentBoards allows you to add FluentCRM contacts to your tasks. You can view all CRM contacts associated with your board's tasks in the Boards menu.
+FluentBoards allows you to add FluentCRM contacts to your tasks. You can view all CRM contacts associated with your board's tasks right from the **Board Menu**.
 
-To view CRM contacts associated with tasks on a board, go to your board and click on the three-dot button in the top right corner to open the board menu. Then, select **Associate CRM Contacts** to see the CRM contacts linked to your board's tasks.
+To view CRM contacts associated with tasks on a board, go to your board and click on the **three-dot** button in the top right corner to open the **Board Menu**. Then, select **Associated CRM Contacts** to see the CRM contacts linked to your board's tasks.
 
 ![associate contact crm contact 1](../public/images/integrations/fluentboards-integration-with-fluentcrm/Associate-Contact-CRM-Contact-1-scaled.webp)
 
-Clicking on the **Arrow** icon button will reveal the tasks associated with those CRM contacts.
+An **Associated CRM Contacts** panel will slide in with a search field and a list of every contact linked to the board. Click the **Arrow** icon next to a contact to expand it and reveal the **Tasks** associated with them.
 
 ![associate with tasks 1 1](../public/images/integrations/fluentboards-integration-with-fluentcrm/Associate-with-Tasks-1-1-scaled.webp)
 
-### **Adding CRM Contacts to Tasks**
+## Adding CRM Contacts to Tasks
 
 To associate a CRM contact with your task, follow these steps:
 
-Go to the task where you wish to add the CRM contact or create a new task. In the task pop-up, you'll find the **CRM Contact** button. Click on this button to include the CRM contact in your board.
+Go to the task where you wish to add the CRM contact, or create a new task. Under **Properties**, click on the **CRM Contact** button. A **Select Contact** box will appear. Type a name or email to search for your contact, then click the **Save** button to link it to your task.
 
-![How to add CRM contact on a task](../public/images/integrations/fluentboards-integration-with-fluentcrm/Screenshot-2024-10-14-at-4.39.48 PM.webp)
+![select crm contact on a task](../public/images/integrations/fluentboards-integration-with-fluentcrm/CRM-Contact-FluentBoards-Info-3.webp)
 
-## **Viewing Tasks and Boards Associated with FluentCRM Contacts**
+## Viewing Tasks and Boards Associated with FluentCRM Contacts
 
 To observe tasks and boards linked with your FluentCRM contacts, follow these steps:
 
 Head to the **All Contacts** section from the FluentCRM Dashboard. Open the specific contact that has been added to your board.
 
-Select **FluentBoards** within the contact details. Here, you'll discover all boards and tasks associated with this contact.
+Select the **Boards** tab within the contact details. Here, you'll find a **Tasks** and a **Boards** sub-tab. Under **Tasks**, you'll see every **Associated Task** for this contact, along with its board, status, and due date. You can also click the **Create Task** button right here to add a new task tied to this contact.
 
-![crm contact fluentboards info](../public/images/integrations/fluentboards-integration-with-fluentcrm/CRM-Contact-FluentBoards-Info-scaled.webp)
+![fluentcrm contact boards tab](../public/images/integrations/fluentboards-integration-with-fluentcrm/Automations-FluentCRM-4.webp)
 
 ## FluentCRM Automation
 
-In Fluent CRM you will get some Automation based on your Board and Task changes. You will get two automation action triggers for boards in FluentCRM those are
+In Fluent CRM you will get some Automation based on your Board and Task changes. When creating an automation funnel, you'll find a **FluentBoards** trigger category with two triggers:
 
 - **Contact Added to Task:** This Automation will run when a contact will be added to a task.
 - **Stage Changed:** This automation will run when the stage of a task changes.
 
-![automations fluentcrm](../public/images/integrations/fluentboards-integration-with-fluentcrm/Automations-FluentCRM.webp)
+![fluentboards automation triggers](../public/images/integrations/fluentboards-integration-with-fluentcrm/Edit-Funnel-FluentCRM-5.webp)
 
 ## Automation Action
 
-Here you will get a **Create Task** action for your FluentBoards. You can set this **Create Task** action to create a new task in your FluentBoards.
+Under the **FluentBoards** section of your automation funnel, you'll find two actions:
 
-![FluentBoards Task Create Action ](../public/images/integrations/fluentboards-integration-with-fluentcrm/Edit-Funnel-FluentCRM.webp)
+- **Create Task:** Set this action to create a new task in your FluentBoards.
+- **Create Board from Template:** Set this action to create a brand new board directly from one of your existing board templates.
 
-Now, a pop-up will appear where you can fill in the necessary details.
+![fluentboards automation actions](../public/images/integrations/fluentboards-integration-with-fluentcrm/Create-Task-scaled-6.webp)
+
+Selecting **Create Task** opens a pop-up where you can fill in the necessary details.
 
 **A. Internal label:** Enter a unique and clear task name.
 
@@ -63,10 +66,8 @@ Now, a pop-up will appear where you can fill in the necessary details.
 
 **F. Description:** You can write out the task details in the description field. For dynamic content, click on **Add Smartcode** to insert smart data automatically.
 
-**G. Select Priority:** From the dropdown options, select the priority level for your task: **Low**, **Medium**, or **High**. If no priority is selected, it will default to **Low** automatically.
+**G. Select Priority:** From the dropdown options, select the priority level for your task: **No Priority**, **Urgent**, **High**, **Medium**, or **Low**. If no priority is selected, it will default to **No Priority** automatically.
 
 Once you have completed all the details, click the **Save Settings** button to save and apply your automation task to the board.
-
-![create task](../public/images/integrations/fluentboards-integration-with-fluentcrm/Create-Task-scaled.webp)
 
 That’s all about FluentCRM integration with FluentBoards. If you have any further queries about this article feel free to [reach us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
