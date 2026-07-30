@@ -70,7 +70,7 @@ Once you select or highlight your text, a formatting toolbar appears with **Bold
 
 Simply click on the **AI** icon in the description toolbar to open the **AI Writing Assistant**. From here, you can ask it to write, improve, shorten, expand, format, or fix the grammar of your description, or give it a custom instruction of your own.
 
-> Your site admin needs to connect an AI provider (OpenAI, Claude, Gemini, or the WordPress AI client) before the **AI Writing Assistant** appears.
+> Your need to connect an AI provider (OpenAI, Claude, Gemini, or the WordPress AI client) before the **AI Writing Assistant** appears.
 
 ### AI Task Assistant
 
@@ -81,6 +81,8 @@ FluentBoards can use AI to help you manage a task's content. Click on the **AI A
 - **Suggest Labels & Priority:** Let AI recommend Labels and a **Priority** level for the task, based on its content.
 
 Review the suggestions in the preview, then click the **Apply** button to add the suggested Subtasks, Labels, or Priority to your task.
+
+![Ai Task Assistant](../public/images/task-management/how-to-create-a-new-task/ai-assistant-9.webp)
 
 ### Attachments
 

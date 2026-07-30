@@ -7,23 +7,24 @@ This integration works through a secure connection using a WordPress Application
 
 ### Open the MCP Settings
 
-To access the configuration panel, log in to your WordPress dashboard. From the left sidebar, navigate to **FluentBoards** → **Settings**, and select the **MCP for AI** tab from the settings menu. Everything you need to initialize, authenticate, and configure your connections lives on this single screen.
+To access the configuration panel, log in to your WordPress dashboard. From the left sidebar, navigate to **FluentBoards** → **Settings**, and select the **MCP for AI Agent** tab from the settings menu. Everything you need to initialize, authenticate, and configure your connections lives on this single screen.
 
 
 ## Step 1: Enable MCP for AI Agents
 
 To allow external AI assistants to discover your FluentBoards environment, toggle the **Enable MCP for AI Agents** switch located at the top of the configuration page. When turned on, FluentBoards dynamically exposes its underlying capabilities to authorized MCP clients.
 
+> [!Note]
 > If you need to instantly pause access for all connected AI tools simultaneously, simply flip this toggle off. The endpoint immediately stops responding to incoming MCP requests without altering your saved configurations.
 
 ![Enabling MCP Toggle Switch](../public/images/settings/mcp-for-ai-agents/enable-mcp-for-ai-agents-1.webp)
 
-## Step 2: Install Fluent Toolkit
+## Step 2: Install and Activate FluentHub
 
-FluentBoards utilizes a lightweight companion plugin called **Fluent Toolkit** to manage and expose its specific tool schema. If this toolkit is missing or inactive, an **Adapter Required** warning will appear in your status panel.
+FluentBoards utilizes a lightweight companion plugin called **FluentHub** to manage and expose its specific tool schema. If this plugin is missing or inactive, an **Adapter Required** warning will appear in your status panel.
 
-* **One-Click Installation:** Click the **Install Fluent Toolkit** button on the settings page. WordPress will automatically download, install, and activate the extension in the background.
-* **Manual Installation:** If utilizing a manual deployment, download the companion plugin archive directly from the official repository. Upload it via **Plugins → Add New → Upload Plugin**, click activate, and return to the **MCP for AI** configuration screen.
+* **One-Click Installation:** Click the **Install FluentHub** button on the settings page. WordPress will automatically download, install, and activate the extension in the background.
+* **Manual Installation:** If utilizing a manual deployment, download the **FluentHub** plugin archive directly from the official repository. Upload it via **Plugins → Add New → Upload Plugin**, click activate, and return to the **MCP for AI Agent** configuration screen.
 
 ## Step 3: Verify the Connection Status
 
@@ -31,9 +32,9 @@ Once both the toggle is enabled and the toolkit is active, review the **Status**
 
 | Field | Description |
 | --- | --- |
-| **Adapter** | Displays the active version of your Fluent Toolkit along with a green **Connected** badge. |
-| **Endpoint URL** | The direct REST API address your AI client requires to target this server (e.g., `https://your-site.com/wp-json/fluent-boards/mcp`). |
-| **Tools Available** | Total number of MCP tools exposed (typically 18, including 7 FluentBoard Pro tools when Pro is active). |
+| **Adapter** | Displays the active version of your FluentHub plugin (e.g., FluentHub 2.1.0) along with a green **Connected** badge. |
+| **Endpoint URL** | The direct REST API address your AI client requires to target this server (e.g., `https://your-site.com/wp-json/fluent-boards/mcp`). A **Copy** button sits right next to it. |
+| **Tools Available** | Total number of MCP tools exposed, covering board, task, move, archive, and comment actions (29 in this example). |
 
 > If your **Tools Available** counter displays 0, double-check that the main **Enable MCP for AI Agents** toggle from Step 1 is thoroughly switched on.
 
@@ -59,9 +60,9 @@ External AI applications sign in to your WordPress installation via an isolated 
 
 Return to the **MCP for AI** panel inside FluentBoards and look for the **Connect a client** section. By providing your profile parameters here, the plugin automatically structures a personalized connection block for your target app.
 
-1. Input your active WordPress account login name into the **Username** text field.
-2. Paste the un-spaced or spaced **Application Password** generated during Step 4 into the password field.
-3. Choose the tab corresponding to your AI workspace provider (**Cursor**, **Claude Desktop**, **Claude Code**, or **Other**).
+1. Input your active WordPress account login name into the **Username** text field. A handy **Open Application Passwords** link sits right above this field if you still need to generate one.
+2. Paste the un-spaced or spaced **Application Password** generated during Step 4 into the password field. Click the eye icon to reveal it and double-check for typos.
+3. Choose the tab corresponding to your AI workspace provider (**Claude Code**, **OpenAI Codex**, **Cursor**, **Other**, or **Claude Desktop**).
 4. Click **Copy snippet** to send the configured instructions to your clipboard.
 
 ![Copy Appllication password](../public/images/settings/mcp-for-ai-agents/copy-snippet-5.webp)
@@ -149,6 +150,6 @@ Now, if you want to view it on the front end of your site, go to your website’
 
 ### Troubleshooting Common Issues
 
-* **The "Adapter Required" Shield Remains Up:** Give your web browser a hard refresh (`Ctrl + F5` or `Cmd + Shift + R`). If the badge remains, navigate to your core **Plugins** dashboard to double-check that **Fluent Toolkit** is explicitly flagged as **Active**.
+* **The "Adapter Required" Shield Remains Up:** Give your web browser a hard refresh (`Ctrl + F5` or `Cmd + Shift + R`). If the badge remains, navigate to your core **Plugins** dashboard to double-check that **FluentHub** is explicitly flagged as **Active**.
 * **The AI Client Reports an "Unauthorized" Exception:** Your username spelling or the 24-character application security password contains a typo. Regenerate a clean password from your user profile and reconstruct the snippet block.
 * **Commands Complete Successfully but Do Not Reflect Production Realities:** Verify that your site's local **Endpoint URL** exactly matches the domain structure and protocol (HTTP vs HTTPS) configured inside your external AI workspace. WordPress application authentication strictly relies on a functioning, publicly clear REST API route.
