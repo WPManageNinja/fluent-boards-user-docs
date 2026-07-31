@@ -28,7 +28,7 @@ Go to the task where you wish to add the CRM contact, or create a new task. Unde
 
 ## Boards and Tasks Inside the FluentCRM Contact View
 
-If you're running FluentCRM alongside FluentBoards, the contact profile now has a dedicated **Boards** tab. See and manage a contact's related tasks directly from their CRM record, without switching tools.
+If you're using FluentCRM with FluentBoards, the contact profile includes a dedicated **Tasks** and **Boards** tab. You can view and manage a contact's related boards and tasks directly from their CRM profile, without switching between plugins.
 
 Head to the **All Contacts** section from the FluentCRM Dashboard, then open the specific contact you want to check.
 
