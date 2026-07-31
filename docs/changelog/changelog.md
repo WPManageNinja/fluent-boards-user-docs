@@ -6,6 +6,45 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.0.0
+
+Released on July 30, 2026
+
+::: code-group
+
+``` [✨ Newly Added]
+• Completely new UI/UX synced with Fluent System
+• Featured dashboard with recently opened boards and notifications
+• Dark Mode with Light / Dark / System theme switching
+• Newly designed Task Details Modal with next/previous task navigation
+• AI Writing Assistant in task descriptions
+• AI powered subtask generation, summary, labels & priority suggestions
+• Markdown editor for task descriptions
+• Rebuilt & redesigned Reports with Overview, Tasks, Activity, Timesheet, and Roadmap screens
+• Board template management with editable templates, covers, and categories
+• Automated board creation from FluentCRM automation actions
+• Enhanced Task Priority
+• MCP tools added for label, stage, and task query for AI agents
+• Redesigned member profile stats widget, recent tasks widget, and activity feed
+```
+
+``` [🚀 Improvements]
+• Fully responsive admin, including mobile
+• Improved Label management experience
+• Improved change stage or move task to other boards experience
+• Improved attachments preview experience
+• Redesigned Kanban, List, Table, Calendar, and Gantt views
+• Redesigned comments, activity feed, and notifications
+• Redesigned attachments with per-file upload progress
+```
+
+``` [🐞 Bug fixes]
+• Other improvements & bug fixes
+```
+
+:::
+
+
 ## FluentBoards v1.95.3
 
 Released on July 14, 2026
