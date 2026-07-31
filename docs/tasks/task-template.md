@@ -1,31 +1,37 @@
 # Using Task Templates
 
-You can create a **Task Template** from an existing task or create a new task as a template. In this guide, we'll show you how to create a template from both an existing task and from the board stage.
+You can turn any task into a reusable **Task Template**, so you don't have to rebuild the same task from scratch every time. In this guide, we'll show you how to create a template from an existing task, and how to start a new task from a template right in a stage.
 
-## Creating Template from Task
+## Creating a Template from an Existing Task
 
-Navigate to the task you want to use as a template. Open the task card and click on the **Make Template** button.
+Open the task you want to turn into a template. Click on the **three-dot** icon at the top of the task details panel, then select **Make Template**.
 
-![creating template from task ](../public/images/task-management/task-template/Creating-Template-from-task--scaled.webp)
+![creating template from task](../public/images/task-management/task-template/Creating-Template-from-task-1.webp)
 
-Your Template task has been created now if you want to modify the **Task Template** click on the **Create Task From Template** button.
+Your task is now marked as a template. A banner appears at the top letting you know **This is a template task**. Click the **Create task from template** link to reuse it.
 
-![create template button](../public/images/task-management/task-template/Create-Template-button-scaled.webp)
+![create template button](../public/images/task-management/task-template/Create-Template-button-2.webp)
 
-A pop-up will appear where you can update the task title. If needed, you can choose to keep the **Subtasks**, **Labels**, and **Assignees** with the task. You can also select a **stage** from the board using the dropdown menu to place the template task in a specific stage.
+A **Templates** panel will appear. Update the **Task Title** if you'd like, and check the **Keep** boxes to carry over the template's **Labels** and **Assignees**. You can also pick a different **Stage** for the new task from the dropdown.
 
-Once everything is set, click the **Create Task** button to add the new template task.
+Once you're done, click the **Create Task** button to add the new task from your template.
 
-![create task template](../public/images/task-management/task-template/create-task-template-scaled.webp)
+![create task template](../public/images/task-management/task-template/create-task-template-3.webp)
 
-## Task Template from Stage
+## Starting a New Task Template from a Stage
 
-To create a new task template, go to your boards and locate the **Template** icon button next to the **Add Task** button. From here, you can select an existing task template for this particular board stage or create a new one.
+You can also create a task template directly while adding a task to a stage.
 
-To create a New Task Template click on the **Create a New Template** button in the pop-up.
+Click the **Plus** icon at the bottom of any stage to open the quick-create task pop-up.
 
-![create task template from stage ](../public/images/task-management/task-template/Create-Task-Template-from-stage--scaled.webp)
+![create task template from stage](../public/images/task-management/task-template/Create-Task-Template-from-stage-4.webp)
 
-After clicking the button, a New Task pop-up will appear, allowing you to create and customize a template task. This template task will be automatically added to the selected stage and saved for future use.
+Click on **Start From Template** at the bottom of the pop-up.
+
+![start from template](../public/images/task-management/task-template/start-from-template-5.webp)
+
+A **Task Templates** panel will appear, listing any existing templates you've saved, like the **Keyword Research** template shown here. Simply click on a template to use it, or click **Create a New Template** to build one from scratch instead.
+
+![task templates panel](../public/images/task-management/task-template/task-template-6.webp)
 
 That's all you need to know about creating and using task templates in FluentBoards. If you have any further questions, feel free to [contact us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
