@@ -62,7 +62,9 @@ A **Change or add labels** pop-up will appear with your board's default color la
 
 ### Description
 
-You can provide a detailed description for your task right in the **Description** field. Type **/** to open the block menu, where you can insert a **Heading**, **Quote**, **Divider**, **Bullet List**, **Ordered List**, and more, just like a Markdown editor.
+You can provide a detailed description for your task right in the **Description** field. The editor has been rebuilt with full Markdown support. It handles tables and smart typography, and it stays fast and reliable even on longer descriptions.
+
+Type **/** to open the block menu, where you can insert a **Heading**, **Quote**, **Divider**, **Bullet List**, **Ordered List**, and more, just like a Markdown editor.
 
 Once you select or highlight your text, a formatting toolbar appears with **Bold**, **Italic**, **Strikethrough**, **Code**, **Link**, and list options, so you can format your description exactly how you'd like.
 
