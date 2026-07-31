@@ -8,7 +8,7 @@ In this guide, you'll learn how to access the Reports section, filter report dat
 
 Go to the FluentBoards Dashboard and click on **Reports** from the top navbar. Here you will see a sidebar with **Overview**, **Tasks**, **Activity Reports**, and **Roadmap**.
 
-For a full breakdown of the **Tasks** tab, check out the [Tasks Report](/task-report) guide.
+For a full breakdown of the **Tasks** tab, check out the [Tasks Report](/task-report) guide. For a full breakdown of the **Activity Reports** tab, check out the [Activity Reports](/activity-report) guide.
 
 ## Overview
 
