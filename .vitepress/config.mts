@@ -174,6 +174,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Reports', link: '/fluentboard-reports' },
+          { text: 'Tasks Report', link: '/task-report' },
           { text: 'Roadmap Overview', link: '/fluentboards-roadmap-overview' },
           { text: 'Roadmap Settings', link: '/roadmap-settings' }
         ]

@@ -1,50 +1,75 @@
 # Reports
 
-FluentBoards provides a detailed report of your tasks, allowing you to understand overall task progress and view a summary in one place, making project management simpler and more understandable. In this article, we provide a brief overview of the Reports feature in FluentBoards.
+The **Reports** section in FluentBoards helps you track task progress, team activity, and workload across your boards. It provides an overview of your projects with charts, statistics, and reports that make it easier to monitor work and identify trends.
 
-## Reports
+In this guide, you'll learn how to access the Reports section, filter report data, understand the available charts and statistics, export reports, and view your roadmap insights.
 
-To access the report in FluentBoards, go to FluentBoards and click on **Reports** from the navbar. You will be directed to the **Reports** page, which includes the following sections:
+## Accessing Reports
 
-- **Incomplete Task**: Displays all incomplete tasks.
-- **Completed Task**: Shows reports of completed tasks.
-- **Overdue Task**: Lists tasks past their deadlines.
-- **Total Task**: Indicates the total number of tasks on your board.
-- **Task Completion Chart**: Visual graph of completed tasks with three types of charts (Bar, Pie, and Donut chart).
-- **Task Priority Chart**: Visual graph displaying task priorities.
+Go to the FluentBoards Dashboard and click on **Reports** from the top navbar. Here you will see a sidebar with **Overview**, **Tasks**, **Activity Reports**, and **Roadmap**.
 
-![reports](../public/images/reports/fluentboard-reports/Reports-scaled.webp)
+For a full breakdown of the **Tasks** tab, check out the [Tasks Report](/task-report) guide.
 
-#### Board and Stage Selection
+## Overview
 
-In the task report section, you'll find a dropdown field on the top right to select specific **Boards** to display their reports.
+The **Overview** report gives you a quick, high-level snapshot of everything happening across your Boards.
 
-The report sections feature three types of visual graphs: Bar, Pie, and Donut charts.
+### Filter Your Report
 
-![reports board selection](../public/images/reports/fluentboard-reports/Reports-Board-Selection-scaled.webp)
+At the top of the page, use the **All Boards** dropdown to narrow the report down to a single Board, or leave it on **All Boards** to see everything at once.
 
-## Timesheet
+![reports overview](../public/images/reports/fluentboard-reports/reports-1.png)
 
-The Timesheet displays the time your board members have spent on tasks. This report is based on the estimated time and logged time set in each task.
+Click the dropdown to pick from any of your Boards.
 
-Click on the **Timesheet** button in the Reports section, and the Timesheet page will appear.
+![board selection dropdown](../public/images/reports/fluentboard-reports/board-selection-2.png)
 
-![timesheet reports button ](../public/images/reports/fluentboard-reports/Timesheet-Reports-button--scaled.webp)
+Next to it, choose a preset range like **Last 7 Days**, or click the date field to pick a custom date range from the calendar.
 
-From the Timesheet page, select the specific board from the dropdown menu to view the timesheet or work log of the board members. To see timesheets based on individual tasks, click on the **By Task** button.
+![date range picker](../public/images/reports/fluentboard-reports/time-and-date-3.png)
 
-![timesheet report ](../public/images/reports/fluentboard-reports/Timesheet-Report--scaled.webp)
+### Stat Cards
 
-Click on this **By User** button to see the Timesheet based on user.
+Right below the filters, four stat cards give you an instant read on your selected range:
 
-![time sheet report by user](../public/images/reports/fluentboard-reports/Time-Sheet-Report-by-user-scaled.webp)
+**Total Task**: The total number of tasks in the selected range.
 
-Here you will get a **Date Filter** option so you can see the timesheet of your board members in a more specific way.
+**Completed**: How many of those tasks have been marked as completed.
 
-![timesheet date field ](../public/images/reports/fluentboard-reports/Timesheet-Date-field--scaled.webp)
+**Overdue**: How many tasks have passed their due date.
 
-You can export your timesheet in CSV format by clicking on this **Export** button.
+**Active Members**: How many board members were active during the range.
 
-![time sheet export ](../public/images/reports/fluentboard-reports/Time-sheet-Export--scaled.webp)
+### Tasks by Board
 
-That’s everything covered in the Reports section of FluentBoards. If you have any further questions about the reports, feel free to [ask](https://wpmanageninja.com/account/dashboard/){:target="_blank"}.
+The **Tasks by Board** chart shows a horizontal bar for each Board, so you can compare task volume across all your Boards at a glance.
+
+### Priority Distribution
+
+The **Priority Distribution** donut chart breaks your tasks down by **Priority** level, **Urgent**, **High**, **Medium**, **Low**, and **None**, with a running total in the center and a full legend underneath.
+
+### Task Completion Chart
+
+The **Task Completion Chart** shows how many tasks are **Completed**, **Still Open**, or **Completed Earlier** (finished before your selected date range began). Use the **Bar**, **Line**, or **Pie** icons at the top right to switch how the chart displays.
+
+### Due Date Distribution
+
+The **Due Date Distribution** chart groups your tasks into **Overdue**, **Today**, **Next 7 Days**, **Later**, and **No Due Date**, so you can plan ahead at a glance. It comes with the same **Bar**, **Line**, and **Pie** view options.
+
+![task completion and due date charts](../public/images/reports/fluentboard-reports/report-overview-4.png)
+
+### Assignee Workload
+
+Below the charts, the **Assignee Workload** table lists every member with their **Open**, **Completed**, and **Overdue** task counts, plus an **Open Workload** bar showing how much of their open workload is still outstanding. Click any column header to sort the table.
+
+### Exporting Your Report
+
+Click the **Export** button above the **Assignee Workload** table to download the report data as a CSV file.
+
+
+
+## Roadmap
+
+The **Roadmap** report shows how your public Roadmap is performing: total and newly submitted ideas, how many are public, how many were completed, a breakdown by **Stage** and submission source, and your most popular ideas. For more on setting up the Roadmap board itself, check out the [Roadmap Overview](/fluentboards-roadmap-overview) guide.
+
+That's everything covered in the Reports section of FluentBoards. If you have any further questions about the reports, feel free to [ask](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
