@@ -1,8 +1,10 @@
 # FluentBoards Integration With FluentCRM
 
-FluentCRM automatically integrates with FluentBoards. To manage the Tasks of your Projects both Fluent CRM and Fluent Boards offer you some features.
+FluentBoards integrates directly with [FluentCRM](https://fluentcrm.com/), allowing you to connect your contacts, boards, and tasks in one place. This helps you manage customer-related work without switching between plugins.
 
-In this article, we will be explaining those features.
+With this integration, you can link CRM contacts to tasks, view a contact's related boards and tasks from their FluentCRM profile, and automate your workflows using FluentCRM automation triggers and actions. You can also create new tasks or create boards from templates automatically through automation.
+
+In this guide, you'll learn how to connect contacts to tasks, view associated boards and tasks, and use FluentCRM automations with FluentBoards.
 
 ## CRM Contacts in Boards
 
@@ -24,15 +26,25 @@ Go to the task where you wish to add the CRM contact, or create a new task. Unde
 
 ![select crm contact on a task](../public/images/integrations/fluentboards-integration-with-fluentcrm/CRM-Contact-FluentBoards-Info-3.webp)
 
-## Viewing Tasks and Boards Associated with FluentCRM Contacts
+## Boards and Tasks Inside the FluentCRM Contact View
 
-To observe tasks and boards linked with your FluentCRM contacts, follow these steps:
+If you're running FluentCRM alongside FluentBoards, the contact profile now has a dedicated **Boards** tab. See and manage a contact's related tasks directly from their CRM record, without switching tools.
 
-Head to the **All Contacts** section from the FluentCRM Dashboard. Open the specific contact that has been added to your board.
+Head to the **All Contacts** section from the FluentCRM Dashboard, then open the specific contact you want to check.
 
-Select the **Boards** tab within the contact details. Here, you'll find a **Tasks** and a **Boards** sub-tab. Under **Tasks**, you'll see every **Associated Task** for this contact, along with its board, status, and due date. You can also click the **Create Task** button right here to add a new task tied to this contact.
+Select the **Boards** tab within the contact details. Here, you'll find two sub-tabs: **Tasks** and **Boards**.
+
+### Associated Tasks
+
+Under the **Tasks** sub-tab, you'll see every **Associated Task** for this contact, along with its board, status, and due date. Click the **Create Task** button right here to add a new task tied to this contact.
 
 ![fluentcrm contact boards tab](../public/images/integrations/fluentboards-integration-with-fluentcrm/Automations-FluentCRM-4.webp)
+
+### Associated Boards
+
+Switch to the **Boards** sub-tab to see the **Associated Boards** for this contact, boards connected directly to their profile rather than through individual tasks. Each board appears as a card with its description, member avatars, and task progress, so you can tell how things are moving at a glance.
+
+![associated boards tab 5](../public/images/integrations/fluentboards-integration-with-fluentcrm/associated-board-5.webp)
 
 ## FluentCRM Automation
 
