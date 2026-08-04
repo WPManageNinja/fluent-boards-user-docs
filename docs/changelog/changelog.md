@@ -6,6 +6,45 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.0.4
+
+Released on August 3, 2026
+
+::: code-group
+
+``` [🐞 Bug fixes]
+• Fixed Subtask Group bug
+• Fixed date change issue on smaller screens
+• Fixed archived task issue in the My Task section
+• Fixed Hello Elementor theme issue
+• Fixed Time Tracking issues
+• Other improvements & bug fixes
+```
+
+:::
+
+
+## FluentBoards v2.0.1
+
+Released on July 31, 2026
+
+::: code-group
+
+``` [🚀 Improvements]
+• Improved Change Stage performance
+• Improved Settings, Reports, and Dark Mode UI
+```
+
+``` [🐞 Bug fixes]
+• Removed unnecessary notifications for Task description changes
+• Fixed Subtask layout and Task Modal breadcrumb issues
+• Fixed other UI issues
+• Other improvements & bug fixes
+```
+
+:::
+
+
 ## FluentBoards v2.0.0
 
 Released on July 30, 2026
