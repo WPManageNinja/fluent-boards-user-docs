@@ -14,37 +14,39 @@ Below are details about FluentBoards view.
 
 ## Boards View
 
-Navigate to the FluentBoards Dashboards **Boards** section from the top menu. Now click the specific boards that you want to change view.
+Go to your FluentBoards **Boards** section from the top navbar, then click on the specific Board you want to change the view for.
 
-![select boards for change view](../public/images/boards/boards-view/Select-Boards-for-change-view-scaled.webp)
+![select boards for change view](../public/images/boards/boards-view/choose-boards-view-1.webp)
+
+Once you're inside a Board, click the view switcher at the top right, which shows the name of your current view (e.g., **Kanban**). A dropdown appears where you can pick **Kanban**, **Table**, **List**, **Calendar**, or **Gantt**.
 
 ## Kanban view
 
-By default, this is Kanban's view. The Kanban view is the card-based view. This view is very user-friendly to grow your productivity. Here, it shows data by stage. Recently opened tasks are also highlighted, so you can quickly spot what you were just working on.
+By default, your Boards open in **Kanban** view. This card-based view organizes your tasks by **Stage**, so you can quickly see what's **Open**, **In Progress**, or **Completed**. Each card shows the task's **Priority**, due date, **Labels**, assignees, and comment count.
 
-![kanban view](../public/images/boards/boards-view/Kanban-View-scaled.webp)
+![kanban view](../public/images/boards/boards-view/kanvan-view-2.webp)
 
 ## List view
 
 A list view is a user interface design that displays a collection of items in a vertical or horizontal list, allowing for easy navigation and interaction with each item.
 
-The board's List view shows your task data stage by stage, Priority, start and due date, and tasker profile. Just like in Kanban view, you can customize which task details are visible in List view to match your workflow.
+The board's **List** view shows the same tasks stage by stage, but as compact rows instead of cards, with each task's **Priority**, **Labels**, date range, and assignees lined up in columns. Drag the handle on the left of a row to reorder tasks.
 
-![list view 1](../public/images/boards/boards-view/List-View-1-scaled.webp)
+![list view 1](../public/images/boards/boards-view/list-view-3.webp)
 
 ## Calendar view
 
 A calendar view visually represents calendar data, offering various layouts to display events and appointments.
 
-FluentBoards **Calendar** view represents tasks due and complete date with tasks title.
+FluentBoards **Calendar** view places each task on its due date, along with its Priority and assignee. Use the arrows or the **Today** button to move around, and the **Month** dropdown to change how much time you see at once.
 
-![calendar view 1](../public/images/boards/boards-view/Calendar-View-1-scaled.webp)
+![calendar view 1](../public/images/boards/boards-view/calendar-view-4.webp)
 
 ## Table View
 
 A table view displays your tasks in a spreadsheet-like grid. This compact layout allows you to see many tasks at once and quickly scan details in columns.
 
-The board’s **Table view** shows your tasks in rows, with columns for **Title**, **Stage**, **Priority**, **Status**, **Dates**, and **Assignees**.
+The board's **Table view** shows your tasks in rows, with columns for **Task Name**, **Stage**, **Priority**, **Labels**, **Dates**, and **Assignees**. Use the **Search tasks** bar to quickly find a task, or click the **+ Add Task** button to create a new one.
 
 ### Bulk Actions
 
@@ -62,12 +64,15 @@ Available bulk actions include:
 - **Assign Members:** Add or replace assignees for all selected tasks.
 - **Add Labels:** Apply one or more labels to all selected tasks.
 
-![table view](../public/images/boards/boards-view/table-view.webp)
+![Table View](../public/images/boards/boards-view/table-view-5.webp)
 
 ## Gantt Chart View
 
-The Gantt Chart View lays your tasks out across a timeline, so you can spot overlaps and get a bird's-eye view of how your entire project is progressing, all in one place.
+The Gantt Chart View lists your tasks by **Stage** on the left, next to a timeline you can page through with the arrows or the **Today** and **Month** controls. 
 
-> This is the initial version of the Gantt Chart View, so its design and options may continue to change in upcoming updates.
+Colored bars mark each task's due date on the timeline, so you can spot overlaps and get a bird's-eye view of how your entire project is progressing, all in one place.
+
+
+![Grantt View](../public/images/boards/boards-view/grantt-view-6.webp)
 
 So, here is the whole overview of the FluentBoards View section. If you have any queries please feel free to contact our [support](https://wpmanageninja.com/support-tickets/){:target="_blank"} team.
