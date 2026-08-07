@@ -1,21 +1,63 @@
 # Your Profile & Tasks
 
-Displaying your tasks and activities on FluentBoards is straightforward. Just click on your Profile to view and interact with your tasks and activities on various boards.
+Displaying your tasks and activities on FluentBoards is straightforward. Just click on your Profile to view your tasks, activities, notifications, and layout preferences, all in one place.
 
-Go to your FluentBoards and locate your profile image on the right side of the navbar. Click on your **Profile** image to view the details of your profile, including your tasks and activities.
+## Opening Your Profile
 
-![fluentboards profile view](../public/images/getting-started/fluentboards-profile-and-task-overview/FluentBoards-Profile-View-scaled.webp)
+Go to your FluentBoards Dashboard and click on your **Profile** image in the top right corner of the navbar.
 
-This section provides an overview of your tasks and keeps track of your recent activities on FluentBoards.
+![fluentboards profile view](../public/images/getting-started/fluentboards-profile-and-task-overview/profile-view-1.webp)
 
-Here comes your Profile where you can see the profile details of yours. Click on **Tasks** from the left sidebar so you can see your tasks for Upcoming tasks, Overdue tasks, Completed Tasks, and Other tasks.
+Your **Profile** page opens with a left sidebar showing five sections: **Overview**, **Tasks**, **Activities**, **Notifications**, and **Layouts**.
 
-To view tasks from a specific board, use the dropdown menu located at the top right corner of your profile page. Simply select the desired board from the dropdown list to filter and display tasks related to that particular board.
+## Overview
 
-![fluentboards profile info](../public/images/getting-started/fluentboards-profile-and-task-overview/FluentBoards-Profile-info-scaled.webp)
+The **Overview** tab displays your basic profile information, including your name and email address. It also provides quick access to your **CRM Profile** and **WP Profile**.
 
-To view your activities in FluentBoards, navigate to the left sidebar and click on the **Activities** option. This will display all your recent activities within the platform.
+Below your profile details, you'll find four stat cards that provide a quick summary of your work:
 
-![fluentboards profile activity](../public/images/getting-started/fluentboards-profile-and-task-overview/FluentBoards-profile-activity-scaled.webp)
+ * **Assigned Tasks:** The total number of tasks currently assigned to you.
+ * **Completed**: The number of tasks you've completed.
+ * **Active Boards:** The number of boards you're actively involved in.
+ * **Notifications:** The total number of unread notifications.
+
+Further down, the **Recent Tasks** section displays your latest assigned tasks along with their **Priority**, **Due Dat**e, and **Board**. Click **View All** to open your complete task list.
+
+![fluentboards profile info](../public/images/getting-started/fluentboards-profile-and-task-overview/profile-info-2.webp)
+
+## Tasks
+
+Select **Tasks** from the left sidebar to view all tasks assigned to you.
+
+Use the **Today, Assigned, Upcoming**, and **Overdue** tabs to quickly filter tasks based on their status or due date. Click **More** to access additional filters, including **Mentioned**, **Completed**, and **Others**.
+
+To display tasks from a specific board, use the board dropdown on the right. You can also switch between **Card** and **Table** views or click the **Sort** icon to organize tasks in your preferred order.
+
+![fluentboards Tasks](../public/images/getting-started/fluentboards-profile-and-task-overview/tasks-3.webp)
+
+## Activities
+
+Open the **Activities** tab from the left sidebar to view a timeline of your recent actions in FluentBoards.
+
+This timeline records activities such as assigning members, adding or removing labels, and other task-related updates. Each activity also shows when the action was performed.
+
+![fluentboards Activities](../public/images/getting-started/fluentboards-profile-and-task-overview/activities-4.webp)
+
+## Notifications
+
+Open the Notifications tab to manage your email notification preferences.
+
+For detailed information about each notification option, see the [Notification Settings](/notification-settings) guide.
+
+
+![fluentboards Notification](../public/images/getting-started/fluentboards-profile-and-task-overview/notification-5.webp)
+
+## Layouts
+
+Open the Layouts tab to customize the information displayed on your task cards.
+
+For a detailed explanation of each option, see the [Card View Preferences](/card-view-preference-settings) guide.
+
+![fluentboards Layout](../public/images/getting-started/fluentboards-profile-and-task-overview/layout-6.webp)
 
 If you have any further questions or need additional assistance, please don't hesitate to [contact us](https://wpmanageninja.com/support-tickets/){:target="_blank"}.

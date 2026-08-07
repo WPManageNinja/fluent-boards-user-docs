@@ -2,16 +2,25 @@
 
 To enhance the effectiveness of your Task Card View, you can personalize the information displayed. Here's how you can customize your Task Card View:
 
-Go to your FluentBoards Dashboard and click on your **Profile** from the top right corner.
+Go to your FluentBoards Dashboard and click on your **Profile** image in the top right corner, then select **Layouts** from the left sidebar.
 
-![cardview 1](../public/images/settings/card-view-preference-settings/CardView-1-scaled.webp)
+![fluentboards layouts](../public/images/settings/card-view-preference-settings/Layouts-1.webp)
 
-Your profile will appear, now click on **Preference** from the left sidebar. Next, you’ll see the **Card View** option click on it. Here, you’ll find all the settings for viewing your cards. Simply toggle to enable or disable the options as needed. Finally, click the **Save** button to apply your changes.
+Use the **Kanban View**, **Table View**, and **List View** tabs at the top to customize what shows up in each layout. The **Enable All** toggle turns every option on or off at once.
 
-![cardview 2](../public/images/settings/card-view-preference-settings/CardView-2-scaled.webp)
+For the **Kanban View**, you can toggle each of these on or off:
 
-As an example, we're displaying a task card below.
+- **Labels**: Show the Label on the task.
+- **Priority**: Show the Priority on the task.
+- **Assignees**: Show assignees on the task.
+- **Subtask Count**: Show the subtask count on the task.
+- **Attachment Count**: Show the attachment count on the task.
+- **Dates**: Show the due date on the task.
+- **Comment**: Show the comment count on the task.
+- **Notification**: Show the notification count on the task.
 
-![card](../public/images/settings/card-view-preference-settings/Card.webp)
+Switch to the **Table View** or **List View** tab to customize the same kind of details for those layouts.
+
+Once you're done, click the **Save** button to apply your changes.
 
 That's all it takes to personalize your FluentBoards Card View.
