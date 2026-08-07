@@ -96,8 +96,8 @@ export default defineConfig({
         text: 'Boards',
         collapsed: true,
         items: [
-          { text: 'Creating a New Board', link: '/how-to-create-a-new-board' },
           { text: 'Board Overview', link: '/board-overview' },
+          { text: 'Creating a New Board', link: '/how-to-create-a-new-board' },
           { text: 'Board Views', link: '/boards-view' },
           { text: 'Board Settings', link: '/board-settings' },
           { text: 'Pinned Boards', link: '/pinned-boards' },
