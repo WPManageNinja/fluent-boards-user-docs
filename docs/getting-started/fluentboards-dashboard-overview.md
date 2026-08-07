@@ -22,13 +22,10 @@ To customize which notifications you receive, check out our [Notification Settin
 
 Right at the top of your Dashboard, you'll find four quick stats that give you an instant read on how your work is progressing across every board.
 
-**All Boards**: Shows the total number of boards you're a part of.
-
-**All Tasks**: Shows the total number of tasks across your boards.
-
-**Overdue**: Shows how many of your tasks have passed their due date.
-
-**Completed Tasks**: Shows how many of your tasks you've marked as completed.
+ * **All Boards**: Shows the total number of boards you're a part of.
+ * **All Tasks**: Shows the total number of tasks across your boards.
+ * **Overdue**: Shows how many of your tasks have passed their due date.
+ * **Completed Tasks**: Shows how many of your tasks you've marked as completed.
 
 ## My Boards
 
@@ -44,19 +41,13 @@ Below **My Boards**, the **Recent Activity** panel keeps you updated on what's h
 
 The **My Tasks** section is structured to optimize your user experience, categorized into several segments. You'll find **Today**, **Assigned**, **Upcoming**, and **Overdue** as tabs, with more options available under the **More** dropdown:
 
-**Today**: Shows tasks that are due today.
-
-**Assigned**: Shows tasks that have been assigned to you.
-
-**Upcoming**: Shows tasks with upcoming due dates, so you can stay ahead of deadlines.
-
-**Overdue**: Shows tasks that have passed their due date, so you can take prompt action.
-
-**Mentioned**: Shows tasks where you've been mentioned in a comment.
-
-**Completed**: Shows all tasks that have been marked as completed.
-
-**Others**: Shows tasks that don't have a due date set.
+ * **Today**: Shows tasks that are due today.
+ * **Assigned**: Shows tasks that have been assigned to you.
+ * **Upcoming**: Shows tasks with upcoming due dates, so you can stay ahead of deadlines.
+ * **Overdue**: Shows tasks that have passed their due date, so you can take prompt action.
+ * **Mentioned**: Shows tasks where you've been mentioned in a comment.
+ * **Completed**: Shows all tasks that have been marked as completed.
+ * **Others**: Shows tasks that don't have a due date set.
 
 Each task displays its subtask count, assignees, **Priority**, due date and time, and the board it belongs to.
 
@@ -68,19 +59,15 @@ Click on **View All** to open the full **My Tasks** page, where you can also sel
 
 Click on the **Sort** icon next to **View All** to arrange your tasks by one of the following:
 
-**Created Date**: Sorts your tasks by when they were created.
-
-**Priority**: Sorts your tasks by their **Priority** level, from **Urgent** to **Low**.
-
-**Title**: Sorts your tasks alphabetically by their title.
-
-**Due Date**: Sorts your tasks by their due date.
+ * **Created Date**: Sorts your tasks by when they were created.
+ * **Priority**: Sorts your tasks by their **Priority** level, from **Urgent** to **Low**.
+ * **Title**: Sorts your tasks alphabetically by their title.
+ * **Due Date**: Sorts your tasks by their due date.
 
 Once you've picked one, choose **Ascending** or **Descending** to set the order:
 
-**Ascending**: Shows your tasks from oldest to newest, lowest to highest priority, A to Z, or earliest to latest due date, depending on your choice above.
-
-**Descending**: Shows your tasks from newest to oldest, highest to lowest priority, Z to A, or latest to earliest due date, depending on your choice above.
+ * **Ascending**: Shows your tasks from oldest to newest, lowest to highest priority, A to Z, or earliest to latest due date, depending on your choice above.
+ * **Descending**: Shows your tasks from newest to oldest, highest to lowest priority, Z to A, or latest to earliest due date, depending on your choice above.
 
 ![Sort By](../public/images/getting-started/fluentboards-dashboard-overview/sort-4.webp)
 
