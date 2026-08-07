@@ -4,24 +4,26 @@ The **Pinned Boards** feature allows users to mark specific project boards as pi
 
 ## Pin/Unpin a Board
 
-To pin a board, navigate to the boards page and hover over the desired board. A pin icon will appear. Click the pin icon to mark the board as pinned. Clicking the pin icon again will unpin the pinned board.
+To pin a board, go to your FluentBoards **Boards** section and hover over the Board you want to pin. A pin icon appears in its top right corner. Click the pin icon to mark the board as pinned. Clicking the pin icon again will unpin the board.
 
-![screenshot 2025 05 30 at 3.40.11 pm](../public/images/boards/pinned-boards/Screenshot-2025-05-30-at-3.40.11 PM-scaled.png)
+ ![Pin/Unpin](../public/images/boards/pinned-boards/pin-unpin-1.webp)
 
 You can also pin or unpin a board from the dashboard page by doing the same.
 
-## **Pinned Boards Display**:
+## Pinned Boards Display
 
-Pinned boards can be viewed by clicking the "Pinned Boards" button on the boards page, which reveals a dropdown list of all pinned boards. The dropdown list displays each pinned board’s name and a brief description (if available) along with background image and pinned icon.
+Pinned boards can be viewed by clicking the **Pinned** dropdown in the top navbar, which reveals a list of all your pinned boards. The list displays each pinned board's color, name, and a brief description (if available), along with its pin icon.
 
-![screenshot 2025 05 30 at 3.56.48 pm](../public/images/boards/pinned-boards/Screenshot-2025-05-30-at-3.56.48 PM-scaled.png)
+You can also click **Pinned** in the left sidebar of the Boards page to see the same boards as full cards, with a count showing how many you've pinned.
 
-Each pinned board in the dropdown is clickable, redirecting the user to the selected board’s page. The pinned icon allowing users to unpin the board directly from the list.
+![Pined Display](../public/images/boards/pinned-boards/pined-display-2.webp)
+
+Each pinned board in the list is clickable, redirecting you to the selected board's page. The pin icon lets you unpin the board directly from the list.
 
 ## Filter Pinned Boards
 
-On the boards page, you can filter out all pinned boards by selecting the "Pinned" option from the filter dropdown.
+On the Boards page, click the **Filter** icon, then choose **Pinned** from the **Filter** dropdown. You can also choose to **Sort By** **Created Date** or **Title**, and set the order to **Ascending** or **Descending**. Click the **Apply** button to update your view.
 
-![screenshot 2025 05 30 at 4.14.43 pm](../public/images/boards/pinned-boards/Screenshot-2025-05-30-at-4.14.43 PM-scaled.png)
+![Filter Pinned Boards](../public/images/boards/pinned-boards/filter-pined-boards-3.webp)
 
-If you have any further questions or concerns please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+If you have any further questions or concerns please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

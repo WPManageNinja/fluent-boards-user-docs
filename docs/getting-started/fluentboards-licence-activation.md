@@ -12,12 +12,12 @@ Go to the *Dashboard* of your **WPManageNinja** [account](https://wpmanageninja.
 
 ## Activate FluentBoards Pro
 
-Go to your FluentBoards **Settings** and select **Licence Management** from the left sidebar. You will see a field for your FluentBoards Pro license. Paste your license key here and click on the **Verify Licence** button.
+Go to your FluentBoards Dashboard and click on the **Settings** icon in the top navbar, then select **License Management** from the left sidebar. You will see a field for your FluentBoards Pro license. **Paste** your license key here and click on the **Verify license** button.
 
-![licence ooption](../public/images/getting-started/fluentboards-licence-activation/Licence-ooption-scaled.webp)
+![licence ooption](../public/images/getting-started/fluentboards-licence-activation/Licence-ooption-2.webp)
 
-After that, you will see a success notification and a message that *Your Licence Key is valid and activated*.
+After that, you will see a success notification and a message that **Congratulations! Your License Key is Valid & Activated**.
 
-![licence activated](../public/images/getting-started/fluentboards-licence-activation/Licence-Activated-scaled.webp)
+![licence activated](../public/images/getting-started/fluentboards-licence-activation/Licence-Activated-3.webp)
 
 Congrats! You are using Fluent Boards Pro now. If you have any queries regarding this Licence Activation please feel free to contact [us](https://wpmanageninja.com/account/dashboard/){:target="_blank"}.
