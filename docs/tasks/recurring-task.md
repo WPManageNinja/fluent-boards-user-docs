@@ -6,38 +6,45 @@ In this guideline, we will show you how you can enable and set a Recurring Task.
 
 ## Enable Recurring Task
 
-To enable the recurring task module for your board tasks, go to the **Settings** in FluentBoards and select **Feature & Module**.
+To enable the recurring task module for your board tasks, go to your FluentBoards **Settings** and select **Features & Modules** from the left sidebar.
 
-Here, you will see the **Recurring Task** option. Click the **Toggle** button to enable it. Once enabled, the Time Tracking feature will be active automatically for your tasks.
+Under **Advanced Modules**, you will see the **Recurring Task** option. Click the **Toggle** button to enable it. Once enabled, the Recurring Task feature becomes active for your tasks.
 
-![enable recuring task](../public/images/task-management/recurring-task/Enable-Recuring-Task-scaled.webp)
+![enable recuring task](../public/images/task-management/recurring-task/enable-recurring-task-1.webp)
 
-## **Setting Up a Recurring Task**
+## Setting Up a Recurring Task
 
 Start by creating a new task or choosing an existing task that you want to set to repeat.
 
-![fluentboards central fluentboards 09 23 2024 06 09 pm](../public/images/task-management/recurring-task/FluentBoards-Central-FluentBoards-09-23-2024_06_09_PM-scaled.webp)
+![fluentboards central fluentboards 09 23 2024 06 09 pm](../public/images/task-management/recurring-task/settings-up-a-task-2.webp)
 
-In the task settings, you’ll find an option labeled **Recurring Task** click on it.
+Open the task, click the **Three Dot** icon in the top right corner to bring up the [Task Actions](/task-action) menu, then select **Recurring Task**.
 
-![FluentBoards Recurring Task](../public/images/task-management/recurring-task/FluentBoards-Central-FluentBoards-09-25-2024_12_56_PM-scaled.webp)
+![FluentBoards Recurring Task](../public/images/task-management/recurring-task/recuring-task-3.webp)
 
-## **Set the Frequency**
+## Set the Frequency
 
-Choose how often you'd like the task to be repeated:
+A **Recurring Task** pop-up will appear. Under **Time & Date**, pick the time you'd like the task to repeat at, then choose how often:
 
-- **Daily**: The task repeats every day at your chosen time.
-- **Weekly**: Select specific days of the week for the task to repeat, and set the preferred time.
-- **Monthly**: The task repeats every month on the selected date and time, with additional customization options.
-- **Yearly**: Schedule the task to repeat annually on a specific date you've set.
+- **Daily**: The task repeats every set number of days.
+- **Weekly**: The task repeats every set number of weeks.
+- **Monthly**: The task repeats every set number of months.
+- **Yearly**: The task repeats every set number of years.
 
-**Repeat only when completed:** If you enable this option, the task will only repeat once it is completed and reaches the repeat date you’ve set.
+Use the **Repeat every** field to set the interval, for example, every **1 day(s)** or every **2 week(s)**. The **Next run** box below shows a read-only preview of exactly when the next repeat will happen, based on your settings.
 
-**Create a task when repeat:** This option automatically generates a new task at the set repeat interval (daily, weekly, monthly, yearly.). Each new task inherits the original settings like assignees, due dates, and descriptions, ensuring your recurring tasks are consistently recreated without manual effort.
+Under **Stage**, choose which stage the recreated task should start in.
 
-![FluentBoards Recurring Task](../public/images/task-management/recurring-task/FluentBoards-Central-FluentBoards--scaled.webp)
+Finally, choose how the repeat should behave:
 
-### **Examples & Use Cases**
+- **Repeat only when completed**: Waits until this task is completed before the next repeat is created.
+- **Create a task when repeating**: Creates a new task for each repeat, instead of reusing this one.
+
+Once you're done, click the **Set** button to save your recurring schedule.
+
+![FluentBoards Recurring Task](../public/images/task-management/recurring-task/recuring-task-4.webp)
+
+### Examples & Use Cases
 
 **Weekly Meetings:** Set up a recurring task for your weekly team meeting, including an agenda and assigned members.
 
