@@ -1,23 +1,23 @@
 # Stage Default Assignee
 
-FluentBoards allows you to set default assignees for specific board stages. When a card moves to a stage or a task is created within it, the assigned members are automatically added to the task and notified. You can even assign multiple default members to a single stage.
+FluentBoards allows you to set default assignees and watchers for specific board stages. When a task is created in or moved into that stage, those members are automatically added to the task and notified. You can add as many default members as you like to a single stage.
 
-Here’s how to set a default assignee for a stage:
+Here's how to set a default assignee for a stage:
 
-Navigate to the specific stage, and click the **Settings** icon at the top of the stage.
+Navigate to the specific stage, click the **Three Dot** icon at the top of the stage, and select **Set Default** from the menu.
 
-![boards default assignee 1](../public/images/stage-management/stage-default-assignee/Boards-Default-Assignee-1-scaled.webp)
+![boards default assignee](../public/images/stage-management/stage-default-assignee/board-default-assign-1.webp)
 
-A popup will appear. Locate and click on the **Default Assignee** option.
+A **Set Default** pop-up will appear with two tabs: **Default Assignees** and **Default Watchers**. Anyone already added shows at the top, with an **X** button to remove them.
 
-![boards default assignee 2](../public/images/stage-management/stage-default-assignee/Boards-Default-Assignee-2-scaled.webp)
+Under **Board Members**, use the search field to find a member, then click the **Plus** icon next to their name to add them. Members who have access to the board through some other role appear further down, under **Other users who have access to this board**, with the same **Plus** icon.
 
-Another popup will display a list of board members. Simply click the **Plus** icon next to the members you want to assign as default. Use the search bar to find members easily if needed.
+Switch to the **Default Watchers** tab and repeat the same steps if you'd rather have members watch tasks in this stage instead of being assigned to them.
 
-![boards default assignee 3](../public/images/stage-management/stage-default-assignee/Boards-Default-Assignee-3-scaled.webp)
+![boards default assignee](../public/images/stage-management/stage-default-assignee/board-default-assign-2.webp)
 
-When a task is moved from another stage to the one with default assignees, the selected members will automatically be added as assignees, as shown below:
+Once set, any task that lands in this stage automatically picks up your chosen default assignees, as shown below:
 
-![task asignee](../public/images/stage-management/stage-default-assignee/Task-Asignee.gif)
+![task asignee](../public/images/stage-management/stage-default-assignee/task-assign.gif)
 
 If you have any questions about setting up default assignees, feel free to contact our [support](https://wpmanageninja.com/support-tickets/){:target="_blank"} team.

@@ -6,25 +6,25 @@ Within your boards, you have the flexibility to create as many stages as needed 
 
 Go to the specific board where you want to add a stage. Look for the **Add Stage** button on your board, and simply click on it.
 
-![new stage ](../public/images/stage-management/how-to-create-a-new-stage/New-Stage--scaled.webp)
+![new stage ](../public/images/stage-management/how-to-create-a-new-stage/new-stage-1.webp)
 
-Here, you'll need to provide a **Title** for your stage and specify whether it's *Open* or *Closed* from the dropdown list.
+A **Create New Stage** pop-up will appear. Enter a **Stage title**, then use the **Select Type** dropdown to mark the stage as *Open* or *Closed*.
 
-Additionally, you have the option to import a stage from templates. Click on the **Import From Template** button, select the template from the dropdown list, and then click **Save** to add your stage to the board.
+If you'd rather start from a saved stage, click **Start From Template** instead of filling in the title yourself. Once you're done, click the **Add Stage** button to add it to the board.
 
-![stage title ](../public/images/stage-management/how-to-create-a-new-stage/Stage-Title--scaled.webp)
+![stage title ](../public/images/stage-management/how-to-create-a-new-stage/stage-title-2.webp)
 
 ## Stage Actions
 
-At the top right corner of your stage, you'll find a **Settings** icon button. Clicking on it will reveal several actions specific to this stage. Below, we'll detail all the available actions for your Stage.
+At the top right corner of your stage, you'll find a **Three Dot** icon button. Clicking on it will reveal several actions specific to this stage. Below, we'll detail all the available actions for your Stage.
 
 **Copy Stage:** This action duplicates the stage, creating another identical stage.
 
 **Set Status Closed:** This action toggles the stage status between open and closed.
 
-**Reorder Stage:** Opens a pop-up allowing you to rearrange the stage order using drag and drop. Also, you have the option to rearrange your stages in boards using the drag and drop feature.
+**Reorder Stages:** Opens a pop-up allowing you to rearrange the stage order using drag and drop. Also, you have the option to rearrange your stages in boards using the drag and drop feature.
 
-**Sort by:** Filters stage tasks by *Date Created (Newest First), Date Created (Oldest First),* or *Task Name (Alphabetically).*
+**Sort By:** Filters stage tasks by *Date Created (Newest First), Date Created (Oldest First),* or *Task Name (Alphabetically).*
 
 **Move All Tasks:** Moves all tasks to any stage within the board.
 
@@ -32,18 +32,20 @@ At the top right corner of your stage, you'll find a **Settings** icon button. C
 
 **Change Background:** Customize the background for this stage.
 
-**Default Assignees:** Set a person to automatically be assigned to tasks added to this stage.
+**Set Default:** Opens a pop-up where you can set default assignees or watchers, who are automatically added to every task that lands in this stage. Learn more in the [Stage Default Assignee](/stage-default-assignee) guide.
 
 **Archive All Tasks:** Archives all tasks within the stage.
 
 **Archive This Stage:** Archives the current stage.
 
-![satge action](../public/images/stage-management/how-to-create-a-new-stage/Satge-Action-scaled.webp)
+![satge action](../public/images/stage-management/how-to-create-a-new-stage/stage-action-3.webp)
 
 ## Create Intermediate Stage
 
-You can instantly create a stage in FluentBoards. Simply navigate between two existing stages, and you’ll see an **Add Stage** button. Click on it to create a new stage between those two stages.
+You can instantly create a stage in FluentBoards. Simply hover between two existing stages, and you'll see an **Add Stage** button appear in the gap between them.
 
-![add new stage@2x](../public/images/stage-management/how-to-create-a-new-stage/Add-New-Stage@2x.gif)
+Click on it, and the same **Create New Stage** pop-up you saw earlier will open. Give it a title and click **Add Stage**, and your new stage will slot in right between the two you started with.
+
+![add new stage](../public/images/stage-management/how-to-create-a-new-stage/add-new-stage.gif)
 
 That's the process for creating and managing stages in boards. If you have any further questions, don't hesitate to reach out to [us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
