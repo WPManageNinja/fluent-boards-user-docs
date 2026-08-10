@@ -1,17 +1,21 @@
 # Task Actions
 
-The task creation pop-up includes several task actions that provide additional options for better task organization. These actions make task management easier and more effective:
+Open any task, then click the **Three Dot** icon in the top right corner of the task pop-up to reveal the **Task Actions** menu. These actions give you extra options for organizing and managing that task:
 
-- **Join as Assignee**: Assign the task to yourself.
-- **Move**: Allows you to move the task to any board and stage. This experience has been redesigned to make changing a task's stage or board quicker and clearer.
-- **Watching**: The **Watching** option lets users stay updated on changes and activities for a specific task.
+- **Copy Task Link**: Copies a shareable link to this task, so you can send it to someone directly.
 - **Pin Task**: Pin your most critical tasks so they stay at the top of your board, easy to find on busy boards.
-- **Change Cover**: Let you change the task card's cover color. Also, you can **Upload an Image** as a Task Cover.
-- **Custom Field**: If you need a custom field for your task to add extra information based on your use case, you can easily do that in FluentBoards. To know more about **Custom Fields** read the [Custom Fields](/custom-fields-for-task) guide.
+- **Join as Assignee / Leave Task**: If you're not assigned to the task yet, this shows as **Join as Assignee**, letting you add yourself with one click. Once you've joined, the same spot shows **Leave Task**, so you can remove yourself as an assignee just as easily.
+- **Move**: Allows you to move the task to any board and stage. This experience has been redesigned to make changing a task's stage or board quicker and clearer.
+- **Watching**: The **Watching** option lets you stay updated on changes and activities for this specific task.
 - **Make Template**: This enables you to create a template from the task.
-- **Recurring Task:** To create a recurring task for your board, you can set it up here. For more details on recurring tasks, check out the [Recurring Tasks](/recurring-task) guide.
+- **Clone Task**: Creates an exact copy of this task, right in the same stage.
+- **Convert to Subtask**: Turns this task into a subtask under another task on the board.
 - **Archive Task**: Archives the task.
+- **Delete Task**: Permanently deletes the task.
 
-![action custom field 3](../public/images/task-management/task-action/Action-Custom-Field-3-scaled.webp)
+![task actions menu](../public/images/task-management/task-action/task-action-1.webp)
 
-If you have any further questions please don’t hesitate to [contact us](https://wpmanageninja.com/account/dashboard/){:target="_blank"}.
+> [!Note]
+> A few actions have moved out of this menu. Click the **Image** icon next to the Three Dot icon to change the task's cover, and use the **Add Custom Field** option inside the task body to add a custom field — read the [Custom Fields](/custom-fields-for-task) guide to learn more. For setting up a repeating schedule, check out the [Recurring Tasks](/recurring-task) guide.
+
+If you have any further questions please don't hesitate to [contact us](https://wpmanageninja.com/account/dashboard/){:target="_blank"}.
