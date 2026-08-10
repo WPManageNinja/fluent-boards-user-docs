@@ -172,13 +172,20 @@ If you wish to convert this board into a reusable template, select **Make Templa
 
 You can export your whole board as a **JSON** or **CSV** file in FluentBoards. The export will include all task details, but keep in mind that **assignee information won’t be included**.
 
-To export, go to the board you want to export and click on the **board menu** button in the **top-right corner**. A pop-up will appear with the **Export** option. Click on it, and you’ll see two formats: **JSON** and **CSV**. Select your preferred format, and your board will be exported.
+To export, go to the board you want to export and click on the **board menu** button in the **top-right corner**.
+
+A pop-up will appear with the **Export** option. Click on it, and you’ll see two formats: **JSON** and **CSV**. Select your preferred format, and your board will be exported.
 
 ![export feature 1](../public/images/boards/board-settings/export-feature-18.webp)
 
 Here, the **JSON** is for exporting your board in JSON format, and the **CSV** button is exporting your Board in CSV format.
 
+> [!Note]
+> Once you have your exported file, see the [Import Your Boards](/import-boards-into-fluentboards#import-from-fluentboards) guide to learn how to bring a **JSON** export back into FluentBoards, or the [Import CSV File](/import-boards-into-fluentboards#import-csv-file) section for your **CSV** export.
+
 ![export feature 2](../public/images/boards/board-settings/export-feature-19.webp)
+
+
 
 ### Archive Board
 
