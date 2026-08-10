@@ -32,16 +32,13 @@ At the top right corner of your stage, you'll find a **Three Dot** icon button. 
 
 **Change Background:** Customize the background for this stage.
 
-**Set Default:** Marks this stage as the board's default stage.
+**Set Default:** Opens a pop-up where you can set default assignees or watchers, who are automatically added to every task that lands in this stage. Learn more in the [Stage Default Assignee](/stage-default-assignee) guide.
 
 **Archive All Tasks:** Archives all tasks within the stage.
 
 **Archive This Stage:** Archives the current stage.
 
 ![satge action](../public/images/stage-management/how-to-create-a-new-stage/stage-action-3.webp)
-
-> [!Note]
-> Want a member automatically assigned whenever a task lands in a stage? That's a separate feature — check out the [Stage Default Assignee](/stage-default-assignee) guide.
 
 ## Create Intermediate Stage
 
