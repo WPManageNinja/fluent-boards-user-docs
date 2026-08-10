@@ -1,6 +1,6 @@
 # Board Settings
 
-FluentBorads has a **Menu** option for your Boards. This **Menu** option allows you to make some changes to your Board as you want. In this guideline, we will show you how you can set these settings.
+FluentBoards has a **Menu** option for your Boards. This **Menu** option allows you to make some changes to your Board as you want. In this guideline, we will show you how you can set these settings.
 
 First, go to the FluentBoards **Dashboard** and select the **Boards** from the navbar. Now you have to open your specific **Board** to access the **Board Menu**.
 
@@ -8,160 +8,182 @@ First, go to the FluentBoards **Dashboard** and select the **Boards** from the n
 
 In the top right corner of your Board you will see a **Three Dot** button click on it to get the **Board Menu**.
 
-![bords menu 1](../public/images/boards/board-settings/Bords-Menu-1-scaled.webp)
+![bords menu 1](../public/images/boards/board-settings/board-menu-1.webp)
 
 A popup will come up with some options for your Board. We have discussed the options individually below.
 
+![menu board fluentboards](../public/images/boards/board-settings/board-menu-2.webp)
+
+> [!Note]
 > The board menu is now fully customizable. If you are a developer, you can add, remove, or reorder items in the board menu by using a filter hook. For detailed instructions and code examples, please refer to our developer documentation:
 >
 >
 >
 > [Board Menu Customization Guide](https://developers.fluentboards.com/hooks/filters/#fluent_boards_board_menu_items){:target="_blank"}
 
-![menu board fluentboards](../public/images/boards/board-settings/Menu-Board-FluentBoards-scaled.webp)
-
 ### About this Board
 
-Here, you can view details about the board, such as the board Name, Description, Creator, and Creation date. You also have the option to edit **Name** and **Description** details right from here.
+Here, you can view details about the board, such as its Name, Description, Creator, and Creation date. Click the **Pencil** icon to edit the **Name** or **Description**.
 
-![borad about 3](../public/images/boards/board-settings/Borad-ABout-3-scaled.webp)
+Under **Board Details**, you'll see quick counts for Tasks, Stages, Labels, and Members. Copy the **Shortcode** shown here to embed this board anywhere else on your website.
+
+If your board is a Roadmap-type board, you'll also see a **Roadmap Shortcode**, a **Public Access** toggle to let anyone with the link view it, and a **View Roadmap Report** link. Down at the bottom, you'll also see which **Folder** the board belongs to.
+
+> [!Note]
+> Learn more about Roadmap-type boards in our [Roadmap Overview](/fluentboards-roadmap-overview) guide.
+
+![borad about 3](../public/images/boards/board-settings/about-this-borad-3.webp)
+
 
 ### Board Activity
 
-In the **Board Activity**, you will see all the activities of the Board.
+In the **Board Activity** tab, you'll see a running log of key changes made to the board, such as adding a member, promoting someone to Manager, or changing the background. Each entry shows who made the change and how long ago.
 
-![board activity 4](../public/images/boards/board-settings/Board-Activity-4-scaled.webp)
+![board activity 4](../public/images/boards/board-settings/board-activity-4.webp)
 
 ### Change Background
 
-The **Change Background** option allows you to change the background of the Board. You will find some images available for your board, and you also have the option to upload your own images. Simply click on the **Plus** icon button to do so.
+The **Change Background** option allows you to change the background of the Board.
 
-You can also add **Gradient** and **Solid** colors to the board.
+- Click the thumbnail under **Image** to upload your own picture, or click the **Plus** icon to add a new one.
+- Choose from the ready-made **Gradients** or **Color** swatches, or click the **Plus** icon next to either row to add a custom option.
 
-![board background image set](../public/images/boards/board-settings/Board-Background-Image-Set-scaled.webp)
+The **Preview** section shows how your chosen background looks in **Light** and **Dark** mode. Click **Reset To Default** if you'd like to go back to the original background.
+
+![board background image set](../public/images/boards/board-settings/change-background-5.webp)
+
+### Notification Settings
+
+From **Notification Settings**, you can control which email notifications you get for this specific board. Toggle **Same as Global Settings** on if you'd rather follow your account-wide preferences, or click **Go to Settings** to manage those directly.
+
+Turn on **Enable All** to receive every notification, or toggle individual options like **Watch created tasks**, **Watch on commenting**, **Watch on assigning**, **Comment**, **Stage Changed**, **Assigned to a task**, **Dates**, **Task Archived**, and **Removed from a task**. Once you're done, click the **Save** button.
+
+> [!Note]
+> For your account-wide email notification preferences, see the [Notification Settings](/notification-settings) guide.
+
+![board notification](../public/images/boards/board-settings/board-notification-settings-6.webp)
+
+
+### Board Labels
+
+Click on **Board Labels**, and you will see all the existing labels listed here. To add a new label for your board, click on the **Add Label** button.
+
+If you want to edit an existing label, click on the **Pencil** Icon button next to the label name. Also choose a **color** for your label from the default options or select a **custom color**. Once done, click on the **Save** button. If you want to remove a label, simply click on the **Delete** button.
+
+![board fluentboards label](../public/images/boards/board-settings/board-label-7.webp)
 
 ### Custom Fields
 
 In FluentBoards, you can use **Custom Fields** to add extra data fields to your tasks. This feature helps you capture specific information relevant to your workflow directly within a task card.
 
-#### **Creating a New Custom Field**
+#### Creating a New Custom Field
 
 First, navigate to the board you want to add a custom field to. Click on the **Menu** from the top right corner of the board and select the **Custom Fields** option.
 
-1. You will now see the Custom Fields panel. Click on the **Create New Custom Field** button to get started.
+1. You will now see the Custom Fields panel. Click on the **Create Custom Field** button to get started.
 2. A pop-up window will appear. Here you will need to fill in two options:
 
-**Title:** This will be the display title for your custom field.
-3. **Type:** Choose the data type form the dropdown field, such as Number, Text, or Date.
+ * **Title:** This will be the display title for your custom field.
+
+3. **Type:** Choose the data type from the dropdown field, such as Number, Text, or Date.
 4. After filling in the required information, click the **Create** button.
 
-#### **Managing Custom Fields**
+![custom field board task](../public/images/boards/board-settings/custom-field-8.webp)
+
+![custom field board task](../public/images/boards/board-settings/create-custom-field-9.webp)
+
+#### Managing Custom Fields
 
 Once created, your custom fields will be visible in all tasks on that board. You can also reorder them to better suit your needs.
 
 To change the sequence of your custom fields, simply go to the **Custom Fields** settings panel. From there, you can **drag and drop** the fields into your desired order. The new order will be saved automatically.
 
-![custom field board task](../public/images/boards/board-settings/Custom-field-board-task-scaled.webp)
-
-### Board Labels
-
-Click on the **Boards Label**, and you will see all the existing labels listed here. To add a new label for your board, click on the **Add New Label** button.
-
-If you want to edit an existing label, click on the **Pencil** Icon button next to the label name. Also choose a **color** for your label from the default options or select a **custom color**. Once done, click on the **Save** button. If you want to remove a label, simply click on the **Delete** button.
-
-![board fluentboards label](../public/images/boards/board-settings/Board-FluentBoards-LAbel-scaled.webp)
+> [!Note]
+> To see how these fields show up and get filled in on an individual task, check out the [Custom Fields](/custom-fields-for-task) guide.
 
 ### Board Members
 
 #### Add New Member
 
-You can manage your Board members from here you can add any WordPress user as a **Member** of your Board. Also, you can edit the existing members of the Board like if you want to remove them or make them the Admin of the Board.
+You can manage your board's members from here. In the **Board Members** search field, search for an existing WordPress user by **Name** or **Email**, then select them and click the **Add Member** button.
 
-In the search field simply search for your new member with **Name** or **Email,** then select them and click on **Add Member** button.
+Existing members are listed under **Members**, each with a dropdown so you can change their role to **Manager** or **Member**. Anyone with WordPress Admin access to your site is listed under **Also Has Access**, since Admins can view every board automatically.
 
-If you want to change the role of existing Members or want to Remove them then click on the **Dropdown** button beside the board members and you will get two options here **Promote to Manager** or **Leave Board** select your choice here. From the Admins you can make anyone a Board Member by clicking on the plus icon button.
-
-![board member](../public/images/boards/board-settings/Board-Member.webp)
+![board member](../public/images/boards/board-settings/board-member-10.webp)
 
 #### Invite Member
 
-You can send an Invitation to join the Board. Give the Email address of that WordPress user whom you want to add to your Board and click on the **Send Invitation** button.
+If the person you want to add isn't a WordPress user yet, type their email address in the same field to switch to invite mode. Choose their role from the dropdown, then click the **Invite** button to send them an invitation to join the Board.
 
 Down here you will also be able to see the *Pending Invitations*.
 
-![board member invitation](../public/images/boards/board-settings/Board-Member-invitation.webp)
+> [!Note]
+> For more on member roles and permissions, see the [Member Roles](/member-roles) guide.
 
-### Notification Settings
+![board member invitation](../public/images/boards/board-settings/board-member-invitation-11.webp)
 
-From the **Notification Settings**, you can select which **Notification Emails** you want. Here you will get options for Notification. Toggle to enable the Notifications you want and click on the **Save** button.
-
-![board notification 9](../public/images/boards/board-settings/Board-Notification-9-scaled.webp)
 
 ### Archived Items
 
-This Archived Items tab lists all the individual tasks you have archived. Tasks can be archived individually from the task options or in groups using the **Bulk Actions** dropdown menu from the Table view. From here, you can remove them permanently or restore them to your Boards.
+The **Archived Items** panel has two tabs: **Archived Tasks** and **Archived Stages**.
 
-![archived items ](../public/images/boards/board-settings/Archived-Items--scaled.webp)
+Under **Archived Tasks**, you'll see every task you've archived, along with who archived it and when. Check the box next to a task, or click **Select All**, and use the **Restore** or **Delete** icon to bring it back or remove it for good. Once you've checked one or more boxes, a counter shows how many are selected, and you can use the **Actions** dropdown to **Restore Selected** or **Delete Selected** tasks all at once.
 
-### Archived Stages
+![archived items ](../public/images/boards/board-settings/archived-items-12.webp)
 
-Here you will see the removed **Stages** from the board. You can Restore them from here by clicking on the **Restore** button or delete them permanently by selecting the **Delete** button.
+Switch to the **Archived Stages** tab to see any Stages you've removed from the board. Click the **Restore** icon next to a Stage to bring it back, or the **Delete** icon to remove it permanently.
 
-![board archived satge 10](../public/images/boards/board-settings/Board-Archived-Satge-10-scaled.webp)
+![board archived satge](../public/images/boards/board-settings/board-archived-satge-13.webp)
+
+### Webhooks
+
+Click **Webhooks** to set up an **Outgoing Webhook** for this board. FluentBoards sends a POST request to your chosen URL whenever a specific event happens on the board, such as a task being created or moved.
+
+> [!Note]
+> For full setup steps and the list of supported events, see the [Outgoing Webhooks](/outgoing-webhooks) guide. If you'd rather create tasks from an external source instead, check out [Incoming Webhooks](/incoming-webhook).
+
+![Webhook](../public/images/boards/board-settings/webhook-14.webp)
+
 
 ### Associated CRM Contacts
 
-The **Associated CRM Contacts** option in your board menu displays the *CRM contacts* linked to your tasks on that specific board.
+The **Associated CRM Contacts** option in your board menu displays the *CRM contacts* linked to your tasks and to the board itself.
 
-![associate contact crm contact](../public/images/boards/board-settings/Associate-Contact-CRM-Contact-scaled.webp)
+Under **Board Contact**, you'll see the single contact linked to the board, along with their **Tags** and **Lists**. Clicking on the **Task Contacts** count will reveal the tasks associated with those CRM contacts.
 
-Clicking on the **Arrow** icon button will reveal the tasks associated with those CRM contacts.
+> [!Note]
+> Learn more about connecting CRM contacts to your boards and tasks in the [FluentCRM integration](/fluentboards-integration-with-fluentcrm) guide.
 
-![associate with tasks ](../public/images/boards/board-settings/Associate-with-Tasks--scaled.webp)
-
-### Import From Template
-
-To import your created template **Stages** into your boards, choose the template from the dropdown list and then click on the **Import** button.
-
-![board template import 11](../public/images/boards/board-settings/Board-Template-Import-11.png)
+![associate contact crm contact](../public/images/boards/board-settings/associate-contact-crm-contact-15.webp)
 
 ### Duplicate Board
 
-If you wish to duplicate the board, simply select the Duplicate Board option. Then, provide a title for your duplicate board and choose from the checkbox options which information you'd like to copy along with it.
+If you wish to duplicate the board, simply select the **Duplicate Board** option. Then, provide a title for your duplicate board and choose from the **Keep Tasks**, **Keep Labels**, and **Keep Templates** checkboxes which information you'd like to copy along with it. Once you're done, click the **Duplicate** button.
 
-![board duplicate 12](../public/images/boards/board-settings/Board-Duplicate-12.png)
+![board duplicate ](../public/images/boards/board-settings/duplicate-board-16.webp)
 
-## Export
+### Make a Template
+
+If you wish to convert this board into a reusable template, select **Make Template**. Add an optional description in the **Template Descriptions** field, then choose a **Category**, such as **Project Management**, **Development**, or **Marketing**, from the dropdown. Once you're done, click the **Make Template** button.
+
+![Make a Template](../public/images/boards/board-settings/make-template-17.webp)
+
+### Export
 
 You can export your whole board as a **JSON** or **CSV** file in FluentBoards. The export will include all task details, but keep in mind that **assignee information won’t be included**.
 
 To export, go to the board you want to export and click on the **board menu** button in the **top-right corner**. A pop-up will appear with the **Export** option. Click on it, and you’ll see two formats: **JSON** and **CSV**. Select your preferred format, and your board will be exported.
 
-![export feature 1](../public/images/boards/board-settings/Export-Feature-1-scaled.webp)
+![export feature 1](../public/images/boards/board-settings/export-feature-18.webp)
 
 Here, the **JSON** is for exporting your board in JSON format, and the **CSV** button is exporting your Board in CSV format.
 
-![export feature 2](../public/images/boards/board-settings/Export-Feature-2-scaled.webp)
+![export feature 2](../public/images/boards/board-settings/export-feature-19.webp)
 
-### Delete Board
+### Archive Board
 
-If you want to delete your Board then select the **Delete Board** option. A notification popup will come to you for confirmation that you want to delete the board.
+If you no longer need a board in your active list, select **Archive Board**. A confirmation pop-up reminds you that archived boards can be restored at any time, but they won't appear in your active boards list until then. Click **Archive This Board** to confirm, or **Cancel** to back out.
 
-![delete board 13](../public/images/boards/board-settings/Delete-Board-13.png)
-
-### Bulk Restore and Delete for Archived Tasks
-
-The Archived Items section allows bulk actions for managing archived data. You can select multiple archived tasks or stages and restore or permanently delete them in a single step. This approach replaces the previous one-by-one method, making large cleanups faster and giving users better control over their archived data.
-
-Go to the **Archived Tasks** tab within the **Archived Items** panel. Select the tasks you wish to modify by checking the boxes next to them. A counter will show the number of tasks currently selected (e.g., "2 selected").
-
-Check the **Select All** button to reveal the bulk options.
-
-After that, select one of the following options from the dropdown **Actions** option.
-
-- **Restore Selected:** Choose this option to immediately restore all chosen tasks back to your live board.
-- **Delete Selected:** Choose this option to permanently delete all chosen tasks from the archive.
-
-![bulk archive restore data](../public/images/boards/board-settings/bulk-archive-restore-data.webp)
+![Archive the Board](../public/images/boards/board-settings/archive-the-board-20.webp)
 
 If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
