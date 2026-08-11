@@ -1,16 +1,16 @@
 # Daily Reminders
 
-In FluentBoards, the General Settings section allows you to configure task reminders for **Overdue** tasks. This feature sends automatic email notifications to users about their board tasks. Both WordPress Administrators and FluentBoards Admins can enable and manage these reminders to ensure tasks are completed on time.
+In FluentBoards, the General Settings section allows you to configure task reminders for **Overdue** tasks. This feature sends automatic email notifications to users about their board tasks. Both WordPress Administrators and Full Admins can enable and manage these reminders to ensure tasks are completed on time.
 
 ## General Settings
 
-Navigate to FluentBoards **Settings** from the navbar. Next, click on the **General Settings** tab in the left sidebar. Here, you'll find the General Settings options.
+Navigate to FluentBoards **Settings** from the navbar. Next, click on the **General Settings** tab in the left sidebar. Here, among other options, you'll find the **Daily Reminder** setting.
 
-**Enable Daily Reminder:** First, enable daily reminder by clicking on the **Toggle** button.
+Click the **Toggle** button next to **Daily Reminder** to send a daily task summary email at a time you choose. 
 
-**Set Daily Reminder Time:** Next set a daily reminder time. This section works only when you enable daily reminders.
+Once enabled, click the time field below it to pick the hour, and use the **Server Time** and **Timezone** shown underneath to make sure it lines up with your day.
 
-Now click on the **Save** button to save the settings.
+Once you're done, click the **Save** button in the top right corner to save the settings.
 
 ![fluentboards](../public/images/settings/daily-reminder-settings/FluentBoards-scaled.webp)
 
