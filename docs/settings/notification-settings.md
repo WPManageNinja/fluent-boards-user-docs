@@ -6,31 +6,39 @@ This guide will show you how to configure notification settings for individual t
 
 ## Email Notification Settings
 
-To enable or disable your notification settings, navigate to the **Fluent Boards** dashboard section then click on the **Profile Image** in the navbar to access your **Accounts** settings. Now click on the **Preference** in the left sidebar.
+To enable or disable your notification settings, click on your **Profile Image** in the top right corner of your FluentBoards Dashboard, then select **Notifications** from the left sidebar.
 
-Select the **Notifications** here to see the notification settings. The **Enable All** button allows you to enable or disable all notifications. Toggle the switch for specific notifications and click **Save** to apply your changes.
+Under **Email Notification Preferences**, toggle **Enable All** to turn every notification on or off at once, or toggle individual options. Once you're done, click the **Save** button to apply your changes.
 
 Here, you'll find various types of options for receiving notifications, which include:
 
-- **Watch created tasks**: Receive notifications for tasks or cards you create on your board.
-- **Watch on commenting**: Receive notifications when you comment or reply to a task.
-- **Watch on assigning**: If you enable this, you'll receive notifications when you assign someone to a task.
-- **Comment**: Receive notifications when new comments are added to a task you are watching.
-- **Stage Changed**: Receive notifications when the stage of a task you're watching changes.
-- **Assigned to a task**: Receive notifications when assigned a new task.
-- **Dates**: Receive notifications when the dates of a task you are watching is updated.
-- **Task Archived**: Receive notifications when a task you are watching is archived.
-- **Removed from a task**: Receive notifications when you are removed.
+- **Watch created tasks**: Subscribe for notifications for cards you create.
+- **Watch on commenting**: Subscribe for notifications for a task if you comment or reply on it.
+- **Watch on assigning**: Subscribe for notifications for a task if you assign someone to it.
+- **Comment**: New comments added on a task you are watching.
+- **Stage Changed**: Stage has been changed of a task you are watching.
+- **Assigned to a task**: You are assigned to a new task.
+- **Dates**: Dates has been updated of a task you are watching.
+- **Task Archived**: Tasks you are watching are archived.
+- **Removed from a task**: You are removed from a task.
 
-![notification settings](../public/images/settings/notification-settings/Notification-Settings-scaled.webp)
+![notification settings](../public/images/settings/notification-settings/notification-settings-1.webp)
 
 ## Board Notification Settings
 
-You have the option to get notifications for specific boards as well. To do this, navigate to the board for which you want to customize notifications. Then, click on the **Board Menu** button in the right corner. Here appears a new popup, select the **Notification Settings** from here.
+You have the option to get notifications for specific boards as well. To do this, navigate to the board for which you want to customize notifications, then click on the **Three Dot** button in the top right corner. A **Board Menu** popup will appear, select **Notification Settings** from here.
 
-![marketing board fluentboards 1](../public/images/settings/notification-settings/Marketing-Board-FluentBoards-1-scaled.webp)
+![marketing board fluentboards 1](../public/images/settings/notification-settings/marketing-board-fluentboards-2.webp)
 
-Here also arrives a new popup. You can personalize the notifications for this particular board according to your preferences.
+A **Notification Settings** panel will open for this board. Toggle **Same as Global Settings** on if you'd rather this board just follow your account-wide preferences instead, or click **Go to Settings** to manage those directly.
+
+Otherwise, toggle **Enable All** or the individual options below to personalize the notifications for this particular board:
+
+**Watch created tasks:** Subscribe for notifications for cards you create.
+
+**Watch on commenting:** Subscribe for notifications for a task if you comment or reply on it.
+
+**Watch on assigning:** Subscribe for notifications for a task if you assign someone to it.
 
 **Comment:** Get alerts when someone leaves a new comment on a task you're watching.
 
@@ -40,12 +48,12 @@ Here also arrives a new popup. You can personalize the notifications for this pa
 
 **Dates:** Get alerts when a task you are following updates in terms of its dates.
 
-**Task Archived:** Get alerts when a task you are following updates regarding its due date.
+**Task Archived:** Get alerts when a task you are watching is archived.
 
-**Removed from a task:** Get alerts when a task is taken away.
+**Removed from a task:** Get alerts when you are removed from a task.
 
-When all the settings are done well then click the **Save** button for notification changes.
+Once you're done, click the **Save** button to apply your notification changes.
 
-![board notification settings](../public/images/settings/notification-settings/Board-Notification-settings-scaled.webp)
+![board notification settings](../public/images/settings/notification-settings/board-notification-settings-3.webp)
 
 If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"} team.
