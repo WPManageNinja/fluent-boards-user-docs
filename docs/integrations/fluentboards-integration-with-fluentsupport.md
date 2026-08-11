@@ -8,20 +8,22 @@ The integration of Fluent Board and Fluent Support is straightforward. You just 
 
 Go to the Fluent Support Tickets and then open the specific ticket you want to add to your FluentBoards task.
 
-In your ticket, you will see a three-dot button on the top right corner of your ticket. Now click on that **three-dot** button and you will see **Add Task to FluentBoards** select it.
+In your ticket, you will see a three-dot button on the top right corner of your ticket. Now click on that **three-dot** button and you will see **Add Task to Fluent Boards** select it.
 
-![customer support ](../public/images/integrations/fluentboards-integration-with-fluentsupport/Customer-Support-1-scaled.webp)
+![customer support ](../public/images/integrations/fluentboards-integration-with-fluentsupport/customer-support-1.webp)
 
-Your **Task Title** will be automatically chosen from your Ticket subject field and the Ticket description will be added as a task description.
+An **Add Task to Fluent Boards** pop-up will appear. Choose the **Board** and **Stage** from the dropdown menus, then set a **Start date** and **End date** for the task. Fluent Support Agents can only choose from the boards they have access to.
 
-Here, you'll find the option to choose the **Board**, **Stage**, **and Date** from the **Dropdown** menu, and the task will automatically be added to the bottom of that stage. Fluent Support Agents can only view the boards to which they have access.
+The **Task Title** is automatically filled in from your ticket's subject, and the **Task Description** from the ticket's content, using the same Visual or Code editor and **Add Media** option you'd find on a form. Feel free to edit either before creating the task.
 
-![can t log into my account ](../public/images/integrations/fluentboards-integration-with-fluentsupport/Can-t-Log-into-My-Account--scaled.webp)
+Once you're done, click the **Create Task** button.
+
+![can t log into my account ](../public/images/integrations/fluentboards-integration-with-fluentsupport/create-task-2.webp)
 
 > If the ticket opener is a FluentCRM User, they'll be automatically linked to the task as an Associated CRM contact.
 
 If you need to make further changes to the task, simply open it from your FluentBoards. From there, you can add assignees, set priorities, add labels, adjust dates, and make any other necessary adjustments.
 
-![fluentboards task added from support ticket](../public/images/integrations/fluentboards-integration-with-fluentsupport/FluentBoards-Dev-Team-FluentBoards-scaled.webp)
+![fluentboards task added from support ticket](../public/images/integrations/fluentboards-integration-with-fluentsupport/board-task-created-3.webp)
 
-This outlines all the options available to integrate your Fluent support with Fluent Boards. If you have any additional questions regarding this integration, don't hesitate to reach out to [us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+This outlines all the options available to integrate your Fluent support with Fluent Boards. 

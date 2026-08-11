@@ -2,30 +2,32 @@
 
 With FluentBoards you can add Members and manage them for your boards very easily. Follow this documentation to learn everything about team management in your FluentBoards.
 
-## **Members Role Global Setting**
+## Members Role Global Setting
 
-Go to the **Settings** of your FluentBoards and you will be able to see the **Member Role**. Here you can see all the members of yours. Also, you can add members from here by clicking on the **Add Member** button.
+Go to the **Settings** of your FluentBoards and select **Member Role** from the left sidebar. Here you can see a table of all your members, with their **ID**, **Name**, **Email**, and **Role**. Use the **Search managers** field to find someone quickly, or click the **+ Add Members** button to add a new one.
 
-Click on the **Manage** button from the right side of the Members.
+Members with full site access show an **All Access** badge alongside their WordPress role, while regular members show the specific boards they're assigned to instead. Click the **Pencil** icon on the right side of a member's row to manage their access.
 
-![member 1](../public/images/settings/member-roles/Member-1-scaled.webp)
+![member 1](../public/images/settings/member-roles/member-1.webp)
 
-A pop-up will appear showing the role of that member in all boards. You can change the role of the member for each board from here. Click on the dropdown button to select the role. To promote a user to FluentBoards Admin, click on the **Promote to FluentBoards Admin** button.
+A **Manage User Permissions** pop-up will appear. Click the **Promote to Full Admin** button if you'd like to give this member full access to FluentBoards.
+
+Under **Manage Access**, you'll see every board this member has a role on, along with a dropdown to change their **Role** for each one. Click **+ Add New Board** to give them access to another board directly from here.
+
+![member role ](../public/images/settings/member-roles/manage-user-submission-2.webp)
 
 We are describing all the roles within FluentBoards:
 
 **WordPress Administrator:** WordPress Administrators have full access to FluentBoards.
 
-**FluentBoards Admin:** This role has complete access to FluentBoards. WordPress Administrator can set the FluentBoards Admin. FluentBoards Admin can set another WordPress user to FluentBoards Admin and any WordPress user role can be the FluentBoards Admin.
+**Full Admin:** This role has complete access to FluentBoards. A WordPress Administrator can promote a member to Full Admin, and a Full Admin can promote other members the same way. Any WordPress user role can be promoted to Full Admin.
 
-**Admin/Manager:** An Admin or Manager can manage only those boards where they have been designated as Admin or Manager by a WordPress Administrator or FluentBoards Admin. Admin or Manager can be selected from any WordPress user role.
+**Admin/Manager:** An Admin or Manager can manage only those boards where they have been designated as Admin or Manager by a WordPress Administrator or Full Admin. Admin or Manager can be selected from any WordPress user role.
 
 Admin/ Manager can manage the boards where they are assigned as an Admin/ Manager. They also have the ability to delete boards, add members on boards, and add another Admin/Manager on boards.
 
-By default, only a WordPress Administrator or FluentBoards Admin can create new boards. If you want to let any team member create their own boards, go to the FluentBoards **Settings** and select **General Settings**, then toggle on **Board Creation Permission**.
+By default, only a WordPress Administrator or Full Admin can create new boards. If you want to let any team member create their own boards, go to the FluentBoards **Settings** and select **General Settings**, then toggle on **Board Creation Permission**.
 
-**Members:** The roles mentioned above (WordPress Administrator, FluentBoards Admin, Admin/Manager) can add any WordPress user as a member to a board. Members have access only to the boards to which they are assigned. Members cannot delete or create boards. They can only manage board tasks and assign members to board tasks.
-
-![member role ](../public/images/settings/member-roles/Member-Role-.png)
+**Members:** The roles mentioned above (WordPress Administrator, Full Admin, Admin/Manager) can add any WordPress user as a member to a board. Members have access only to the boards to which they are assigned. Members cannot delete or create boards. They can only manage board tasks and assign members to board tasks.
 
 This is how you can manage your member role. If you have any queries feel free to [contact us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
