@@ -6,6 +6,32 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.0.10
+
+Released on August 12, 2026
+
+::: code-group
+
+``` [🚀 Improvements]
+• Better RTL support across dashboards, boards, tasks, comments, subtasks, activities, settings, and reports
+• Improved responsive admin layouts
+• Newly created tasks now open in the Task Modal
+• Updated Subtask Group UX
+• Improved Member Role editing experience
+```
+
+``` [🐞 Bug fixes]
+• Fixed conflicting theme assets loading in the frontend portal
+• Fixed Subtask due date and assignee not saving properly during creation
+• Fixed Time Tracking estimate popover issue
+• Fixed incorrect timezone in Task reminder alerts
+• Fixed image and emoji issue in Task description
+• Other improvements & bug fixes
+```
+
+:::
+
+
 ## FluentBoards v2.0.4
 
 Released on August 3, 2026
