@@ -4,24 +4,25 @@ You can customize the position of FluentBoards in your WordPress Dashboard. You 
 
 In this guideline, we will show you how you can customize the FluentBoards position.
 
-First, go to your FluentBoards and select **Settings>Feature & Module**. Here the **Menu Position** option is available.
+First, go to your FluentBoards and select **Settings > Features & Modules**. Under **Advanced Modules**, you'll find the **Menu Position** option.
 
-Select the **Settings** of **Menu Position**.
+Click the **Manage** button next to **Menu Position**.
 
 ![adjust menu position](../public/images/settings/fluentboards-menu-position-in-wordpress/Adjust-menu-position-scaled.webp)
 
 ## Append In FluentCRM Menu
 
-A popup will appear. If you want to keep your FluentBoards in the FluentCRM plugin menu then select the **Append in FluentCRM Menu**.
+A **Menu Position** pop-up will appear. Under **Menu Position Type**, if you want to keep your FluentBoards in the FluentCRM plugin menu then select **Append in FluentCRM Menu**.
 
 ![append in fluentcrm](../public/images/settings/fluentboards-menu-position-in-wordpress/append-in-FluentCRM-scaled.webp)
 
 ## **Show as Standalone**
 
-To show the FluentBoards in your WordPress left sidebar Menu select **Show as Standalone** and select the **Menu Position Priority**.
+To show the FluentBoards in your WordPress left sidebar Menu, select **Show as Standalone** instead. Then use the **Menu Position Priority** stepper to set where it appears in the sidebar.
+
+Lastly, click on the **Save** button to save.
 
 ![show as standalone](../public/images/settings/fluentboards-menu-position-in-wordpress/show-as-standalone-scaled.webp)
 
-Lastly, click on the **Save Settings** button to save.
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"} team.
+
