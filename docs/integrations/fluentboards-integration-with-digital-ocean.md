@@ -16,7 +16,7 @@ A pop-up will appear. From here, select **Storage Location: DigitalOcean Space**
 
 Let’s get started with collecting the required credentials.
 
-![fluentboards digitalocean settings 2](../public/images/integrations/fluentboards-integration-with-digital-ocean/FluentBoards-DigitalOcean-Settings-2-scaled.webp)
+![fluentboards digitalocean settings 2](../public/images/integrations/fluentboards-integration-with-digital-ocean/DigitalOcean-7-scaled.webp)
 
 ## Get Credentials from DigitalOceans
 
@@ -59,5 +59,3 @@ Now paste the credentials into the dedicated fields of your **FluentBoards**. Wh
 The **Bucket Subfolder** field is optional—you can add a subfolder if needed. Finally, click the **Save Settings** button to successfully add your DigitalOcean bucket as the cloud storage for your FluentBoards.
 
 ![digitalocean 7](../public/images/integrations/fluentboards-integration-with-digital-ocean/DigitalOcean-7-scaled.webp)
-
-If you have any further queries regarding this article, please feel free to [contact us](https://wpmanageninja.com/support-tickets/){:target="_blank"}.

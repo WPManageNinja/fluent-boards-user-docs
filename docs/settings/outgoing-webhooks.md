@@ -11,46 +11,43 @@ This guide will provide a detailed overview of how to configure and manage Outgo
 - **Data Logging:** Add a new row to a Google Sheet or Airtable base every time a task is completed, creating a log of your team's accomplishments.
 - **Custom Integrations:** Send task data to a custom-built application or a third-party API for advanced processing.
 
-## **Configuration** Steps
+## Configuration Steps
 
 Configuring your webhook is a straightforward process.
 
-#### **Step 1: Navigate to the Webhook Settings**
+#### Step 1: Navigate to the Webhook Settings
 
-1. From your WordPress Admin Dashboard, navigate to **Fluent Boards → Settings**.
-2. Select the **Outgoing Webhooks** tab from the left-hand menu.
+First, go to the **Settings** of your FluentBoards. On the left sidebar, click **Webhooks** to expand it, then select **Outgoing Webhooks**.
 
-![screenshot 2025 09 18 at 5.14.58 pm](../public/images/settings/outgoing-webhooks/Screenshot-2025-09-18-at-5.14.58-PM.png)
+![Webhook Settings](../public/images/settings/outgoing-webhooks/webhook-settings-1.webp)
 
-This screen is your main dashboard for managing all created webhooks. You can view their status, see which events trigger them, and perform actions like editing or deleting them.
+This screen is your main dashboard for managing all created webhooks. A banner at the top reminds you that webhooks send automatic POST requests to your URLs when selected events occur. Use the **Search fields by label** box to find a specific webhook.
 
-#### **Step 2: Create a New Webhook**
+#### Step 2: Create a New Webhook
 
-Click the **"+ Add Webhook"** button to open the configuration form. Below is a detailed explanation of each field.
+Click the **+ Create Webhook** button to open the configuration form. Below is a detailed explanation of each field.
 
 **Status:** This is the main on/off switch for your webhook. Turn it on when you want it to work.
 
 **Name:** Give your webhook a simple name so you remember what it does. For example: Send new tasks to my team.
 
-**Webhook URL:** This is the special link you get from the other app (like Slack or Zapier). Just **copy that link and paste it here**.
+**Payload URL:** This is the special link you get from the other app (like Slack or Zapier). Just **copy that link and paste it here**.
 
 **Board:** Choose **which project board** this webhook should watch. It will only pay attention to the board you select.
 
 **Request Method & Request Format:** You can **safely ignore these**. The default settings (POST and JSON) are what you need.
 
-**Request Header:** This is an advanced option for security. Think of the "With Headers" section as adding a secret password or an ID badge to your message so the receiving application knows it's really you.
+**Request Header:** This is an advanced option for security. Choose **No Headers** to leave this alone, or **With Headers** to add a secret password or an ID badge to your message so the receiving application knows it's really you.
 
 - **Header Name:** This is the *type* of ID the other app is looking for. The app will tell you exactly what to enter here, for example, Authorization or X-API-Key.
 - **Header Value:** This is your actual *secret key or password*. You will copy this from the other service and paste it here.
 
-**You can usually leave this alone.**
+**Events to Trigger:** This is where you choose which actions on your board will send the data. You have two main options:
 
-**Events To Trigger:** This is where you choose which actions on your board will send the data. You have two main options:
+- **Send Everything:** Select this option if you want the webhook to fire for every single event that happens on the board.
+- **Select Individual Event:** Select this to choose specific events. Only the events you check will send data.
 
-- **Send everything.:** Select this option if you want the webhook to fire for every single event that happens on the board.
-- **Select individual events.:** Select this to choose specific events. Only the events you check will send data.
-
-If you choose **Select individual events**, you can check the box next to the specific actions you want to monitor:
+If you choose **Select Individual Event**, you can check the box next to the specific actions you want to monitor:
 
 - **Task Created:** Triggers when a new task is made.
 - **Task Stage Changed:** Triggers when a task is moved to a different stage.
@@ -63,25 +60,25 @@ If you choose **Select individual events**, you can check the box next to the sp
 - **Comment Added:** Triggers when a new comment is added to a task.
 - **Assignee Added:** Triggers when a user is assigned to a task.
 
-![events to trigger](../public/images/settings/outgoing-webhooks/events-to-trigger.webp)
+![events to trigger](../public/images/settings/outgoing-webhooks/events-to-trigger-2.webp)
 
-After filling out the form, click **Save**. Your webhook is now configured and, if set to "Active", will begin monitoring your board for the specified trigger events.
+After filling out the form, click **Create Webhook**. Your webhook is now configured and, if set to **Active**, will begin monitoring your board for the specified trigger events.
 
 #### **Managing Existing Webhooks**
 
-Once you have created one or more webhooks, they will be listed on the **Outgoing Webhook Settings** dashboard. This central view allows you to see and manage all of your configured integrations at a glance.
+Once you have created one or more webhooks, they will be listed on the **Outgoing Webhooks** dashboard. This central view allows you to see and manage all of your configured integrations at a glance.
 
 Each row in the list provides a summary of the webhook's configuration:
 
 - **Name:** The custom name you assigned to the webhook.
-- **Request URL:** The destination URL where the data is sent.
-- **Triggered Events:** The specific events that will trigger this webhook.
+- **Payload URL:** The destination URL where the data is sent.
+- **Triggered Events:** The specific events that will trigger this webhook, shown as tags.
 - **Board:** The project board the webhook is associated with.
-- **Status:** A label indicating whether the webhook is currently **Active** or **Inactive**.
+- **Status:** A badge indicating whether the webhook is currently **Active** or **Inactive**.
 
-**Action Buttons**
+**Action Icons**
 
-- **Edit Button:** If you need to make a change, like updating the URL or adding a new trigger, click this button.
-- **Delete Button:** If you no longer need a webhook, click this to permanently remove it.
+- **Pencil icon:** If you need to make a change, like updating the URL or adding a new trigger, click this icon.
+- **Trash icon:** If you no longer need a webhook, click this icon to permanently remove it.
 
-![outgoing webhook 3](../public/images/settings/outgoing-webhooks/outgoing-webhook-3-scaled.webp)
+![outgoing webhook 3](../public/images/settings/outgoing-webhooks/outgoing-webhook-3.webp)

@@ -98,19 +98,19 @@ There are two ways to configure FluentBoards with Amazon S3: **Using the plugin 
 
 ### Using the Plugin UI
 
-Go to FluentBoards dashboards **Settings** tab from the top menu. Click the **Feature & Modules** section from the left side bar. Now find the **Media Storage** and click the **Settings**.
+Go to FluentBoards dashboards **Settings** tab from the top menu. Click the **Features & Modules** section from the left side bar. Now find the **Media Storage** option and click the **Manage** button.
 
 ![media storage 15](../public/images/integrations/fluentboards-integration-with-amazon-s3/Media-Storage-15-scaled.webp)
 
-After that, a popup will appear here. Now, select **Amazon S3** and paste the credentials you collected from your Amazon AWS account:
+A **Configure Media Storage** pop-up will appear. Select **Amazon S3** from the **Storage Location** dropdown, then paste the credentials you collected from your Amazon AWS account:
 
 - **Amazon S3 Region:** Select the region from the dropdown that matches the one you used when creating your bucket.
 - **Amazon S3 Access Key:** Paste the Access Key from the IAM User.
 - **Amazon S3 Secret Key:** Paste the Secret Key from the IAM User.
 - **Amazon S3 Bucket Name:** Enter the Bucket Name you created in Amazon S3.
-- **Bucket Sub Folder (Optional):** If you created a subfolder for file uploads, provide its name. Otherwise, leave it empty.
+- **Bucket Sub-Folder (Optional):** If you want to store files in a specific folder within the bucket, provide its name here. Otherwise, leave it empty.
 
-Finally, click the **Save Settings** button. Your Amazon S3 will now be successfully connected with FluentBoards, and all media files will be stored in Amazon S3.
+Finally, click the **Save** button. Your Amazon S3 will now be successfully connected with FluentBoards, and all media files will be stored in Amazon S3.
 
 ![using the plugin ui 16](../public/images/integrations/fluentboards-integration-with-amazon-s3/using-the-plugin-ui-16-scaled.webp)
 

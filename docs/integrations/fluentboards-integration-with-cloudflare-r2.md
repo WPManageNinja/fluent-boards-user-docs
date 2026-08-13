@@ -66,11 +66,11 @@ Here, you will find the **Access Key ID** and **Secret Access Key**. Make sure t
 
 ## Configure the FluentBoards with Cloudflare R2
 
-Now access FluentBoards and go to **Settings > Feature & Modules**. Here you will see the **Media Storage** section then click on the **Settings** button.
+Now access FluentBoards and go to **Settings > Features & Modules**. Here you will see the **Media Storage** option, then click on the **Manage** button.
 
 ![configure cloudflare r2 12](../public/images/integrations/fluentboards-integration-with-cloudflare-r2/configure-cloudflare-R2-12-scaled.webp)
 
-A popup will appear. Now, select **Cloudflare R2** and enter the credentials you collected from your Cloudflare account in the earlier steps of this guide.
+A **Configure Media Storage** pop-up will appear. Select **Cloudflare R2 (Recommended)** from the **Storage Location** dropdown, then enter the credentials you collected from your Cloudflare account in the earlier steps of this guide.
 
 **Cloudflare Account ID:** Input your CloudFlare Account ID.
 
@@ -82,9 +82,9 @@ A popup will appear. Now, select **Cloudflare R2** and enter the credentials you
 
 **Cloudflare Bucket Public URL:** Provide the Public R2.dev Bucket URL.
 
-**Bucket Sub-Folder (Optional):** If you created a subfolder for file uploads, provide its name. Otherwise, leave it empty.
+**Bucket Sub-Folder (Optional):** If you want to store files in a specific folder within the bucket, provide its name here. Otherwise, leave it empty.
 
-After you’ve completed all the fields, simply click the **Save Settings** button to store your Cloudflare configuration.
+After you’ve completed all the fields, simply click the **Save** button to store your Cloudflare configuration.
 
 ![cloudflare r2 13](../public/images/integrations/fluentboards-integration-with-cloudflare-r2/cloudflare-R2-13-scaled.webp)
 
