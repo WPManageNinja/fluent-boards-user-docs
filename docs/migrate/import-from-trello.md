@@ -16,11 +16,11 @@ Now Select the **Export as JSON**. Your Trello Board will be shown in JSON forma
 
 ## Import Trello Board in FluentBoards
 
-Now go to your Fluent Boards and select the **Boards** from the Navbar. In the Boards dashboard you will see a **three-dot** button in the Top right corner click on the button. Now select the **Import From Trello**.
+Now go to your Fluent Boards and select the **Boards** from the Navbar. In the Boards dashboard, click the **Import** dropdown in the top right corner, then select **Import From Trello**.
 
 ![fluentboards import ](../public/images/import-export/import-from-trello/FluentBoards-import--scaled.webp)
 
-Select the JSON file you have downloded from Trello and click on the **Upload & Start Importing**.
+An **Import From Trello** panel will open from the right, with **Upload JSON** tabs. Stay on the **Upload JSON** tab, then click **Browse File** or drag and drop the JSON file you downloaded from Trello. Once you're done, click the **Upload & Start Importing** button.
 
 ![fluentboards import](../public/images/import-export/import-from-trello/FluentBoards-Import.webp)
 
