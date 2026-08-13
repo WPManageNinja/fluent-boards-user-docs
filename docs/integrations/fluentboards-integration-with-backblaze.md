@@ -8,11 +8,11 @@ In this article, we’ll guide you through the process of integrating your Fluen
 
 ## Backblaze Settings
 
-To connect your **FluentBoards** with Backblaze, go to the **Settings** section of FluentBoards. Then, click on the **Features and Addons** tab from the left sidebar. Here, you’ll find the **Media Storage** option click on the **Settings** button next to it.
+To connect your **FluentBoards** with Backblaze, go to the **Settings** section of FluentBoards. Then, click on the **Features & Modules** tab from the left sidebar. Here, you’ll find the **Media Storage** option and click the **Manage** button next to it.
 
 ![fluentboards digitalocean settings 1 1 1](../public/images/integrations/fluentboards-integration-with-backblaze/FluentBoards-DigitalOcean-Settings-1-1-1-scaled.webp)
 
-A pop-up will appear. From here, select **Storage Location: Backblaze B2** from the dropdown menu. You’ll now need some credentials to connect with Backblaze.
+A **Configure Media Storage** pop-up will appear. From here, select **Blackblaze B2** from the **Storage Location** dropdown menu. You’ll now need some credentials to connect with Backblaze.
 
 Let’s get started with collecting the required credentials.
 
@@ -56,8 +56,10 @@ Now you will see that your **Key ID** and **Application Key** will be given here
 
 ## Configure Backblaze in your FluentBoards
 
-Now, paste the credentials into the **FluentBoards Backblaze Configuration** section. When you enter the **Endpoint** of Backblaze, you’ll see that the **Region** and **Bucket Name** fields are automatically populated based on the Endpoint details.
+Now, paste the credentials you collected into the dedicated fields of the **Configure Media Storage** pop-up: **Blackblaze Key ID**, **Blackblaze Application Key**, **Blackblaze Endpoint**, **Blackblaze Bucket Name**, and **Blackblaze Region**.
 
-![backblaze 8](../public/images/integrations/fluentboards-integration-with-backblaze/Backblaze-8.png)
+The **Blackblaze Sub-Folder** field is optional — you can add a subfolder if needed. Once you're done, click the **Save** button.
 
-That’s it! Your FluentBoards is now integrated with Backblaze cloud storage, and all your attachments will be uploaded to the Backblaze cloud server. If you have any queries, suggestions, or questions regarding this article, please feel free to [contact us](https://wpmanageninja.com/support-tickets/){:target="_blank"}.
+![backblaze 8](../public/images/integrations/fluentboards-integration-with-backblaze/Backblaze-8.webp)
+
+That’s it! Your FluentBoards is now integrated with Backblaze cloud storage, and all your attachments will be uploaded to the Backblaze cloud server. 

@@ -8,15 +8,15 @@ In this article, we will guide you through the step-by-step process of connectin
 
 ## DigitalOcean Settings
 
-To connect your **FluentBoards** with DigitalOcean, go to the **Settings** section of FluentBoards. Then, click on the **Features & Modules** tab from the left sidebar. Here, you’ll find the **Media Storage** option and click the **Manage** button next to it.
+To connect your **FluentBoards** with DigitalOcean, go to the **Settings** section of FluentBoards. Then, click on the **Features and Addons** tab from the left sidebar. Here, you’ll find the **Media Storage** option click on the **Settings** button next to it.
 
 ![media storage settings](../public/images/integrations/fluentboards-integration-with-digital-ocean/Media-Storage-settings-scaled.webp)
 
-A **Configure Media Storage** pop-up will appear. From here, select **Digital Ocean Spaces** from the **Storage Location** dropdown menu. You’ll now need some credentials to connect with DigitalOcean.
+A pop-up will appear. From here, select **Storage Location: DigitalOcean Space** from the dropdown menu. You’ll now need some credentials to connect with DigitalOcean.
 
 Let’s get started with collecting the required credentials.
 
-![fluentboards digitalocean settings 2](../public/images/integrations/fluentboards-integration-with-digital-ocean/FluentBoards-DigitalOcean-Settings-2-scaled.webp)
+![fluentboards digitalocean settings 2](../public/images/integrations/fluentboards-integration-with-digital-ocean/DigitalOcean-7-scaled.webp)
 
 ## Get Credentials from DigitalOceans
 
@@ -54,11 +54,8 @@ Now your **Access Key ID** and **Secret Key** will be displayed. **Copy** them f
 
 ## Configure Digital Ocean in your FluentBoards
 
-Now paste the credentials you collected into the dedicated fields of the **Configure Media Storage** pop-up: **Spaces Object Storage Access Key**, **Spaces Object Storage Secret Key**, **Spaces Object Storage Endpoint**, **Spaces Object Storage Bucket Name**, and **Spaces Object Storage Region**.
+Now paste the credentials into the dedicated fields of your **FluentBoards**. When you enter the **Endpoint**, you’ll notice that the **Storage Bucket Name** and **Region** are automatically filled in.
 
-The **Bucket Sub-Folder** field is optional — you can add a subfolder if needed. Finally, click the **Save** button to successfully add your DigitalOcean bucket as the cloud storage for your FluentBoards.
+The **Bucket Subfolder** field is optional—you can add a subfolder if needed. Finally, click the **Save Settings** button to successfully add your DigitalOcean bucket as the cloud storage for your FluentBoards.
 
 ![digitalocean 7](../public/images/integrations/fluentboards-integration-with-digital-ocean/DigitalOcean-7-scaled.webp)
-
-If you have any further queries regarding this article, please feel free to [contact us](https://wpmanageninja.com/support-tickets/){:target="_blank"}.
-
