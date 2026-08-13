@@ -12,14 +12,19 @@ Select the **Export/Print** from the dropdown list and click on the **JSON** but
 
 ## Import Asana Board
 
-Now navigate to your FluentBoards and go to the **Boards** from the Navbar. On the top right corner of the board's section you will see a **three-dot** button click on it. Select the **Import From Asana** button here.
+Now navigate to your FluentBoards and go to the **Boards** from the Navbar. Click the **Import** dropdown in the top right corner, then select **Import From Asana**.
 
 ![fluentboards import file ](../public/images/import-export/import-boards-from-asana/FluentBoards-Import-File--scaled.webp)
 
-You will see the file upload option click on it and select the JSON file you have downloaded from Asana. Then click on the **Upload and Start Importing** button.
+An **Import From Asana** panel will open from the right, with **Connect with API** and **Upload JSON** tabs. On the **Upload JSON** tab, click **Browse File** or drag and drop the JSON file you downloaded from Asana, then click the **Upload & Start Importing** button.
 
 Now you will see your imported board in your FluentBoards.
 
-![asana json file](../public/images/import-export/import-boards-from-asana/image-4.webp)
+![asana json file](../public/images/import-export/import-boards-from-asana/upload-json-4.webp)
 
-If you have any further questions or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+Alternatively, switch to the **Connect with API** tab. Paste your **Personal Access Token**.
+
+If you don't have a **Personal Access Token** yet, click **Get Personal Access Token** to create one. Then, click **Connect & Fetch Workspaces** to import your workspaces directly without downloading a **JSON** file first
+
+![asana connect wit api](../public/images/import-export/import-boards-from-asana/connect-with-api-5.webp)
+
