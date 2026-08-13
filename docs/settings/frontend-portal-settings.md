@@ -4,21 +4,19 @@ With FluentBoards, you can establish a frontend portal. This feature enables you
 
 ### Enable Frontend Portal
 
-Go to the FluentBoards **Settings** and choose **Feature and Modules** from the left sidebar. Within this section, locate the option for the **Frontend Portal**. Click on the **Settings** button next to the Frontend Portal option.
+Go to the FluentBoards **Settings** and choose **Features & Modules** from the left sidebar. Under **Advanced Modules**, locate **Front Portal** and turn on its **Toggle**, then click the **Manage** button next to it.
 
 ![enable frontend portal](../public/images/settings/frontend-portal-settings/enable-frontend-portal-scaled.webp)
 
 ### Frontend Portal Setup
 
-A pop-up will appear. Now, check the **Enable Frontend Portal** checkbox.
+A **Frontend Portal Settings** pop-up will appear. Turn on the **Enable frontend portal** toggle, then choose how you'd like to display the portal under **How would you like to display the portal?**
 
-Next, under **"Via Shortcode / Dedicated Page?"**, choose how you want to display the portal on your site.
-
-If you select **Show in a standalone Frontend URL**, enter a **URL Slug** for your portal. It will be the custom link visitors use to access the portal. After entering the slug, click the **Save Settings** button.
+If you select **Dedicated portal URL**, enter a **Portal URL Slug** this becomes the final part of your portal's custom link. You'll see a preview of the full URL right below it. Once you're done, click the **Save** button.
 
 ![frontend url](../public/images/settings/frontend-portal-settings/Frontend-URL-scaled.webp)
 
-If you prefer an existing page, select **Use a pre-defined page via shortcode** from the dropdown option. Then, choose the page you want and add the shortcode **[fluent_boards]**. Once you've done this, click the **Save Settings** button.
+If you prefer an existing page, select **WordPress page using a shortcode** instead. Choose the page from the **Select a WordPress page** dropdown, then copy the **[fluent_boards]** shortcode and add it to that page. Once you've done this, click the **Save** button.
 
 ![via shortcode](../public/images/settings/frontend-portal-settings/Via-Shortcode-scaled.webp)
 
@@ -34,4 +32,4 @@ You'll see a login page on your website where your board members need to log in 
 
 ![portal login](../public/images/settings/frontend-portal-settings/Portal-login.webp)
 
-That's the process for enabling the Frontend portal for your FluentBoards. If you have any further questions, feel free to [contact us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+That's the process for enabling the Frontend portal for your FluentBoards.
