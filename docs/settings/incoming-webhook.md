@@ -36,7 +36,7 @@ Next to the URL, click the **Copy** icon to copy the webhook URL. On the right s
 
 In this process, we'll use [Postman](https://web.postman.co/){:target="_blank"} to generate a task with the webhook. Access your [Postman account](https://web.postman.co/){:target="_blank"} and paste your webhook URL into a new **POST** request.
 
-Go to the **Body** tab and select **form-data**. Remember, it's mandatory to include the **title** key. Then, add the necessary keys based on your mapping needs. Once all adjustments are made, click on the **Send** button to initiate the task creation.
+Go to the **Body** tab and select **form-data**. Remember, it's mandatory to include the **title key**. Then, add the necessary keys based on your mapping needs. Once all adjustments are made, click on the **Send** button to initiate the task creation.
 
 ![postman](../public/images/settings/incoming-webhook/postman-6.webp)
 
