@@ -89,7 +89,7 @@ export default defineConfig({
           { text: 'Introduction to FluentBoards', link: '/get-started-with-fluentboards' },
           { text: 'Dashboard Overview', link: '/fluentboards-dashboard-overview' },
           { text: 'Setting Up Your First Board', link: '/onboarding-board' },
-          { text: 'Your Profile & Tasks', link: '/fluentboards-profile-and-task-overview' }
+          { text: 'Shortcodes', link: '/shortcodes' }
         ]
       },
       {
@@ -116,7 +116,8 @@ export default defineConfig({
           { text: 'Recurring Tasks', link: '/recurring-task' },
           { text: 'Time Tracking', link: '/task-time-tracking' },
           { text: 'Custom Fields', link: '/custom-fields-for-task' },
-          { text: 'AI Features in Task Cards', link: '/ai-features-in-task-cards' }
+          { text: 'AI Features in Task Cards', link: '/ai-features-in-task-cards' },
+          { text: 'Your Profile & Tasks', link: '/fluentboards-profile-and-task-overview' }
         ]
       },
       {

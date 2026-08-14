@@ -6,7 +6,7 @@ Displaying your tasks and activities on FluentBoards is straightforward. Just cl
 
 Go to your FluentBoards Dashboard and click on your **Profile** image in the top right corner of the navbar.
 
-![fluentboards profile view](../public/images/getting-started/fluentboards-profile-and-task-overview/profile-view-1.webp)
+![fluentboards profile view](../public/images/tasks/fluentboards-profile-and-task-overview/profile-view-1.webp)
 
 Your **Profile** page opens with a left sidebar showing five sections: **Overview**, **Tasks**, **Activities**, **Notifications**, and **Layouts**.
 
@@ -23,7 +23,7 @@ Below your profile details, you'll find four stat cards that provide a quick sum
 
 Further down, the **Recent Tasks** section displays your latest assigned tasks along with their **Priority**, **Due Dat**e, and **Board**. Click **View All** to open your complete task list.
 
-![fluentboards profile info](../public/images/getting-started/fluentboards-profile-and-task-overview/profile-info-2.webp)
+![fluentboards profile info](../public/images/tasks/fluentboards-profile-and-task-overview/profile-info-2.webp)
 
 ## Tasks
 
@@ -33,7 +33,7 @@ Use the **Today, Assigned, Upcoming**, and **Overdue** tabs to quickly filter ta
 
 To display tasks from a specific board, use the board dropdown on the right. You can also switch between **Card** and **Table** views or click the **Sort** icon to organize tasks in your preferred order.
 
-![fluentboards Tasks](../public/images/getting-started/fluentboards-profile-and-task-overview/tasks-3.webp)
+![fluentboards Tasks](../public/images/tasks/fluentboards-profile-and-task-overview/tasks-3.webp)
 
 ## Activities
 
@@ -41,7 +41,7 @@ Open the **Activities** tab from the left sidebar to view a timeline of your rec
 
 This timeline records activities such as assigning members, adding or removing labels, and other task-related updates. Each activity also shows when the action was performed.
 
-![fluentboards Activities](../public/images/getting-started/fluentboards-profile-and-task-overview/activities-4.webp)
+![fluentboards Activities](../public/images/tasks/fluentboards-profile-and-task-overview/activities-4.webp)
 
 ## Notifications
 
@@ -50,7 +50,7 @@ Open the Notifications tab to manage your email notification preferences.
 For detailed information about each notification option, see the [Notification Settings](/notification-settings) guide.
 
 
-![fluentboards Notification](../public/images/getting-started/fluentboards-profile-and-task-overview/notification-5.webp)
+![fluentboards Notification](../public/images/tasks/fluentboards-profile-and-task-overview/notification-5.webp)
 
 ## Layouts
 
@@ -58,6 +58,6 @@ Open the Layouts tab to customize the information displayed on your task cards.
 
 For a detailed explanation of each option, see the [Card View Preferences](/card-view-preference-settings) guide.
 
-![fluentboards Layout](../public/images/getting-started/fluentboards-profile-and-task-overview/layout-6.webp)
+![fluentboards Layout](../public/images/tasks/fluentboards-profile-and-task-overview/layout-6.webp)
 
 If you have any further questions or need additional assistance, please don't hesitate to [contact us](https://wpmanageninja.com/support-tickets/){:target="_blank"}.
