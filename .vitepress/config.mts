@@ -177,7 +177,8 @@ export default defineConfig({
           { text: 'Tasks Report', link: '/task-report' },
           { text: 'Activity Reports', link: '/activity-report' },
           { text: 'Roadmap Overview', link: '/fluentboards-roadmap-overview' },
-          { text: 'Roadmap Settings', link: '/roadmap-settings' }
+          { text: 'Roadmap Settings', link: '/roadmap-settings' },
+          { text: 'Roadmap Report', link: '/roadmap-report' }
         ]
       },
       {
