@@ -6,50 +6,46 @@ In this article, we will guide you through the steps to create and utilize the R
 
 ## **Enable the Fluent Roadmap Addon**
 
-To enable the Roadmap feature in FluentBoards, go to the FluentBoards Dashboard. Click on the **Settings** button in the navbar, then select the **Feature and Module** tab from the left sidebar.
+To enable the Roadmap feature in FluentBoards, go to the FluentBoards Dashboard. Click on the **Settings** button in the navbar, then select **Features & Modules** from the left sidebar.
 
 In the **Recommended Plugins and Addons** section, you will see the **Fluent Roadmap** addon. Click the **Install Fluent Roadmap** button to install the addon. This is a single-click installation, so after clicking the button, the Fluent Roadmap addon will be installed automatically.
 
-![Enable Fluent Roadmap](../public/images/roadmap/fluentboards-roadmap-overview/Dashboard-‹-Demo-—-WordPress-04-17-2025_03_16_PM-scaled.webp)
+![Enable Fluent Roadmap](../public/images/roadmap/fluentboards-roadmap-overview/activate-the-roadmap-1.webp)
 
 ## Create Roadmap Board
 
-To create a Roadmap Board go to your FluentBoards and click on the **Boards** from the navbar then select **Add Board** button.
+To create a Roadmap Board go to your FluentBoards and click on the **Boards** from the navbar then select **+ Add Board** button.
 
-![fluentboards 1](../public/images/roadmap/fluentboards-roadmap-overview/FluentBoards-1-scaled.webp)
+![fluentboards 1](../public/images/roadmap/fluentboards-roadmap-overview/create-roadmap-board-2.webp)
 
-After clicking on the button you will see a pop-up from the right side where you have to give **Title** and **Description** for your Roadmap board. Next, choose the **Public Roadmap** option by selecting the **Radio** button under the **Type** section.
+A **Create Roadmap** pop-up will appear. Enter a **Roadmap title**, then choose **Public Roadmap** from the **Type** dropdown. From here, you can also customize the default **Stages**, **Labels**, **Members**, and **Background**, or start from an existing template. Once you're done, click the **Create Roadmap** button.
 
-Now you will see the **Stage names** for your Roadmap Board. You can change the stage names here by clicking over the stage names. After customizing your stages, click on the **Save** button to finalize and create your Roadmap board.
+![Choose Public Roadmap](../public/images/roadmap/fluentboards-roadmap-overview/public-roadmap-3.webp)
 
-![public roadmap](../public/images/roadmap/fluentboards-roadmap-overview/public-roadmap-scaled.webp)
+Now you'll be redirected to your Roadmap Board. Here, you can add tasks, manage assignees, and handle other task-related settings that are similar to the normal **Boards settings**.
 
-Now you'll be redirected to your Roadmap Board. Here, you can add tasks, manage assignees, and handle other task-related settings that are similar to the normal***Boards* settings**.
+![public roadmap](../public/images/roadmap/fluentboards-roadmap-overview/fluentboard-roadmap-4.webp)
 
-![fluentboards roadmap fluentboards 1](../public/images/roadmap/fluentboards-roadmap-overview/FluentBoards-Roadmap-FluentBoards-1-scaled.webp)
+At the top of each stage, you will see an icon indicating if the stage is public or private. A globe icon means the stage is visible on your frontend Roadmap, while a lock icon means it stays internal. To make a public stage private, click on the **Three Dot** icon at the top of the stage, then select **Make This Stage Private** from the stage menu.
 
-At the top of each stage, you will see a button indicating if the board is **Public** or **Admin**. To keep a stage public, no changes are needed. To make a stage admin-only, click on the settings icon at the top of the stage, then select the **Make This Stage Admin Only** button from the stage settings.
-
-![fluentboards roadmap 1](../public/images/roadmap/fluentboards-roadmap-overview/FluentBoards-Roadmap-1-scaled.webp)
+![fluentboards roadmap 1](../public/images/roadmap/fluentboards-roadmap-overview/make-stage-private-5.webp)
 
 ## **FluentBoards Roadmap Frontend View**
 
 To display your Roadmap Boards on the frontend, navigate to the specific board you wish to add. Click on the three-dot button located at the top of your board to open the **Board Menu**. Next, select **About This Board** from the menu options.
 
-![fluentboards roadmap 3](../public/images/roadmap/fluentboards-roadmap-overview/FluentBoards-Roadmap-3-scaled.webp)
+![fluentboards roadmap 3](../public/images/roadmap/fluentboards-roadmap-overview/about-this-board-6.webp)
 
-Once in the **Board Info** section, locate the **Select Page** dropdown field to choose a page where your Roadmap will appear. Afterward, you'll find a shortcode for embedding your Roadmap on the frontend. Below, there's a button to navigate directly to the selected page for adding your roadmap.
+Here you will see your board details, like the number of **Tasks**, **Stages**, **Labels**, and **Members**. Below that, you'll find two shortcodes: the **Shortcode** for embedding the board itself, and the **Roadmap Shortcode** for embedding the public-facing Roadmap. Turn on the **Public Access** toggle so anyone with the link can view your Roadmap.
 
-**Stage Changed Email** notifications will inform you about updates regarding stage changes.
+![fluentboards roadmap 4](../public/images/roadmap/fluentboards-roadmap-overview/roadmap-shortcode-7.webp)
 
-![fluentboards roadmap 4](../public/images/roadmap/fluentboards-roadmap-overview/FluentBoards-Roadmap-4-scaled.webp)
+Navigate to the desired page where you want to embed your Roadmap and add a **Shortcode block** from the Gutenberg Blocks. Paste the copied **Roadmap Shortcode** from the **About This Board** panel into the block. Finally, click the **Update** button to save your changes.
 
-Navigate to the desired page where you want to embed your Roadmap and add a **Shortcode block** from the Gutenberg Blocks. Paste the copied Shortcode from the **Board Info** into the block. Finally, click the **Update** button to save your changes.
-
-![edit page fluentboards roadmap ‹ izzo style — wordpress](../public/images/roadmap/fluentboards-roadmap-overview/Edit-Page-FluentBoards-Roadmap-‹-Izzo-Style-—-WordPress-scaled.webp)
+![edit page fluentboards roadmap ‹ izzo style — wordpress](../public/images/roadmap/fluentboards-roadmap-overview/roadmap-page-8.webp)
 
 Now, when you preview your Roadmap Board on the frontend of your website, you will see it displayed like this.
 
-![fluentboards roadmap frontend ](../public/images/roadmap/fluentboards-roadmap-overview/FluentBoards-Roadmap-FrontEnd-.webp)
+![fluentboards roadmap frontend ](../public/images/roadmap/fluentboards-roadmap-overview/view-roadmap-9.webp)
 
-Here's how you can create a Roadmap for your site using Fluent Boards. If you have any more questions, feel free to [reach out to us](https://wpmanageninja.com/support-tickets/){:target="_blank"}.
+Here's how you can create a Roadmap for your site using Fluent Boards. 
