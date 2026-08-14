@@ -1,6 +1,6 @@
 # Roadmap Overview
 
-FluentBoards offers an excellent feature called Roadmap, which allows you to create a roadmap for your products and services on your website's front end. This enables users to view your future plans and share their ideas with you. The roadmap will be displayed on your site's front end for easy access and interaction.
+FluentBoards offers an excellent feature called **Roadmap**, which allows you to create a roadmap for your products and services on your website's front end. This enables users to view your future plans and share their ideas with you. The roadmap will be displayed on your site's front end for easy access and interaction.
 
 In this article, we will guide you through the steps to create and utilize the Roadmap feature using FluentBoards.
 
@@ -26,7 +26,9 @@ Now you'll be redirected to your Roadmap Board. Here, you can add tasks, manage 
 
 ![public roadmap](../public/images/roadmap/fluentboards-roadmap-overview/fluentboard-roadmap-4.webp)
 
-At the top of each stage, you will see an icon indicating if the stage is public or private. A globe icon means the stage is visible on your frontend Roadmap, while a lock icon means it stays internal. To make a public stage private, click on the **Three Dot** icon at the top of the stage, then select **Make This Stage Private** from the stage menu.
+At the top of each stage, you will see an icon indicating if the stage is public or private. A globe icon means the stage is visible on your frontend Roadmap, while a lock icon means it stays internal. 
+
+To make a public stage private, click on the **Three Dot** icon at the top of the stage, then select **Make This Stage Private** from the stage menu.
 
 ![fluentboards roadmap 1](../public/images/roadmap/fluentboards-roadmap-overview/make-stage-private-5.webp)
 
@@ -36,7 +38,11 @@ To display your Roadmap Boards on the frontend, navigate to the specific board y
 
 ![fluentboards roadmap 3](../public/images/roadmap/fluentboards-roadmap-overview/about-this-board-6.webp)
 
-Here you will see your board details, like the number of **Tasks**, **Stages**, **Labels**, and **Members**. Below that, you'll find two shortcodes: the **Shortcode** for embedding the board itself, and the **Roadmap Shortcode** for embedding the public-facing Roadmap. Turn on the **Public Access** toggle so anyone with the link can view your Roadmap.
+Here you will see your board details, like the number of **Tasks**, **Stages**, **Labels**, and **Members**. 
+
+Below that, you'll find two shortcodes: the **Shortcode** for embedding the board itself, and the **Roadmap Shortcode** for embedding the public-facing Roadmap. 
+
+Turn on the **Public Access** toggle so anyone with the link can view your Roadmap.
 
 ![fluentboards roadmap 4](../public/images/roadmap/fluentboards-roadmap-overview/roadmap-shortcode-7.webp)
 
