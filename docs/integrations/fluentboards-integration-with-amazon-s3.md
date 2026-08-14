@@ -70,7 +70,7 @@ In the **Set Permissions** step, select **Attach policies directly**. Then, sear
 
 You can skip the **Review and Create** step and click the **Create User** button to create the new user.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2LvNlInyI3ff-OXqHHIioZEBlQiQltrPP9nOLcpnx48aji2JKyIjZuEraq7zdCbGt6iiATSpkpV8sabvQ0txKMNif2IKaeyvqNwq8XxLqbYv_zgpKMwPf9ECLFh-rhnlBJsdrDw?key=NRFgCgcVDDPbgGEqJT_Tn28n)
+![create user 10](../public/images/integrations/fluentboards-integration-with-amazon-s3/create-user-10-scaled.webp)
 
 Your user has been created successfully. In the **Users** section, you will now see the newly created user. Click on the **User Name** to view the details.
 
