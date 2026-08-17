@@ -1,6 +1,6 @@
 # Your Profile & Tasks
 
-Displaying your tasks and activities on FluentBoards is straightforward. Just click on your Profile to view your tasks, activities, notifications, and layout preferences, all in one place.
+Managing your tasks and activities in FluentBoards is simple with your Profile. From one place, you can view your assigned tasks, recent activities, notifications, and layout preferences, giving you a quick overview of your work and helping you stay organized.
 
 ## Opening Your Profile
 
