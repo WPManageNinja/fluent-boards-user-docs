@@ -1,6 +1,8 @@
 # Import Boards from Asana
 
-With the Import feature of FluentBoards, you can Import Boards from **Asana**. It’s a very simple process we will show you the process in this article.
+FluentBoards makes it easy to move your boards from Asana. You can either export an **Asana** board as a JSON file and upload it to FluentBoards, or connect your Asana account using a Personal Access Token to import your workspaces directly.
+
+This guide walks you through both methods of importing your Asana boards into FluentBoards.
 
 ## Export Board from Asana
 

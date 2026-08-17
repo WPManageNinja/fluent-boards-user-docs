@@ -1,83 +1,155 @@
 # MCP for AI Agents
 
-The MCP (Model Context Protocol) integration in FluentBoards allows you to connect your project boards with AI tools like Anthropic Claude Desktop, Claude Code, Cursor, and OpenAI Codex. With this integration, AI agents can interact with your boards using natural language to read, create, and manage project data.
+With FluentBoards, you can connect your boards to AI tools like **Claude Code**, **Claude Desktop**, **Cursor**, and **OpenAI Codex** using MCP (Model Context Protocol). Once connected, you can ask your AI assistant to read your boards, create tasks, move tasks, assign members, and add comments, all in plain language.
 
-This integration works through a secure connection using a WordPress Application Password, giving you full control over access and permissions.
+Every connection uses a WordPress **Application Password**, so your AI assistant only ever has the same permissions as your WordPress account. It never gets more access than you already have.
 
 > [!Note]
-> Looking for AI help inside a task itself, like writing descriptions or summarizing a card? That's a separate, built-in feature check out the [AI Features in Task Cards](/ai-features-in-task-cards) guide instead.
+> The AI tools available through MCP are different from the built-in AI features inside task cards. If you want AI to write task descriptions or summarize a card, check out the [AI Features in Task Cards](/ai-features-in-task-cards) guide instead.
 
-### Open the MCP Settings
+## Open the MCP Settings
 
-To access the configuration panel, log in to your WordPress dashboard. From the left sidebar, navigate to **FluentBoards** → **Settings**, and select the **MCP for AI Agent** tab from the settings menu. Everything you need to initialize, authenticate, and configure your connections lives on this single screen.
+Go to your **FluentBoards Dashboard** and click on **Settings** from the top menu or left sidebar. Select the **MCP for AI Agent** tab from the settings menu.
 
+Here you will find everything you need to enable MCP, install the required plugin, check your connection status, and connect your preferred AI client.
 
 ## Step 1: Enable MCP for AI Agents
 
-To allow external AI assistants to discover your FluentBoards environment, toggle the **Enable MCP for AI Agents** switch located at the top of the configuration page. When turned on, FluentBoards dynamically exposes its underlying capabilities to authorized MCP clients.
+Simply toggle on the **Enable MCP for AI Agents** switch at the top of the page. Once enabled, FluentBoards makes its tools available to authorized AI clients.
 
 > [!Note]
-> If you need to stop all connected AI tools from accessing FluentBoards, simply turn this toggle off. The MCP endpoint will stop accepting requests right away, while keeping all your settings unchanged.
+> If you ever want to stop every connected AI tool from accessing FluentBoards, just turn this toggle off. Your other MCP settings stay unchanged.
 
 ![Enabling MCP Toggle Switch](../public/images/settings/mcp-for-ai-agents/enable-mcp-for-ai-agents-1.webp)
 
-## Step 2: Install and Activate FluentToolkit
+## Step 2: Install and Activate FluentHub
 
-FluentBoards utilizes a lightweight companion plugin called **FluentToolkit** to manage and expose its specific tool schema. If this plugin is missing or inactive, an **Adapter Required** warning will appear in your status panel.
+FluentBoards uses a lightweight companion plugin called **FluentHub** to power this connection. If it's missing or inactive, you'll see an **Adapter Required** notice on the settings page.
 
-* **One-Click Installation:** Click the **Install FluentToolkit** button on the settings page. WordPress will automatically download, install, and activate the extension in the background.
-* **Manual Installation:** You can also download FluentToolkit yourself from [https://static.wpmanageninja.com/fluent-toolkit.zip](https://static.wpmanageninja.com/fluent-toolkit.zip). Upload the ZIP via **Plugins → Add New → Upload Plugin**, click activate, and return to the **MCP for AI Agent** configuration screen.
+* **One-Click Installation:** Click the **Install FluentHub** button on the settings page. WordPress downloads, installs, and activates it for you.
+* **Manual Installation:** Download the **FluentHub** plugin archive, then go to **Plugins → Add New → Upload Plugin**. Upload the file, click **Activate**, and return to the **MCP for AI Agent** tab.
 
-## Step 3: Verify the Connection Status
+![Install and activate FluentHub](../public/images/settings/mcp-for-ai-agents/install-fluenthub-2.webp)
 
-Once both the toggle is enabled and FluentToolkit is active, review the **Status** panel. This panel serves as confirmation that your local server is ready to accept authenticated client connections.
+## Step 3: Check the Connection Status
+
+Once the toggle is on and FluentHub is active, review the **Status** panel. It confirms your site is ready to accept AI connections.
 
 | Field | Description |
 | --- | --- |
-| **Adapter** | Displays the active version of your FluentToolkit plugin (e.g., FluentToolkit 2.1.0) along with a green **Connected** badge. |
-| **Endpoint URL** | The direct REST API address your AI client requires to target this server (e.g., `https://your-site.com/wp-json/fluent-boards/mcp`). A **Copy** button sits right next to it. |
-| **Tools Available** | Total number of MCP tools exposed, covering board, task, move, archive, and comment actions (29 in this example). |
+| **Adapter** | Shows your active FluentHub version with a green **Connected** badge. |
+| **Endpoint URL** | The address your AI client needs to reach FluentBoards. Click **Copy** to grab it. |
+| **Tools Available** | The total number of MCP tools your AI client can use. |
 
-> If your **Tools Available** counter displays 0, double-check that the main **Enable MCP for AI Agents** toggle from Step 1 is thoroughly switched on.
+> [!Note]
+> If **Tools Available** shows 0, double-check that the **Enable MCP for AI Agents** toggle from Step 1 is switched on.
 
+![Check the connection status](../public/images/settings/mcp-for-ai-agents/connection-status-3.webp)
 
 ## Step 4: Generate a WordPress Application Password
 
-External AI applications sign in to your WordPress installation via an isolated **Application Password**. Because this is built natively into WordPress, no secondary security extensions are required.
+AI clients sign in to FluentBoards through a WordPress **Application Password**, not your regular login password. This lets you revoke a single AI connection later without changing your main password.
 
-[Image: Application Passwords Generation Screen]
-
-1. Navigate to **Users** → **Profile** from your WordPress admin dashboard and scroll down to the **Application Passwords** section.
-2. Provide a unique, descriptive name to easily identify the specific client connection (e.g., *Cursor AI* or *Claude Desktop Office*).
+1. Go to **Users → Profile** from your WordPress dashboard and scroll down to the **Application Passwords** section.
+2. Enter a name that identifies the connection, such as *Claude Desktop* or *Cursor*.
 3. Click **Add New Application Password**.
-4. Securely copy the generated 24-character security key (`xxxx xxxx xxxx xxxx xxxx xxxx`).
+4. Copy the generated password and save it somewhere safe.
 
-> **Warning:** This key is explicitly displayed only once. If you exit the profile screen before copying it down, you must revoke that label and generate a brand new one.
+> **Warning:** This password is shown only once. If you leave the page before copying it, you'll need to revoke that entry and generate a new one.
 
-![Add Appllication password](../public/images/settings/mcp-for-ai-agents/add-password-3.webp)
+![Add Application Password](../public/images/settings/mcp-for-ai-agents/add-password-4.webp)
 
-![Copy Appllication password](../public/images/settings/mcp-for-ai-agents/copy-application-password-4.webp)
+![Copy Application Password](../public/images/settings/mcp-for-ai-agents/copy-application-password-5.webp)
+
+## Before You Connect: Check for Node.js
+
+Some AI clients, including Claude Desktop and Cursor, need a small helper tool called **Node.js** to talk to your site. Most AI clients guide you through this automatically, but it helps to check first.
+
+Open **Terminal** (on Mac) or **Command Prompt** (on Windows) and run:
+
+```bash
+node -v
+```
+
+If a version number appears, you're all set. If the command isn't recognized, head to [nodejs.org](https://nodejs.org), download the **LTS** version, and run the installer. Restart your computer once it finishes, then fully quit and reopen your AI client before connecting.
+
+> [!Note]
+> This is a one-time setup. Once Node.js is installed, you won't need to check for it again for future MCP connections.
 
 ## Step 5: Connect Your Preferred AI Client
 
-Return to the **MCP for AI** panel inside FluentBoards and look for the **Connect a client** section. By providing your profile parameters here, the plugin automatically structures a personalized connection block for your target app.
+Return to the **MCP for AI Agent** tab and find the **Connect a client** section. FluentBoards uses your details here to build a ready-to-use connection snippet.
 
-1. Input your active WordPress account login name into the **Username** text field. A handy **Open Application Passwords** link sits right above this field if you still need to generate one.
-2. Paste the un-spaced or spaced **Application Password** generated during Step 4 into the password field. Click the eye icon to reveal it and double-check for typos.
-3. Choose the tab corresponding to your AI workspace provider (**Claude Code**, **OpenAI Codex**, **Cursor**, **Other**, or **Claude Desktop**).
-4. Click **Copy snippet** to send the configured instructions to your clipboard.
+1. Enter your WordPress login name in the **Username** field. Use the **Open Application Passwords** link above it if you still need to generate one.
+2. Paste the **Application Password** from Step 4. Click the eye icon to double-check it for typos.
+3. Choose the tab for your AI client: **Claude Code**, **Claude Desktop**, **Cursor**, **OpenAI Codex**, or **Other**.
+4. Click **Copy snippet** to copy the connection details to your clipboard.
 
-![Copy Appllication password](../public/images/settings/mcp-for-ai-agents/copy-snippet-5.webp)
+![Copy the connection snippet](../public/images/settings/mcp-for-ai-agents/copy-snippet-6.webp)
 
-## Worked example: connecting Cursor
+Here's the full flow for each client as a worked example. The same idea applies to every tab, only the snippet format and where you paste it change.
 
-Here's the full Cursor flow as a worked example. The same idea applies to other clients, only the snippet format changes.
+### Connecting Claude Code
 
-1. **Open Cursor's MCP settings**. In **Cursor**, open the command palette and search for **Cursor Settings**, then go to **Tools & MCPs** in the left sidebar. Under **Installed MCP Servers**, click **New MCP Server**.
+1. **Copy the snippet.** With your username and application password filled in, select the **Claude Code** tab and click **Copy snippet**. It looks like this:
 
-![New MCP Server](../public/images/settings/mcp-for-ai-agents/new-mcp-server-6.webp)
+```bash
+claude mcp add \
+  --transport http \
+  fluent-boards https://your-site.com/wp-json/fluent-boards/mcp \
+  --header "Authorization: Basic <encoded-credentials>"
+```
 
-2. **Paste** the snippet into **mcp.json**. **Cursor** opens an editor for the **mcp.json** config file. **Copy** the snippet from the **Cursor** tab in Fluentboard Connect a client panel and paste it in. It looks like this:
+2. **Run it in your terminal.** **Paste** the snippet into the terminal where Claude Code is installed and press **Enter**.
+
+3. **Check the confirmation.** Claude Code confirms that the `fluent-boards` MCP server was added to your local config, pointed at your endpoint with the Basic auth header.
+
+![Claude Code terminal confirming the connection](../public/images/settings/mcp-for-ai-agents/claude-code-confirm-7.webp)
+
+You can verify the connection anytime by running `claude mcp list` or `claude mcp get fluent-boards`.
+
+### Connecting Claude Desktop
+
+Claude Desktop reads its MCP servers from a configuration file, and it opens that file for you.
+
+1. Go to **Settings → Developer → Edit Config**. Claude Desktop creates the file if it doesn't exist yet and shows you where it lives. On macOS, it's `~/Library/Application Support/Claude/claude_desktop_config.json`. On Windows, it's `%APPDATA%\Claude\claude_desktop_config.json`.
+2. Open the file in a plain text editor. TextEdit on macOS or Notepad on Windows both work fine.
+3. Paste the snippet from the **Claude Desktop** tab in FluentBoards, keeping the surrounding JSON valid if you already have other servers listed.
+4. Save the file and fully quit Claude Desktop, then open it again. Closing the window isn't enough. Quit it from the menu bar (macOS) or the system tray (Windows).
+
+> [!Note]
+> Feel free to just paste the snippet into a Claude Desktop or Claude Code chat and ask it to add the file for you instead of editing it by hand.
+
+### Connecting OpenAI Codex
+
+Click the **OpenAI Codex** tab on the FluentBoards settings page, enter your username and application password, then hit **Copy snippet**. The snippet includes everything pre-filled, including the encoded authorization header.
+
+![Copy the OpenAI Codex snippet](../public/images/settings/mcp-for-ai-agents/openai-codex-snippet-8.webp)
+
+Open the ChatGPT desktop app and go to **Settings → Plugins → MCPs → + Add server**, then fill in the details from the snippet:
+
+* **Name:** fluent-boards
+* **Transport:** Streamable HTTP
+* **URL:** your endpoint URL
+* **Header Key:** Authorization
+* **Header Value:** the `Basic …` string from the snippet
+
+![Add server details in ChatGPT](../public/images/settings/mcp-for-ai-agents/openai-codex-add-server-9.webp)
+
+Click **Save**, and everything is ready to run from your ChatGPT app.
+
+![OpenAI Codex connected and running](../public/images/settings/mcp-for-ai-agents/openai-codex-connected-10.webp)
+
+> [!Note]
+> The Node.js and npx check from earlier applies to OpenAI Codex too.
+
+### Connecting Cursor
+
+1. **Open Cursor's MCP settings.** In **Cursor**, open the command palette and search for **Cursor Settings**, then go to **Tools & MCPs** in the left sidebar. Under **Installed MCP Servers**, click **New MCP Server**.
+
+![New MCP Server](../public/images/settings/mcp-for-ai-agents/new-mcp-server-11.webp)
+
+2. **Paste the snippet into mcp.json.** Cursor opens an editor for the **mcp.json** config file. Copy the snippet from the **Cursor** tab in FluentBoards' **Connect a client** panel and paste it in. It looks like this:
 
 ```json
 {
@@ -91,67 +163,94 @@ Here's the full Cursor flow as a worked example. The same idea applies to other 
     }
   }
 }
-
 ```
 
+![Paste code](../public/images/settings/mcp-for-ai-agents/mcp-json-12.webp)
 
-![Paste code](../public/images/settings/mcp-for-ai-agents/mcp-json-7.webp)
+3. **Save and reload.** Save `mcp.json` and reload **Cursor**. Open **Tools & MCPs** again, and you'll see `fluent-boards` in your Installed MCP Servers list with its available tools listed underneath.
 
-3. **Save** and reload. Save mcp.json and reload **Cursor**. Open **Tools & MCPs** again, and you'll see fluent-boards in your Installed MCP Servers list with all available tools listed underneath:
+![Save and reload](../public/images/settings/mcp-for-ai-agents/fluent-boards-13.webp)
 
-![Save and reload](../public/images/settings/mcp-for-ai-agents/fluent-boards-8.webp)
+### Connecting Other MCP Clients
 
-#### Project & Board Contexts
+If you use another AI application that supports MCP, select the **Other** tab and copy the raw endpoint URL and authorization header. Adapt it to the format your client requires.
 
-* **List Boards (`fluent-boards-list-boards`):** Retrieves titles, metadata, and visibility properties of available workspaces.
-* **Get Workspace Context (`fluent-boards-get-context`):** Provides a high-level overview of card volumes, active boards, and immediate priorities.
+### Connecting ChatGPT
 
-#### Card & Task Management
+ChatGPT can work with custom MCP apps, but this depends on your ChatGPT plan and workspace settings. OpenAI currently documents full MCP support, including write actions, for supported Business, Enterprise, and Edu workspaces.
 
-* **Create Task (`fluent-boards-create-task`):** Generates new task cards directly inside specified list stages.
-* **Update Task Details (`fluent-boards-update-task`):** Modifies running descriptions, labels, priorities, or adjusts due dates dynamically.
-* **Move Stages (`fluent-boards-move-task-stage`):** Drags task entries from open phases into review, progress, or complete stages.
+If your ChatGPT workspace supports custom MCP apps:
 
-#### Team Assignment & Communication
+1. Make sure your workspace has access to **Developer mode** or custom MCP apps.
+2. In ChatGPT, open **Settings** and go to the **Apps** or developer section.
+3. Create a new custom MCP app.
+4. Enter the **FluentBoards MCP Endpoint URL** from Step 3.
+5. Configure the authentication method your workspace requires.
+6. Load the available FluentBoards tools.
+7. Save the app and enable it for your account or workspace.
+8. Open a new ChatGPT conversation, select the FluentBoards app, and test it with a simple request.
 
-* **Assign Member (`fluent-boards-assign-member`):** Links profiles to specific cards to delegate tasks to team members.
-* **Add Comment (`fluent-boards-add-comment`):** Posts text notes directly into task card event timelines for ongoing collaboration.
+> [!Note]
+> This is different from the **OpenAI Codex** connection above. Codex uses the snippet FluentBoards generates for you directly, while ChatGPT connects through your workspace's own custom MCP app settings. Availability and steps can change as OpenAI updates this feature, so follow the current instructions inside your ChatGPT workspace.
 
-#### Natural Language Prompt Examples:
+## Step 6: Verify It's Working
 
-* *"Check my FluentBoards and show me the top 3 high-priority tasks due this week."*
-* *"Create a task card called 'Draft marketing budget' in the Planning board under the 'To-Do' list."*
-* *"Add a comment to the 'Design Fixes' card saying that the assets have been reviewed."*
+Open your AI client and ask it to do something real, like creating a board or listing your tasks.
 
-### Other AI clients
+![Example prompt](../public/images/settings/mcp-for-ai-agents/example-14.webp)
 
-The other tabs work the same way, only the snippet format changes to match the client:
+Now check the front end of your site. Go to your **Boards** section, and you'll see the AI's changes reflected there too.
 
- * **Claude Code:** A terminal command `(claude mcp add ...)` you paste into your terminal. After it runs, the FluentBoard tools appear in your next claude session.
- * **Claude Desktop:** A snippet for `claude_desktop_config.json`. Paste it into the file at the path Anthropic documents for your OS, then restart Claude Desktop.
- * **OpenAI Codex:** A configuration block for Codex's settings. Follow the instructions shown under the snippet on the OpenAI Codex tab.
- * **Other:** Generic configuration block you can adapt for any MCP-compliant client.
- * In every case, the workflow is the same: fill in the username and password fields, pick the right tab, copy the snippet, and paste it into the AI client where it expects an MCP server config.
+![Board created from an AI prompt](../public/images/settings/mcp-for-ai-agents/example-15.webp)
 
-## Step 6: Verify it's working
+## What Your AI Agent Can Do
 
-Open your AI client and ask it something only FluentBoard would know. For example:
+Once connected, you don't need to remember any technical commands. Just describe what you want, and your AI agent picks the right action.
 
-![Example](../public/images/settings/mcp-for-ai-agents/example-10.webp)
+### Boards and Workspace
 
-Now, if you want to view it on the front end of your site, go to your website’s Boards section. There, you will see the newly created board.
+* **List your boards** and see what's available across your account.
+* **Get an overview** of a board, including its stages, labels, and members.
+* **Create a new board**, complete with custom stages and labels.
 
-![Example](../public/images/settings/mcp-for-ai-agents/example-11.webp)
+**Try asking:** *"List all my FluentBoards."* or *"Create a board called 'Retainer Radar' with stages New Request, In Progress, Client Review, Delivered."*
 
-### Security, Revocation, & Best Practices
+### Tasks and Stages
 
-* **Isolated Application Access:** Always generate a separate, uniquely named Application Password for each individual AI assistant tool. If you decide to stop using one client, you can safely remove it without breaking other active integrations.
-* **Revoking Access:** To break a connection immediately, head to **Users** → **Profile** → **Application Passwords**, find your target device row, and click **Revoke**.
-* **Credential Safety:** The snippet generated within your settings screen contains securely encoded access tokens. Treat this snippet as safely as a master password: never include it in public version control repositories, online pastebin boards, or open team screenshots.
+* **Create, update, and move tasks** between stages.
+* **Search or filter tasks** by status, priority, or due date.
+* **Organize checklists** with subtasks and subtask groups.
 
+**Try asking:** *"Create a task called 'Draft marketing budget' in the Planning board under the To-Do stage."* or *"Move the Homepage Design task to In Progress."*
 
-### Troubleshooting Common Issues
+### Team and Collaboration
 
-* **The "Adapter Required" Shield Remains Up:** Give your web browser a hard refresh (`Ctrl + F5` or `Cmd + Shift + R`). If the badge remains, navigate to your core **Plugins** dashboard to double-check that **FluentToolkit** is explicitly flagged as **Active**.
-* **The AI Client Reports an "Unauthorized" Exception:** Your username spelling or the 24-character application security password contains a typo. Regenerate a clean password from your user profile and reconstruct the snippet block.
-* **Commands Complete Successfully but Do Not Reflect Production Realities:** Verify that your site's local **Endpoint URL** exactly matches the domain structure and protocol (HTTP vs HTTPS) configured inside your external AI workspace. WordPress application authentication strictly relies on a functioning, publicly clear REST API route.
+* **Assign or remove members** on a task.
+* **Add labels** to keep tasks organized.
+* **Add comments** to keep collaboration inside the task.
+
+**Try asking:** *"Assign the website redesign task to John."* or *"Add a comment to the Design Fixes task saying the assets have been reviewed."*
+
+### A Few More Prompt Ideas
+
+* *"What tasks are overdue across all my boards?"*
+* *"Summarize progress on the Smith & Co. Redesign board: what's done, in progress, and blocked."*
+* *"Archive everything marked Done on the E-Commerce Redesign board."*
+* *"Give me an overview of the tasks currently in progress across my boards."*
+
+## Security, Revocation, and Best Practices
+
+* **Isolated Access:** Create a separate Application Password for each AI client you connect. If you stop using one client, you can remove it without breaking the others.
+* **Revoking Access:** To disconnect a client right away, go to **Users → Profile → Application Passwords**, find the entry, and click **Revoke**.
+* **Credential Safety:** The generated snippet contains an encoded access token. Treat it like a password. Never paste it into public repositories, pastebins, or shared screenshots.
+* **Reviewable by Design:** Most AI clients ask you to approve a new action the first time it runs, unless you've set it to always allow. Nothing happens silently in the background.
+* **Team Use:** Each teammate should connect with their own WordPress login and Application Password, so their AI assistant only ever sees what that person can already access.
+
+## Troubleshooting Common Issues
+
+* **The "Adapter Required" Notice Won't Go Away:** Refresh the settings page. If it's still there, go to your **Plugins** page and confirm **FluentHub** is listed as **Active**.
+* **The AI Client Reports an "Unauthorized" Error:** Your username or Application Password likely has a typo. Generate a fresh password from your profile and copy a new snippet.
+* **The Connection Looks Active, but Nothing Happens:** Check that you replaced any placeholder text in your AI client's configuration with your real Application Password. A "connected" status only confirms the tool started, not that it logged in successfully.
+* **It Works Locally but Not on Your Live Site:** Confirm your **Endpoint URL** uses the correct domain and protocol (HTTP vs HTTPS), and that your site's REST API is publicly reachable.
+
+If you have any further queries, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

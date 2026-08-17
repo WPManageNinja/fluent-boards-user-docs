@@ -84,11 +84,11 @@ export default defineConfig({
         text: 'Getting Started',
         collapsed: true,
         items: [
-          { text: 'Installing FluentBoards', link: '/fluentboards-installation-guide' },
-          { text: 'Activating Your License', link: '/fluentboards-licence-activation' },
-          { text: 'Introduction to FluentBoards', link: '/get-started-with-fluentboards' },
+          { text: 'Installation', link: '/fluentboards-installation-guide' },
+          { text: 'License Activation', link: '/fluentboards-licence-activation' },
+          { text: 'Introduction', link: '/get-started-with-fluentboards' },
           { text: 'Dashboard Overview', link: '/fluentboards-dashboard-overview' },
-          { text: 'Setting Up Your First Board', link: '/onboarding-board' },
+          { text: 'First Board Setup', link: '/onboarding-board' },
           { text: 'Shortcodes', link: '/shortcodes' }
         ]
       },
@@ -97,27 +97,27 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Board Overview', link: '/board-overview' },
-          { text: 'Creating a New Board', link: '/how-to-create-a-new-board' },
+          { text: 'Create a Board', link: '/how-to-create-a-new-board' },
           { text: 'Board Views', link: '/boards-view' },
           { text: 'Board Settings', link: '/board-settings' },
           { text: 'Pinned Boards', link: '/pinned-boards' },
-          { text: 'Organizing with Folders', link: '/boards-with-folders' },
-          { text: 'Creating & Managing Stages', link: '/how-to-create-a-new-stage' },
-          { text: 'Stage Default Assignee', link: '/stage-default-assignee' }
+          { text: 'Board Folders', link: '/boards-with-folders' },
+          { text: 'Manage Stages', link: '/how-to-create-a-new-stage' },
+          { text: 'Default Assignee', link: '/stage-default-assignee' }
         ]
       },
       {
         text: 'Tasks',
         collapsed: true,
         items: [
-          { text: 'Creating & Managing Tasks', link: '/how-to-create-a-new-task' },
+          { text: 'Profile & Tasks', link: '/fluentboards-profile-and-task-overview' },
+          { text: 'Manage Tasks', link: '/how-to-create-a-new-task' },
           { text: 'Task Actions', link: '/task-action' },
-          { text: 'Using Task Templates', link: '/task-template' },
+          { text: 'Task Templates', link: '/task-template' },
           { text: 'Recurring Tasks', link: '/recurring-task' },
           { text: 'Time Tracking', link: '/task-time-tracking' },
           { text: 'Custom Fields', link: '/custom-fields-for-task' },
-          { text: 'AI Features in Task Cards', link: '/ai-features-in-task-cards' },
-          { text: 'Your Profile & Tasks', link: '/fluentboards-profile-and-task-overview' }
+          { text: 'AI Task Features', link: '/ai-features-in-task-cards' }
         ]
       },
       {
@@ -125,7 +125,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Member Roles', link: '/member-roles' },
-          { text: 'Notification Settings', link: '/notification-settings' },
+          { text: 'Notifications', link: '/notification-settings' },
           { text: 'Daily Reminders', link: '/daily-reminder-settings' }
         ]
       },
@@ -147,7 +147,7 @@ export default defineConfig({
           { text: 'Amazon S3', link: '/fluentboards-integration-with-amazon-s3' },
           { text: 'Cloudflare R2', link: '/fluentboards-integration-with-cloudflare-r2' },
           { text: 'Backblaze', link: '/fluentboards-integration-with-backblaze' },
-          { text: 'DigitalOcean Spaces', link: '/fluentboards-integration-with-digital-ocean' }
+          { text: 'DigitalOcean', link: '/fluentboards-integration-with-digital-ocean' }
         ]
       },
       {
@@ -156,16 +156,16 @@ export default defineConfig({
         items: [
           { text: 'Import from Trello', link: '/import-from-trello' },
           { text: 'Import from Asana', link: '/import-boards-from-asana' },
-          { text: 'Import Your Boards', link: '/import-boards-into-fluentboards' }
+          { text: 'Import Boards', link: '/import-boards-into-fluentboards' }
         ]
       },
       {
         text: 'Settings & Preferences',
         collapsed: true,
         items: [
-          { text: 'Card View Preferences', link: '/card-view-preference-settings' },
+          { text: 'Card View', link: '/card-view-preference-settings' },
           { text: 'Frontend Portal', link: '/frontend-portal-settings' },
-          { text: 'Menu Position in WordPress', link: '/fluentboards-menu-position-in-wordpress' },
+          { text: 'Menu Position', link: '/fluentboards-menu-position-in-wordpress' },
           { text: 'AI Model Setup', link: '/ai-model-setup' },
           { text: 'MCP for AI Agents', link: '/mcp-for-ai-agents' }
         ]

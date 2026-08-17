@@ -1,6 +1,6 @@
 # Member Roles
 
-With FluentBoards you can add Members and manage them for your boards very easily. Follow this documentation to learn everything about team management in your FluentBoards.
+Managing members and their permissions in FluentBoards is simple and flexible. You can add members to your boards, assign roles, and control their access based on their responsibilities. This guide explains the available member roles and how to manage permissions across your FluentBoards workspace.
 
 ## Members Role Global Setting
 
