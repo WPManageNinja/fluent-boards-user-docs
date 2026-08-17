@@ -1,6 +1,6 @@
 # Creating a New Board
 
-FluentBoards is a handy plugin that makes managing your projects in WordPress a breeze. Now, let's see how easy it is to create a new board to manage your projects.
+Creating a new board in FluentBoards is quick and straightforward. You can set up your board with a title, description, stages, labels, members, and background, or start with a ready-made template. This guide walks you through the steps to create and set up a new board for managing your projects.
 
 ## Creating New Board
 
