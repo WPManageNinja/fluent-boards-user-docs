@@ -1,8 +1,8 @@
 # Setting Up Your First Board
 
-When you first install FluentBoards, you'll be guided through the onboarding process to set up your first board.
+When you first install FluentBoards, the onboarding process guides you through the steps to create and set up your first board. You can add your board details, customize its stages, and create your first task—all in just a few steps.
 
-## **Creating Your First Board**
+## Creating Your First Board
 
 To begin, enter your board title in the **Board Title** field, then add an optional description in the **Board Description** field. Once you're done, click on the **Next Step** button to proceed.
 

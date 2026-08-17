@@ -84,11 +84,11 @@ export default defineConfig({
         text: 'Getting Started',
         collapsed: true,
         items: [
-          { text: 'Installing FluentBoards', link: '/fluentboards-installation-guide' },
-          { text: 'Activating Your License', link: '/fluentboards-licence-activation' },
-          { text: 'Introduction to FluentBoards', link: '/get-started-with-fluentboards' },
+          { text: 'Installation', link: '/fluentboards-installation-guide' },
+          { text: 'License Activation', link: '/fluentboards-licence-activation' },
+          { text: 'Introduction', link: '/get-started-with-fluentboards' },
           { text: 'Dashboard Overview', link: '/fluentboards-dashboard-overview' },
-          { text: 'Setting Up Your First Board', link: '/onboarding-board' },
+          { text: 'First Board Setup', link: '/onboarding-board' },
           { text: 'Shortcodes', link: '/shortcodes' }
         ]
       },
