@@ -21,20 +21,20 @@ To allow external AI assistants to discover your FluentBoards environment, toggl
 
 ![Enabling MCP Toggle Switch](../public/images/settings/mcp-for-ai-agents/enable-mcp-for-ai-agents-1.webp)
 
-## Step 2: Install and Activate FluentHub
+## Step 2: Install and Activate FluentToolkit
 
-FluentBoards utilizes a lightweight companion plugin called **FluentHub** to manage and expose its specific tool schema. If this plugin is missing or inactive, an **Adapter Required** warning will appear in your status panel.
+FluentBoards utilizes a lightweight companion plugin called **FluentToolkit** to manage and expose its specific tool schema. If this plugin is missing or inactive, an **Adapter Required** warning will appear in your status panel.
 
-* **One-Click Installation:** Click the **Install FluentHub** button on the settings page. WordPress will automatically download, install, and activate the extension in the background.
-* **Manual Installation:** If utilizing a manual deployment, download the **FluentHub** plugin archive directly from the official repository. Upload it via **Plugins → Add New → Upload Plugin**, click activate, and return to the **MCP for AI Agent** configuration screen.
+* **One-Click Installation:** Click the **Install FluentToolkit** button on the settings page. WordPress will automatically download, install, and activate the extension in the background.
+* **Manual Installation:** You can also download FluentToolkit yourself from [https://static.wpmanageninja.com/fluent-toolkit.zip](https://static.wpmanageninja.com/fluent-toolkit.zip). Upload the ZIP via **Plugins → Add New → Upload Plugin**, click activate, and return to the **MCP for AI Agent** configuration screen.
 
 ## Step 3: Verify the Connection Status
 
-Once both the toggle is enabled and the toolkit is active, review the **Status** panel. This panel serves as confirmation that your local server is ready to accept authenticated client connections.
+Once both the toggle is enabled and FluentToolkit is active, review the **Status** panel. This panel serves as confirmation that your local server is ready to accept authenticated client connections.
 
 | Field | Description |
 | --- | --- |
-| **Adapter** | Displays the active version of your FluentHub plugin (e.g., FluentHub 2.1.0) along with a green **Connected** badge. |
+| **Adapter** | Displays the active version of your FluentToolkit plugin (e.g., FluentToolkit 2.1.0) along with a green **Connected** badge. |
 | **Endpoint URL** | The direct REST API address your AI client requires to target this server (e.g., `https://your-site.com/wp-json/fluent-boards/mcp`). A **Copy** button sits right next to it. |
 | **Tools Available** | Total number of MCP tools exposed, covering board, task, move, archive, and comment actions (29 in this example). |
 
@@ -152,6 +152,6 @@ Now, if you want to view it on the front end of your site, go to your website’
 
 ### Troubleshooting Common Issues
 
-* **The "Adapter Required" Shield Remains Up:** Give your web browser a hard refresh (`Ctrl + F5` or `Cmd + Shift + R`). If the badge remains, navigate to your core **Plugins** dashboard to double-check that **FluentHub** is explicitly flagged as **Active**.
+* **The "Adapter Required" Shield Remains Up:** Give your web browser a hard refresh (`Ctrl + F5` or `Cmd + Shift + R`). If the badge remains, navigate to your core **Plugins** dashboard to double-check that **FluentToolkit** is explicitly flagged as **Active**.
 * **The AI Client Reports an "Unauthorized" Exception:** Your username spelling or the 24-character application security password contains a typo. Regenerate a clean password from your user profile and reconstruct the snippet block.
 * **Commands Complete Successfully but Do Not Reflect Production Realities:** Verify that your site's local **Endpoint URL** exactly matches the domain structure and protocol (HTTP vs HTTPS) configured inside your external AI workspace. WordPress application authentication strictly relies on a functioning, publicly clear REST API route.
