@@ -1,8 +1,8 @@
 # FluentBoards Integration with Amazon S3
 
-FluentBoards integrates with Amazon S3, allowing you to store media files, improving your site's loading speed, and managing storage more efficiently.
+FluentBoards integrates with Amazon S3 so you can store your media files in Amazon's cloud storage instead of keeping them on your WordPress site.
 
-This guide will walk you through how you can set up **Amazon S3** with **FluentBoards**.
+This guide walks you through setting up **Amazon S3** with FluentBoards, including creating an S3 bucket, generating the required access credentials, and connecting everything from your FluentBoards settings.
 
 ## Get the Amazon S3 account Credentials
 
