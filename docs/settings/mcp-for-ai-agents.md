@@ -29,6 +29,9 @@ FluentBoards uses a lightweight companion plugin called **FluentHub** to power t
 * **One-Click Installation:** Click the **Install FluentHub** button on the settings page. WordPress downloads, installs, and activates it for you.
 * **Manual Installation:** Download the **FluentHub** plugin archive, then go to **Plugins → Add New → Upload Plugin**. Upload the file, click **Activate**, and return to the **MCP for AI Agent** tab.
 
+> [!Note]
+> Prefer to install it yourself? Download FluentHub directly from [static.wpmanageninja.com/fluent-toolkit.zip](https://static.wpmanageninja.com/fluent-toolkit.zip), then upload the ZIP via **Plugins → Add New → Upload Plugin** and activate it. Come back to this page afterwards and the endpoint fields appear.
+
 ![Install and activate FluentHub](../public/images/settings/mcp-for-ai-agents/install-fluenthub-2.webp)
 
 ## Step 3: Check the Connection Status
