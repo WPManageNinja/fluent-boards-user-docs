@@ -6,6 +6,28 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.0.12
+
+Released on August 20, 2026
+
+::: code-group
+
+``` [🚀 Improvements]
+• Compatibility with WordPress 7.1
+• Comments, replies, attached images, and time-tracking entries now move with Tasks transferred to another board
+• Refined the Task label interface with a shared label popover
+• Improved Role & Policy based security
+```
+
+``` [🐞 Bug fixes]
+• Fixed formatting issues in Task descriptions, including those created through Fluent Forms
+• Fixed some security issues
+• Other improvements & bug fixes
+```
+
+:::
+
+
 ## FluentBoards v2.0.10
 
 Released on August 12, 2026
