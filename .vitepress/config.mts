@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { zoomablePlugin } from './theme/plugin-zoomable'
 
 export default defineConfig({
   title: 'FluentBoards',
@@ -11,6 +12,29 @@ export default defineConfig({
 
   markdown: {
     externalLinks: { target: '_blank', rel: 'noreferrer' },
+    config: (md) => {
+      md.use(zoomablePlugin)
+    },
+  },
+
+  // Every image in docs/ uses a relative path (../public/images/...), which Vite
+  // normally rewrites via its asset pipeline on the <img> tag. The zoom plugin
+  // swaps that <img> for <ZoomableImage>, so the same rewrite has to be declared
+  // for the component's src prop - otherwise the raw path is emitted verbatim and
+  // every image 404s in the production build.
+  // Listing a flat tag map replaces the compiler defaults, so the built-in tags
+  // are repeated here on purpose.
+  vue: {
+    template: {
+      transformAssetUrls: {
+        video: ['src', 'poster'],
+        source: ['src'],
+        img: ['src'],
+        image: ['xlink:href', 'href'],
+        use: ['xlink:href', 'href'],
+        ZoomableImage: ['src'],
+      },
+    },
   },
 
   rewrites: {
