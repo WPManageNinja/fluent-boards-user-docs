@@ -1,3 +1,7 @@
+---
+description: "Reach the WPManageNinja support team for FluentBoards. What to check first, how to open a ticket, and the details to include for a fast reply."
+---
+
 # How to Get Support
 
 If you have gone through the documentation and still have a problem with FluentBoards, our support team at WPManageNinja is here to help. This guide shows you where to reach us and what to include so your issue gets solved quickly.

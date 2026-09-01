@@ -1,3 +1,7 @@
+---
+description: "Connect FluentBoards to Amazon S3 to store task attachments in the cloud. Get your credentials, create an IAM user, and configure the integration."
+---
+
 # FluentBoards Integration with Amazon S3
 
 FluentBoards integrates with Amazon S3 so you can store your media files in Amazon's cloud storage instead of keeping them on your WordPress site.

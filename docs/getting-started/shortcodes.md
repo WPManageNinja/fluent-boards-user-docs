@@ -1,3 +1,7 @@
+---
+description: "Embed FluentBoards on any WordPress page with shortcodes for a single board, a public board, the frontend portal, and your public Roadmap."
+---
+
 # FluentBoards Shortcodes
 
 FluentBoards gives you a handful of shortcodes so you can embed your boards, your entire workspace, or your public Roadmap directly on any WordPress page. This is separate from the WordPress Dashboard view, letting you share your work with clients, teammates, or website visitors.

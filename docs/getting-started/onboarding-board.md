@@ -1,3 +1,7 @@
+---
+description: "Follow the FluentBoards onboarding flow to create your first board, customize its stages, and add your first task in just a few simple steps."
+---
+
 # Setting Up Your First Board
 
 When you first install FluentBoards, the onboarding process guides you through the steps to create and set up your first board. You can add your board details, customize its stages, and create your first task—all in just a few steps.

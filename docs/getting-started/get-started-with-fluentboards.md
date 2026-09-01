@@ -1,3 +1,7 @@
+---
+description: "Learn the core FluentBoards concepts: boards, stages, task cards, the board menu, and integrations, so you can manage projects inside WordPress."
+---
+
 # Introduction to FluentBoards
 
 Getting started with boards is incredibly simple. Let's delve into the fundamental features of board components, including boards, stages, task cards, and board menu settings.
