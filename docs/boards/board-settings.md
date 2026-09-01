@@ -192,5 +192,3 @@ Here, the **JSON** is for exporting your board in JSON format, and the **CSV** b
 If you no longer need a board in your active list, select **Archive Board**. A confirmation pop-up reminds you that archived boards can be restored at any time, but they won't appear in your active boards list until then. Click **Archive This Board** to confirm, or **Cancel** to back out.
 
 ![Archive the Board](../public/images/boards/board-settings/archive-the-board-20.webp)
-
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

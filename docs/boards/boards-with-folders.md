@@ -44,5 +44,3 @@ You can switch between a visual card layout and a compact list layout for the bo
 3. Click either icon to switch between **Card** and **List** layouts.
 
 ![fluentboards Folder View](../public/images/boards/boards-with-folders/borad-folder-view-4.webp)
-
-If you have any further questions or concerns please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

@@ -75,4 +75,4 @@ Colored bars mark each task's due date on the timeline, so you can spot overlaps
 
 ![Grantt View](../public/images/boards/boards-view/grantt-view-6.webp)
 
-So, here is the whole overview of the FluentBoards View section. If you have any queries please feel free to contact our [support](https://wpmanageninja.com/support-tickets/){:target="_blank"} team.
+So, here is the whole overview of the FluentBoards View section.

@@ -100,6 +100,7 @@ export default defineConfig({
         rel: 'noreferrer',
       },
       { text: 'Changelog', link: '/changelog' },
+      { text: 'Support', link: '/how-to-get-support' },
     ],
 
     // Sidebar — flat array so it shows on all rewritten URLs
