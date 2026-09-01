@@ -19,5 +19,3 @@ Switch to the **Default Watchers** tab and repeat the same steps if you'd rather
 Once set, any task that lands in this stage automatically picks up your chosen default assignees, as shown below:
 
 ![task asignee](../public/images/stage-management/stage-default-assignee/task-assign.gif)
-
-If you have any questions about setting up default assignees, feel free to contact our [support](https://wpmanageninja.com/support-tickets/){:target="_blank"} team.

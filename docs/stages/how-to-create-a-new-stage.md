@@ -48,4 +48,4 @@ Click on it, and the same **Create New Stage** pop-up you saw earlier will open.
 
 ![add new stage](../public/images/stage-management/how-to-create-a-new-stage/add-new-stage.gif)
 
-That's the process for creating and managing stages in boards. If you have any further questions, don't hesitate to reach out to [us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+That's the process for creating and managing stages in boards.

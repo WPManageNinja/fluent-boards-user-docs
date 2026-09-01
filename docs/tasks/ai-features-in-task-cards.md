@@ -87,5 +87,3 @@ You can break a complex task down into manageable action items automatically wit
 
 > [!Note]
 > Want an external AI assistant like Claude or Cursor to read and manage your boards directly, instead of using these in-card tools? That's a separate integration — check out the [MCP for AI Agents](/mcp-for-ai-agents) guide.
-
-If you have any further queries, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
