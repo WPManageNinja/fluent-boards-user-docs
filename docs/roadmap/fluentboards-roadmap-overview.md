@@ -4,6 +4,8 @@ FluentBoards offers an excellent feature called **Roadmap**, which allows you to
 
 In this article, we will guide you through the steps to create and utilize the Roadmap feature using FluentBoards.
 
+<VideoEmbed id="84cdK0ojNjE" />
+
 ## **Enable the Fluent Roadmap Addon**
 
 To enable the Roadmap feature in FluentBoards, go to the FluentBoards Dashboard. Click on the **Settings** button in the navbar, then select **Features & Modules** from the left sidebar.

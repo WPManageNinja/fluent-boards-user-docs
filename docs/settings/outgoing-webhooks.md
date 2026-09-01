@@ -11,6 +11,8 @@ This guide will provide a detailed overview of how to configure and manage Outgo
 - **Data Logging:** Add a new row to a Google Sheet or Airtable base every time a task is completed, creating a log of your team's accomplishments.
 - **Custom Integrations:** Send task data to a custom-built application or a third-party API for advanced processing.
 
+<VideoEmbed id="zl0Ot_Y3Y8k" />
+
 ## Configuration Steps
 
 Configuring your webhook is a straightforward process.

@@ -6,6 +6,8 @@ With this integration, you can link CRM contacts to tasks, view a contact's rela
 
 In this guide, you'll learn how to connect contacts to tasks, view associated boards and tasks, and use FluentCRM automations with FluentBoards.
 
+<VideoEmbed id="NoVkFvqlE60" />
+
 ## CRM Contacts in Boards
 
 FluentBoards allows you to add FluentCRM contacts to your tasks. You can view all CRM contacts associated with your board's tasks right from the **Board Menu**.

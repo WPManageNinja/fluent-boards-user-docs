@@ -6,6 +6,8 @@ With this feature, you can assign tasks, add labels, set dates, and use other fu
 
 This guideline will show you how to add tasks using the webhook feature in just a few simple steps.
 
+<VideoEmbed id="IupOvjf8B5w" />
+
 ## Adding Webhook
 
 First, go to the **Settings** of your FluentBoards. On the left sidebar, click **Webhooks** to expand it, then select **Incoming Webhooks**.

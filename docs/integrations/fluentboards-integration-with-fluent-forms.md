@@ -2,6 +2,8 @@
 
 Suppose you have a form on your website from where you want to add a task on your FluentBoards Board. Now you can easily add this task to your board with the Fluent Forms by following a very simple process. Here We will show you how you can configure this integration of FluentBorads with Fluent Form.
 
+<VideoEmbed id="3Xdns_0r9ws" />
+
 ## Enable FluentBoards Modules
 
 To integrate FluentBoards with Fluent Forms, go to Fluent Forms **Integrations** and select the **Modules** tab. Search for **Fluent Boards**, then click its **Toggle** button to enable the module.

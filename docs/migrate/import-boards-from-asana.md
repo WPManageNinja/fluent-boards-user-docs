@@ -4,6 +4,8 @@ FluentBoards makes it easy to move your boards from Asana. You can either export
 
 This guide walks you through both methods of importing your Asana boards into FluentBoards.
 
+<VideoEmbed id="iXgVw3wctOE" />
+
 ## Export Board from Asana
 
 Go to your [Asana account](https://app.asana.com/-/login?_gl=1*dxfx2s*_ga*MTk0MzA4OTc3My4xNzE1MjU1MDE3*_ga_J1KDXMCQTH*MTcxNTY4NDE5Mi4yLjEuMTcxNTY4NDE5Mi42MC4wLjE4NjE0NzkzMDg.*_fplc*Tnd0dnlkNUFiWDN6b3c2UjZsZ2NSQ2JaalpGbUJ6MzhxUktTbFZlT295UUN4QTVFOCUyQlpqektEckpVNmFJMnJURDdQd04yNGV6cDJKR3UzcWtia1pJVFJEMGJlVjE3eXVUSlIxYUp6Qk5xJTJCWmVWb25PSGE1NXhFNkZHNDVoUSUzRCUzRA..){:target="_blank"} and open the Boards you want to migrate in your FluentBoards. Now click on the **Dropdown** button beside the Board Name.

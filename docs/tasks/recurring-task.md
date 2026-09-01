@@ -4,6 +4,8 @@ A **Recurring Task** is a task that repeats at regular intervals (daily, weekly,
 
 In this guideline, we will show you how you can enable and set a Recurring Task.
 
+<VideoEmbed id="730jWAOJ-4g" />
+
 ## Enable Recurring Task
 
 To enable the recurring task module for your board tasks, go to your FluentBoards **Settings** and select **Features & Modules** from the left sidebar.

@@ -2,6 +2,8 @@
 
 With FluentBoards, you can establish a frontend portal. This feature enables your board members to log in directly from the frontend of your website using the FluentBoards frontend portal.
 
+<VideoEmbed id="uXzspvMCHn4" />
+
 ### Enable Frontend Portal
 
 Go to the FluentBoards **Settings** and choose **Features & Modules** from the left sidebar. Under **Advanced Modules**, locate **Front Portal** and turn on its **Toggle**, then click the **Manage** button next to it.

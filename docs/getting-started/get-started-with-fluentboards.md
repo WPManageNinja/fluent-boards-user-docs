@@ -2,6 +2,8 @@
 
 Getting started with boards is incredibly simple. Let's delve into the fundamental features of board components, including boards, stages, task cards, and board menu settings.
 
+<VideoEmbed id="Nl-Qa0eBn1I" />
+
 ## Introduction to FluentBoards
 
 FluentBoards is a Project Management Plugin designed to facilitate collaborative work among team members. It offers the ability to showcase your team's workflow directly on your WordPress site, eliminating the need for additional tools.

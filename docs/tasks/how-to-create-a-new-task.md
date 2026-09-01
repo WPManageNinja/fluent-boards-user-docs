@@ -2,6 +2,8 @@
 
 Creating and managing tasks in FluentBoards is simple and flexible. You can quickly add tasks to your boards, assign team members, set priorities and due dates, add labels and attachments, and organize your work with subtasks. This guide walks you through the different options available to help you create and manage your tasks with ease.
 
+<VideoEmbed id="GzvS1GZ0gcw" />
+
 ## Adding New Task
 
 Just head over to the board where you want to add the task. Then, you can either click on the **Plus** icon button at the top of the stage to add a task.

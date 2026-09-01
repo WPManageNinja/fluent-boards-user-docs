@@ -4,6 +4,8 @@ You can create a task directly from your Fluent Support Tickets. If any Tickets 
 
 The integration of Fluent Board and Fluent Support is straightforward. You just need to install both plugins on your site. In this article, we will demonstrate the whole thing.
 
+<VideoEmbed id="MxZFd_ots6M" />
+
 ## **Adding Task from Fluent Support Ticket**
 
 Go to the Fluent Support Tickets and then open the specific ticket you want to add to your FluentBoards task.

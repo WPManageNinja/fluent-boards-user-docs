@@ -4,6 +4,8 @@ FluentBoards lets you easily import boards from a previous workspace or another 
 
 In this article, we’ll walk you through the steps to import boards into your FluentBoards workspace.
 
+<VideoEmbed id="04tz5CqZTZM" />
+
 ## Import From FluentBoards
 
 > [!Note]

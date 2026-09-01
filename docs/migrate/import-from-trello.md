@@ -4,6 +4,8 @@ Moving your boards from **Trello** to **FluentBoards** is simple. You can export
 
 This guide walks you through the steps to export a board from Trello and import it into FluentBoards.
 
+<VideoEmbed id="99VfIHTnYj0" />
+
 ## Export Board from Trello
 
 To export your Boards From Trello go to your [Trello Account](https://trello.com/){:target="_blank"}. Then go to the specific Board you want to Import in your Fluent Boards.
