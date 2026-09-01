@@ -30,4 +30,4 @@ By default, only a WordPress Administrator or Full Admin can create new boards. 
 
 **Members:** The roles mentioned above (WordPress Administrator, Full Admin, Admin/Manager) can add any WordPress user as a member to a board. Members have access only to the boards to which they are assigned. Members cannot delete or create boards. They can only manage board tasks and assign members to board tasks.
 
-This is how you can manage your member role. If you have any queries feel free to [contact us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+This is how you can manage your member role.

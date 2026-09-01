@@ -55,5 +55,3 @@ Otherwise, toggle **Enable All** or the individual options below to personalize 
 Once you're done, click the **Save** button to apply your notification changes.
 
 ![board notification settings](../public/images/settings/notification-settings/board-notification-settings-3.webp)
-
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"} team.

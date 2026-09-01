@@ -255,5 +255,3 @@ Once connected, you don't need to remember any technical commands. Just describe
 * **The AI Client Reports an "Unauthorized" Error:** Your username or Application Password likely has a typo. Generate a fresh password from your profile and copy a new snippet.
 * **The Connection Looks Active, but Nothing Happens:** Check that you replaced any placeholder text in your AI client's configuration with your real Application Password. A "connected" status only confirms the tool started, not that it logged in successfully.
 * **It Works Locally but Not on Your Live Site:** Confirm your **Endpoint URL** uses the correct domain and protocol (HTTP vs HTTPS), and that your site's REST API is publicly reachable.
-
-If you have any further queries, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
