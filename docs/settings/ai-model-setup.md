@@ -83,4 +83,4 @@ You can define global behavior and tone for all AI text requests generated withi
 
 ![custom instructions](../public/images/settings/ai-model-setup/custom-instructions-6.webp)
 
-That covers everything for setting up AI models in **FluentBoards**! If you have any further questions or encounter any issues, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+That covers everything for setting up AI models in **FluentBoards**!

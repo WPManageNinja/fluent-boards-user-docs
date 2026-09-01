@@ -24,4 +24,4 @@ Search for the ***fluent_boards/daily_task_reminder*** and click on the **Run** 
 
 ![scheduled action run daily reminder](../public/images/settings/daily-reminder-settings/Scheduled-Action-Run-Daily-Reminder-scaled.webp)
 
-So, this is how you can set a reminder for your task assignees. If you have any queries then contact our [support](https://wpmanageninja.com/support-tickets/){:target="_blank"} team.
+So, this is how you can set a reminder for your task assignees.

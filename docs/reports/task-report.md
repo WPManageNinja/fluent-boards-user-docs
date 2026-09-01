@@ -33,5 +33,3 @@ The **Priority Distribution** donut chart shows the same **Priority** breakdown 
 ### Recently Completed Tasks
 
 At the bottom, the **Recently Completed Tasks** table lists your latest finished tasks, along with their **Board**, **Stage**, **Priority**, and **Assignee**. Click **View All** to see the complete list, or click the **Export** button to download the data as a CSV file.
-
-If you have any further queries, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
