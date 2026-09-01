@@ -1,14 +1,139 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { zoomablePlugin } from './theme/plugin-zoomable'
+
+/** Production origin. Drives canonical URLs, the sitemap, and og/twitter tags. */
+const HOSTNAME = 'https://docs.fluentboards.com'
+
+/** Shared social preview image. Must be an absolute URL for crawlers. */
+const OG_IMAGE = `${HOSTNAME}/images/brand/fluentboards-hero-banner.webp`
+
+/** `docs/boards/board-settings.md` -> `board-settings` (matches the rewrites below). */
+function pathToSlug(relativePath: string): string {
+  return relativePath
+    .replace(/\.md$/, '')
+    .replace(/(^|\/)index$/, '')
+    .replace(/^docs\/[^/]+\//, '')
+    .replace(/^\//, '')
+}
 
 export default defineConfig({
   title: 'FluentBoards',
-  description: 'FluentBoards User Documentation',
+  description:
+    'Official FluentBoards documentation. Learn how to manage projects, boards, and tasks inside WordPress with step-by-step guides.',
 
   srcDir: '.',
   srcExclude: ['**/node_modules/**', 'CLAUDE.md', 'README.md'],
 
   cleanUrls: true,
+
+  // Emits dist/sitemap.xml for Search Console. Needs an absolute hostname.
+  sitemap: {
+    hostname: HOSTNAME,
+  },
+
+  // Git-derived timestamps: shown on the page and used as a freshness signal.
+  lastUpdated: true,
+
+  // Canonical, Open Graph, Twitter Card and JSON-LD are not emitted by VitePress
+  // itself, so they are built per page here. Without these, every page shares the
+  // site-level description and shared links render with no preview.
+  transformHead({ pageData, siteData }) {
+    const head: HeadConfig[] = []
+
+    // The 404 page is reachable at every bad URL, so it must never be indexed
+    // and must not claim a canonical of its own.
+    if (pageData.relativePath === '404.md' || pageData.frontmatter.layout === 'page') {
+      return [['meta', { name: 'robots', content: 'noindex, follow' }]]
+    }
+
+    const slug = pathToSlug(pageData.relativePath)
+    const url = slug ? `${HOSTNAME}/${slug}` : `${HOSTNAME}/`
+    const title = pageData.frontmatter.title || pageData.title || siteData.title
+    const description =
+      pageData.frontmatter.description || pageData.description || siteData.description
+    const fullTitle = slug ? `${title} | ${siteData.title}` : `${title} | ${siteData.description}`
+
+    head.push(['link', { rel: 'canonical', href: url }])
+
+    head.push(['meta', { property: 'og:type', content: slug ? 'article' : 'website' }])
+    head.push(['meta', { property: 'og:site_name', content: siteData.title }])
+    head.push(['meta', { property: 'og:url', content: url }])
+    head.push(['meta', { property: 'og:title', content: fullTitle }])
+    head.push(['meta', { property: 'og:description', content: description }])
+    head.push(['meta', { property: 'og:image', content: OG_IMAGE }])
+    head.push(['meta', { property: 'og:locale', content: 'en_US' }])
+
+    head.push(['meta', { name: 'twitter:card', content: 'summary_large_image' }])
+    head.push(['meta', { name: 'twitter:title', content: fullTitle }])
+    head.push(['meta', { name: 'twitter:description', content: description }])
+    head.push(['meta', { name: 'twitter:image', content: OG_IMAGE }])
+
+    // Breadcrumbs are derived from the sidebar group that contains this page, so
+    // they stay correct without a second hand-maintained list.
+    const groups = (siteData.themeConfig?.sidebar ?? []) as Array<{
+      text: string
+      items: Array<{ text: string; link: string }>
+    }>
+    const group = groups.find((g) => g.items?.some((i) => i.link === `/${slug}`))
+
+    const crumbs = [{ name: 'Documentation', item: `${HOSTNAME}/` }]
+    if (group) crumbs.push({ name: group.text, item: url })
+    if (slug) crumbs.push({ name: String(title), item: url })
+
+    head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          slug
+            ? {
+                '@type': 'TechArticle',
+                '@id': url,
+                headline: title,
+                description,
+                inLanguage: 'en-US',
+                url,
+                image: OG_IMAGE,
+                ...(pageData.lastUpdated
+                  ? { dateModified: new Date(pageData.lastUpdated).toISOString() }
+                  : {}),
+                author: { '@type': 'Organization', name: 'WPManageNinja' },
+                publisher: {
+                  '@type': 'Organization',
+                  name: 'WPManageNinja',
+                  url: 'https://wpmanageninja.com',
+                },
+                isPartOf: { '@type': 'WebSite', '@id': `${HOSTNAME}/#website` },
+              }
+            : {
+                '@type': 'WebSite',
+                '@id': `${HOSTNAME}/#website`,
+                name: `${siteData.title} Documentation`,
+                url: `${HOSTNAME}/`,
+                description,
+                inLanguage: 'en-US',
+                publisher: {
+                  '@type': 'Organization',
+                  name: 'WPManageNinja',
+                  url: 'https://wpmanageninja.com',
+                },
+              },
+          {
+            '@type': 'BreadcrumbList',
+            itemListElement: crumbs.map((c, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              name: c.name,
+              item: c.item,
+            })),
+          },
+        ],
+      }),
+    ])
+
+    return head
+  },
 
   markdown: {
     externalLinks: { target: '_blank', rel: 'noreferrer' },

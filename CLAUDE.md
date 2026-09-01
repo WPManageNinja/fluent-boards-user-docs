@@ -91,11 +91,13 @@ Use these exact phrasings for instructions:
 
 ## 6. Closing / Support Link
 
-End every new page with this exact line:
+**Do NOT add a support call-to-action to the end of a page.** These were removed
+site-wide. Support now lives on one dedicated page, `/how-to-get-support`, which
+is linked from the navbar on every page.
 
-```markdown
-If you have any further queries, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
-```
+A page may end with a short wrap-up sentence ("That's everything covered in the
+Reports section of FluentBoards.") or simply with its last step. Link to
+`/how-to-get-support` inline only when a page genuinely needs to point there.
 
 ---
 
@@ -194,7 +196,21 @@ If you have any further queries, please do not hesitate to contact our [@support
 
 **Blockquotes** (`>`): Developer notes or tips that most users can skip.
 
-**No frontmatter** on guide pages — just a bare `# Title`. (Only `docs/index.md` uses frontmatter.)
+**Frontmatter:** every page carries exactly one key, `description` — the SEO meta
+description. Nothing else, unless a page needs a VitePress option (`changelog.md`
+also sets `pageClass`, `index.md` sets `layout: home`).
+
+```markdown
+---
+description: "One sentence, 120–160 characters, describing what the reader will learn."
+---
+
+# Page Title
+```
+
+Write it as a search result snippet, not a summary of the intro: lead with the
+action, name the feature, and keep it unique across the whole site. It becomes
+the page's `<meta name="description">`, Open Graph, and Twitter Card text.
 
 ---
 
@@ -216,7 +232,8 @@ Use the Content Map in memory (`project_docs_map.md`) to locate the exact file. 
 - Does it flow naturally with surrounding content?
 - Are FluentBoards terms capitalized correctly?
 - Are sentences under 20 words and in active voice?
-- Does it end with the support link (if a new page)?
+- Does the page have a unique `description` in its frontmatter (see §10)?
+- Do headings step down one level at a time, never skipping (`##` → `###`)?
 
 ---
 

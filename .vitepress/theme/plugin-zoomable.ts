@@ -69,6 +69,12 @@ export function zoomablePlugin(md: MarkdownRenderer) {
     // Pass src/alt as props - no slot. The component owns the <img>, so SSR and
     // client render the exact same markup.
     //
+    // Deliberately NOT wrapped in <ClientOnly>: that skips server rendering, so
+    // every documentation image would be absent from the static HTML and
+    // invisible to crawlers along with its alt text. The component is SSR-safe
+    // (it touches window only from onMounted and event handlers), so it renders
+    // the <img> on the server and hydrates the zoom behaviour on top.
+    //
     // The relative src is rewritten by Vite's asset pipeline because config.mts
     // declares `ZoomableImage: ['src']` under vue.template.transformAssetUrls.
     // Without that declaration the path is emitted verbatim and 404s in the
@@ -76,6 +82,6 @@ export function zoomablePlugin(md: MarkdownRenderer) {
     //
     // Explicit closing tag (not self-closing) - Vue's SSR-side parsing of
     // markdown-emitted markup is more reliable with an explicit close.
-    return `<ClientOnly><ZoomableImage src="${escapeAttr(src)}" alt="${escapeAttr(alt)}"></ZoomableImage></ClientOnly>`;
+    return `<ZoomableImage src="${escapeAttr(src)}" alt="${escapeAttr(alt)}"></ZoomableImage>`;
   };
 }
