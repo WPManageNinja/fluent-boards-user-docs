@@ -1,3 +1,7 @@
+---
+description: "Import boards into FluentBoards from another site, a backup, or a CSV file, so you can restore or migrate your project data without losing anything."
+---
+
 # Import Your Boards
 
 FluentBoards lets you easily import boards from a previous workspace or another platform. Whether you’re migrating from a different site or restoring a backup.

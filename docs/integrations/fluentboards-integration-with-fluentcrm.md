@@ -1,3 +1,7 @@
+---
+description: "Connect FluentBoards with FluentCRM to link contacts to tasks, view boards inside a contact profile, and automate work with CRM triggers and actions."
+---
+
 # FluentBoards Integration With FluentCRM
 
 FluentBoards integrates directly with [FluentCRM](https://fluentcrm.com/), allowing you to connect your contacts, boards, and tasks in one place. This helps you manage customer-related work without switching between plugins.

@@ -1,3 +1,7 @@
+---
+description: "Move your Asana projects into FluentBoards. Export an Asana board as JSON, or connect with a Personal Access Token to import your workspaces."
+---
+
 # Import Boards from Asana
 
 FluentBoards makes it easy to move your boards from Asana. You can either export an **Asana** board as a JSON file and upload it to FluentBoards, or connect your Asana account using a Personal Access Token to import your workspaces directly.

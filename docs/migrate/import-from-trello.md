@@ -1,3 +1,7 @@
+---
+description: "Migrate from Trello to FluentBoards. Export your Trello board as a JSON file and import it into FluentBoards with your board data intact."
+---
+
 # Import Boards from Trello
 
 Moving your boards from **Trello** to **FluentBoards** is simple. You can export a Trello board as a JSON file and import it directly into FluentBoards, bringing your board data with you.

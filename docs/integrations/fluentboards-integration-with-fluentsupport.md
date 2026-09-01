@@ -1,3 +1,7 @@
+---
+description: "Turn a Fluent Support ticket into a FluentBoards task in a couple of clicks, so support requests become trackable work for your team."
+---
+
 # FluentBoards Integration with FluentSupport
 
 You can create a task directly from your Fluent Support Tickets. If any Tickets come in your Fluent Support your support agent can add that Tickect as a task on your Fluent Boards.
