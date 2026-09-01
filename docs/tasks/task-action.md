@@ -18,5 +18,3 @@ Open any task, then click the **Three Dot** icon in the top right corner of the 
 
 > [!Note]
 > A couple of actions have moved out of this menu. Click the **Image** icon next to the Three Dot icon to change the task's cover, and use the **Add Custom Field** option inside the task body to add a custom field — read the [Custom Fields](/custom-fields-for-task) guide to learn more.
-
-If you have any further questions please don't hesitate to [contact us](https://wpmanageninja.com/account/dashboard/){:target="_blank"}.

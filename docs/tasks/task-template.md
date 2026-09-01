@@ -34,4 +34,4 @@ A **Task Templates** panel will appear, listing any existing templates you've sa
 
 ![task templates panel](../public/images/task-management/task-template/task-template-6.webp)
 
-That's all you need to know about creating and using task templates in FluentBoards. If you have any further questions, feel free to [contact us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+That's all you need to know about creating and using task templates in FluentBoards.

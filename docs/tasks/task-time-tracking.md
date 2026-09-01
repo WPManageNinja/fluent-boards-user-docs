@@ -35,5 +35,3 @@ After that, the **Time Tracking** section updates to show your logged time as a 
 ![view log 02](../public/images/task-management/task-time-tracking/view-log-5.webp)
 
 > You'll also receive a Timesheet Report that's tailored to tasks and members within your boards. Dive into the [Reports](/fluentboard-reports) guide for further details.
-
-That's how FluentBoards Time Tracking feature works now if you have any further queries then don't hesitate to contact [us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
