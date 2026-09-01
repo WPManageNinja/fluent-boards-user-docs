@@ -1,3 +1,7 @@
+---
+description: "Add Custom Fields to FluentBoards tasks to capture the details your workflow needs, with every field type, editing, and deletion explained."
+---
+
 # Custom Fields
 
 Custom Fields in FluentBoards allow you to add task-specific information tailored to your workflow. Whether it's a text note, a number, a deadline, priority level, or any other detail, Custom Fields make your Task Board more flexible and personalized.

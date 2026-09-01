@@ -1,3 +1,7 @@
+---
+description: "Set up recurring tasks in FluentBoards so daily, weekly, monthly, or yearly work is recreated automatically without any manual effort."
+---
+
 # Recurring Tasks
 
 A **Recurring Task** is a task that repeats at regular intervals (daily, weekly, monthly, and yearly.). Once the set interval is reached, FluentBoards will automatically recreate the task for you. No more manual task creation for recurring work!

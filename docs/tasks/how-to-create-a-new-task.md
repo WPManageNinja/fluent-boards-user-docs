@@ -1,3 +1,7 @@
+---
+description: "Create and manage tasks in FluentBoards: assignees, due dates, priority, labels, descriptions, attachments, subtasks, and CRM contacts."
+---
+
 # Creating and Managing Tasks
 
 Creating and managing tasks in FluentBoards is simple and flexible. You can quickly add tasks to your boards, assign team members, set priorities and due dates, add labels and attachments, and organize your work with subtasks. This guide walks you through the different options available to help you create and manage your tasks with ease.

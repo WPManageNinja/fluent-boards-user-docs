@@ -1,3 +1,7 @@
+---
+description: "Use AI inside FluentBoards task cards to write descriptions, summarize tasks, suggest labels and priority, and generate subtasks automatically."
+---
+
 # AI Features in Task Cards
 
 FluentBoards gives you AI-powered tools right inside your task cards, so you can draft content, summarize tasks, and organize work faster. These include the AI Writing Assistant, automatic subtask generation, task summaries, and smart label and priority suggestions.
