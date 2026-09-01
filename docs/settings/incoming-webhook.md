@@ -1,3 +1,7 @@
+---
+description: "Create FluentBoards tasks automatically from any third-party platform using an incoming webhook, with assignees, labels, dates, and CRM contacts."
+---
+
 # Creating Tasks via Incoming Webhooks
 
 Webhooks allow you to receive data from third parties without writing code or running a server. FluentBoards provides an incoming webhook feature that enables you to create new tasks on your boards.

@@ -1,3 +1,7 @@
+---
+description: "Choose where FluentBoards appears in your WordPress admin menu, either as a standalone item in the sidebar or nested inside the FluentCRM menu."
+---
+
 # Menu Position in WordPress
 
 You can customize the position of FluentBoards in your WordPress Dashboard. You can Keep your FluentBoards plugin in your WordPress left sidebar also you can keep your project management tool FluentBoards in the FluentCRM menu.

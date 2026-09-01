@@ -1,3 +1,7 @@
+---
+description: "Connect FluentBoards to Claude Code, Claude Desktop, Cursor, or Codex with MCP, so your AI assistant can read your boards and create tasks."
+---
+
 # MCP for AI Agents
 
 With FluentBoards, you can connect your boards to AI tools like **Claude Code**, **Claude Desktop**, **Cursor**, and **OpenAI Codex** using MCP (Model Context Protocol). Once connected, you can ask your AI assistant to read your boards, create tasks, move tasks, assign members, and add comments, all in plain language.
