@@ -1,3 +1,7 @@
+---
+description: "Open the Task Actions menu in FluentBoards to find extra options for organizing, moving, duplicating, and managing an individual task."
+---
+
 # Task Actions
 
 Open any task, then click the **Three Dot** icon in the top right corner of the task pop-up to reveal the **Task Actions** menu. These actions give you extra options for organizing and managing that task:

@@ -1,3 +1,7 @@
+---
+description: "Track time on FluentBoards tasks, log work hours with descriptions, and review the time log to measure effective work on your projects."
+---
+
 # Time Tracking
 
 FluentBoards **Time Tracking** allows you to view a time log of your task work hours, along with descriptions that show task progress. This feature helps you determine effective work hours for project management.

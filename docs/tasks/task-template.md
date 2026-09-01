@@ -1,3 +1,7 @@
+---
+description: "Turn any FluentBoards task into a reusable Task Template, and start new tasks from a template instead of rebuilding them from scratch."
+---
+
 # Using Task Templates
 
 You can turn any task into a reusable **Task Template**, so you don't have to rebuild the same task from scratch every time. In this guide, we'll show you how to create a template from an existing task, and how to start a new task from a template right in a stage.

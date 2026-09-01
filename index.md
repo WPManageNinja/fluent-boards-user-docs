@@ -1,4 +1,5 @@
 ---
+description: "Official FluentBoards documentation. Step-by-step guides for managing projects, boards, tasks, stages, and integrations inside WordPress."
 layout: home
 
 hero:
