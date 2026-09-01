@@ -37,5 +37,3 @@ The **Activity by User** panel lists each member alongside a bar showing their t
 ### Activity by Type
 
 The **Activity by Type** chart breaks activity down by type, **Stage Change**, **Comments**, **Task Created**, **Subtasks**, **Attachments**, **Labels**, and **Due Dates**, so you can see exactly what kind of work has been happening.
-
-If you have any further queries, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

@@ -72,4 +72,4 @@ Click the **Export** button above the **Assignee Workload** table to download th
 
 The **Roadmap** report shows how your public Roadmap is performing: total and newly submitted ideas, how many are public, how many were completed, a breakdown by **Stage** and submission source, and your most popular ideas. For more on setting up the Roadmap board itself, check out the [Roadmap Overview](/fluentboards-roadmap-overview) guide.
 
-That's everything covered in the Reports section of FluentBoards. If you have any further questions about the reports, feel free to [ask](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+That's everything covered in the Reports section of FluentBoards.
