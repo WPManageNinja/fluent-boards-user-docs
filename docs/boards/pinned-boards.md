@@ -25,5 +25,3 @@ Each pinned board in the list is clickable, redirecting you to the selected boar
 On the Boards page, click the **Filter** icon, then choose **Pinned** from the **Filter** dropdown. You can also choose to **Sort By** **Created Date** or **Title**, and set the order to **Ascending** or **Descending**. Click the **Apply** button to update your view.
 
 ![Filter Pinned Boards](../public/images/boards/pinned-boards/filter-pined-boards-3.webp)
-
-If you have any further questions or concerns please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

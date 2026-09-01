@@ -85,4 +85,4 @@ Here you will see a checkbox list of all available tabs: **Today**, **Assigned**
 
 ![configure tasks tab 02](../public/images/getting-started/fluentboards-dashboard-overview/configure-tasks-tab-02-scaled-3.webp)
 
-This concludes the overview of your FluentBoards Dashboard. For any further inquiries or assistance, feel free to reach out to our [support](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+This concludes the overview of your FluentBoards Dashboard.

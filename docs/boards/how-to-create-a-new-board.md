@@ -19,5 +19,3 @@ Once you're done, click the **Create Board** button.
 And just like that, your board is ready to go! You can now begin adding stages and tasks to your newly created board.
 
 ![created board](../public/images/boards/how-to-create-a-new-board/created-Board-3.webp)
-
-If you have any further questions or concerns please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
