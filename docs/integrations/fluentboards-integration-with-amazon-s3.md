@@ -143,5 +143,3 @@ Replace the placeholder values with your actual **Amazon S3** credentials and in
 - If you encounter permission issues, review your bucket policy and IAM user permissions.
 - Ensure that your S3 bucket is in the correct region and that it’s accessible from your WordPress server.
 - Check that your access key and secret key are entered correctly without any extra spaces.
-
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}. Thank you.

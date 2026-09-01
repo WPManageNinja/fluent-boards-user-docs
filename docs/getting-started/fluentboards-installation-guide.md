@@ -41,5 +41,3 @@ Congratulations! FluentBoards has been successfully installed on your site.
 When you will enter the FluentBoards for the first time you will get the opportunity to [set up your first board](/onboarding-board). Give the details about boards and create new ones.
 
 ![fluentboard first dashboard](../public/images/getting-started/fluentboards-installation-guide/FluentBoard-First-Dashboard-scaled.webp)
-
-If you have any additional questions or need further assistance with the installation process, feel free to reach out to [us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

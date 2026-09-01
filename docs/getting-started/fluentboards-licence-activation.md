@@ -20,4 +20,4 @@ After that, you will see a success notification and a message that **Congratulat
 
 ![licence activated](../public/images/getting-started/fluentboards-licence-activation/Licence-Activated-3.webp)
 
-Congrats! You are using Fluent Boards Pro now. If you have any queries regarding this Licence Activation please feel free to contact [us](https://wpmanageninja.com/account/dashboard/){:target="_blank"}.
+Congrats! You are using Fluent Boards Pro now.
