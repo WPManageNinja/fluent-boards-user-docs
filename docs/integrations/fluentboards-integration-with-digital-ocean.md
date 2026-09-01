@@ -1,3 +1,7 @@
+---
+description: "Connect FluentBoards to DigitalOcean cloud storage for media and attachments. Get your credentials and configure the integration step by step."
+---
+
 # FluentBoards Integration with DigitalOcean
 
 DigitalOcean is a reliable cloud storage solution perfect for hosting media, managing backups, and building applications with its scalable and secure infrastructure.

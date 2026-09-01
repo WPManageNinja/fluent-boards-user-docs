@@ -1,3 +1,7 @@
+---
+description: "Connect FluentBoards to Backblaze cloud storage for your task attachments. Get your Backblaze credentials and configure the integration."
+---
+
 # FluentBoards Integration with Backblaze
 
 Backblaze is a cloud storage solution designed for media hosting, data backups, and building applications using S3-compatible APIs. It offers a secure and convenient way to store and access your data, making backup management seamless.

@@ -1,3 +1,7 @@
+---
+description: "Connect FluentBoards to Cloudflare R2 storage. Get your account ID, create a bucket, generate access keys, and configure the integration."
+---
+
 # FluentBoards Integration with CloudFlare R2
 
 FluentBoards integrates with Cloudflare R2, helps you to store your media files and manage storage more efficiently right from your WordPress site.
