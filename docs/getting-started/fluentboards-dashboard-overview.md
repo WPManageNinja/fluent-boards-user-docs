@@ -1,3 +1,7 @@
+---
+description: "Tour the FluentBoards Dashboard: light and dark mode, stats, My Boards, recent activity, My Tasks, and how to configure what each tab shows."
+---
+
 # Dashboard Overview
 
 Welcome to the FluentBoards Dashboard, designed to streamline your work experience and enhance accessibility. Within your FluentBoards Dashboard, you'll find a range of features to simplify task management and boost productivity.

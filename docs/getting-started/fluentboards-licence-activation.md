@@ -1,3 +1,7 @@
+---
+description: "Find your FluentBoards Pro license key in your WPManageNinja account and activate it in License Management to unlock all the Pro features."
+---
+
 # Activating Your License
 
 FluentBoards Pro offers a variety of advanced features to enhance your project management. To access these features, you need to activate the Pro version with a license key. You can purchase FluentBoards Pro from [WPManageNinja](https://community.wpmanageninja.com/portal/){:target="_blank"}.

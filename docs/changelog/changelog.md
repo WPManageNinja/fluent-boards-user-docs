@@ -1,4 +1,5 @@
 ---
+description: "Every FluentBoards release note in one place: new features, improvements, bug fixes, and performance updates for the WordPress project management plugin."
 pageClass: changelog-page
 ---
 

@@ -1,3 +1,7 @@
+---
+description: "Install FluentBoards on your WordPress site step by step, from the WordPress plugin directory or by uploading the FluentBoards Pro ZIP file."
+---
+
 # Installing FluentBoards
 
 Start organizing your projects smoothly with FluentBoards on your WordPress site. Installing FluentBoards is very simple, and this article will guide you through the entire process step by step.
