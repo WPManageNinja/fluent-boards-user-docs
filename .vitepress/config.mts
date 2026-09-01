@@ -108,9 +108,9 @@ export default defineConfig({
         text: 'Getting Started',
         collapsed: true,
         items: [
+          { text: 'Introduction', link: '/get-started-with-fluentboards' },
           { text: 'Installation', link: '/fluentboards-installation-guide' },
           { text: 'License Activation', link: '/fluentboards-licence-activation' },
-          { text: 'Introduction', link: '/get-started-with-fluentboards' },
           { text: 'Dashboard Overview', link: '/fluentboards-dashboard-overview' },
           { text: 'First Board Setup', link: '/onboarding-board' },
           { text: 'Shortcodes', link: '/shortcodes' }
