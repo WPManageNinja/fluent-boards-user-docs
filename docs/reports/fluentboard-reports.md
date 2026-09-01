@@ -1,3 +1,7 @@
+---
+description: "Monitor task progress, team activity, and workload in FluentBoards Reports, with charts and statistics covering your boards and your Roadmap."
+---
+
 # Reports
 
 The **Reports** section in FluentBoards helps you track task progress, team activity, and workload across your boards. It provides an overview of your projects with charts, statistics, and reports that make it easier to monitor work and identify trends.

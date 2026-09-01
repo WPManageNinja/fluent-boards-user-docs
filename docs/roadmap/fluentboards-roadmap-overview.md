@@ -1,3 +1,7 @@
+---
+description: "Build a public product Roadmap with FluentBoards. Install the Fluent Roadmap addon, create a Roadmap board, and display it on your website."
+---
+
 # Roadmap Overview
 
 FluentBoards offers an excellent feature called **Roadmap**, which allows you to create a roadmap for your products and services on your website's front end. This enables users to view your future plans and share their ideas with you. The roadmap will be displayed on your site's front end for easy access and interaction.

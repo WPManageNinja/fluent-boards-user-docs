@@ -1,3 +1,7 @@
+---
+description: "Track everything happening across your FluentBoards boards, from tasks created to labels changed, with the Activity Reports section."
+---
+
 # Activity Reports
 
 The **Activity Reports** section shows you everything happening across your Boards, from tasks created to labels changed, so you can keep track of your team's work at a glance.

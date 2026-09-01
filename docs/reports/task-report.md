@@ -1,3 +1,7 @@
+---
+description: "See how tasks are distributed across your FluentBoards boards by stage, assignee, label, and priority, and review recently completed work."
+---
+
 # Tasks Report
 
 The **Tasks** report helps you understand how tasks are organized across your boards. It shows task distribution by stage, assignee, label, and priority, making it easier to monitor workloads and track completed tasks.
