@@ -84,4 +84,4 @@ Selecting **Create Task** opens a pop-up where you can fill in the necessary det
 
 Once you have completed all the details, click the **Save Settings** button to save and apply your automation task to the board.
 
-That’s all about FluentCRM integration with FluentBoards. If you have any further queries about this article feel free to [reach us](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
+That’s all about FluentCRM integration with FluentBoards.

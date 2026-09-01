@@ -115,5 +115,3 @@ If defined in `wp-config.php`, these values will override any settings in the pl
 - Ensure that your API token has the correct permissions for R2 access.
 - Double-check that the bucket name and public URL are correct.
 - If using a custom domain, make sure it’s properly configured in CloudFlare.
-
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}. Thank you.

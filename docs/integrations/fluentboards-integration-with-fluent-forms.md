@@ -53,6 +53,3 @@ Back on the **All Form Integrations** page, your new **Fluent Boards Integration
 ![form integration setup](../public/images/integrations/fluentboards-integration-with-fluent-forms/disable-enable-edit-delete-4.webp)
 
 Now, your task will be automatically generated upon form submission and placed into the board and stage you've chosen.
-
-If you have any further questions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.
-
