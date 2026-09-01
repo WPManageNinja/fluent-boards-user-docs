@@ -1,3 +1,7 @@
+---
+description: "Set default assignees and watchers for a FluentBoards stage, so members are added and notified automatically when a task lands there."
+---
+
 # Stage Default Assignee
 
 FluentBoards allows you to set default assignees and watchers for specific board stages. When a task is created in or moved into that stage, those members are automatically added to the task and notified. You can add as many default members as you like to a single stage.

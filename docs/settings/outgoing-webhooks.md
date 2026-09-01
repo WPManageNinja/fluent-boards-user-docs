@@ -1,3 +1,7 @@
+---
+description: "Send real-time FluentBoards data to Slack, Discord, Zapier, Make, or any other app with outgoing webhooks, and automate your workflow."
+---
+
 # Outgoing Webhooks
 
 The Outgoing Webhooks feature in Fluent Boards provides a powerful way to connect your project management workflow with thousands of other applications and services. By using webhooks, you can send real-time data from your boards to external platforms, enabling automation and integration.
@@ -17,7 +21,7 @@ This guide will provide a detailed overview of how to configure and manage Outgo
 
 Configuring your webhook is a straightforward process.
 
-#### Step 1: Navigate to the Webhook Settings
+### Step 1: Navigate to the Webhook Settings
 
 First, go to the **Settings** of your FluentBoards. On the left sidebar, click **Webhooks** to expand it, then select **Outgoing Webhooks**.
 
@@ -25,7 +29,7 @@ First, go to the **Settings** of your FluentBoards. On the left sidebar, click *
 
 This screen is your main dashboard for managing all created webhooks. A banner at the top reminds you that webhooks send automatic POST requests to your URLs when selected events occur. Use the **Search fields by label** box to find a specific webhook.
 
-#### Step 2: Create a New Webhook
+### Step 2: Create a New Webhook
 
 Click the **+ Create Webhook** button to open the configuration form. Below is a detailed explanation of each field.
 
@@ -66,7 +70,7 @@ If you choose **Select Individual Event**, you can check the box next to the spe
 
 After filling out the form, click **Create Webhook**. Your webhook is now configured and, if set to **Active**, will begin monitoring your board for the specified trigger events.
 
-#### **Managing Existing Webhooks**
+### **Managing Existing Webhooks**
 
 Once you have created one or more webhooks, they will be listed on the **Outgoing Webhooks** dashboard. This central view allows you to see and manage all of your configured integrations at a glance.
 

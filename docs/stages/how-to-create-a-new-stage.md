@@ -1,3 +1,7 @@
+---
+description: "Create and manage stages in your FluentBoards boards, use stage actions, and add an intermediate stage to match how your project actually flows."
+---
+
 # Creating and Managing Stages
 
 Within your boards, you have the flexibility to create as many stages as needed to streamline your projects. Adding a stage to your board is straightforward and comes with a range of features. In this guide, we'll walk you through the process of creating a stage on the board and explore the features available for the stage.

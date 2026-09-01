@@ -1,3 +1,7 @@
+---
+description: "Control how and when FluentBoards notifies you. Configure email notification settings and per-board notification preferences for your workflow."
+---
+
 # Notification Settings
 
 FluentBoards Notification Settings give you control over how and when you receive notifications for your board updates. You can customize notifications to match your workflow, choosing alerts for specific actions like task assignments, comments, or due date changes.
