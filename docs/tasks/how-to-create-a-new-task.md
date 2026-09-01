@@ -198,5 +198,3 @@ A **Filters** panel appears on the right. Now, you can filter your tasks.
 **G. Labels:** Check one or more **Labels** to only see tasks that have those labels applied.
 
 ![marketing board fluentboards](../public/images/task-management/how-to-create-a-new-task/filter-20.webp)
-
-If you have any further queries, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}.

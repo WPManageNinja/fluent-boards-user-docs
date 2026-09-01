@@ -59,5 +59,3 @@ Open the Layouts tab to customize the information displayed on your task cards.
 For a detailed explanation of each option, see the [Card View Preferences](/card-view-preference-settings) guide.
 
 ![fluentboards Layout](../public/images/tasks/fluentboards-profile-and-task-overview/layout-6.webp)
-
-If you have any further questions or need additional assistance, please don't hesitate to [contact us](https://wpmanageninja.com/support-tickets/){:target="_blank"}.

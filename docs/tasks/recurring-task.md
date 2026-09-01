@@ -53,5 +53,3 @@ Once you're done, click the **Set** button to save your recurring schedule.
 **Monthly Reports:** Automate your monthly reporting tasks so they’re created at the start of each month without needing manual input.
 
 **Follow-up Reminders:** Need to follow up with a client every few days? Set it as a recurring task to never forget.
-
-If you have any further questions please don’t hesitate to [contact us](https://wpmanageninja.com/account/dashboard/){:target="_blank"}.

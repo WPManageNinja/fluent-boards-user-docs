@@ -53,5 +53,3 @@ Once a task has at least one custom field, click the **Plus** icon next to the *
 Click the **Pencil** icon to open the **Update Custom Field** pop-up, where you can change the field's **Title** or **Type**. Click **Update** to save your changes, or **Delete** to remove the field entirely.
 
 ![Update the Custom Field](../public/images/task-management/custom-fields-for-task/update-custom-field-5.webp)
-
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/){:target="_blank"}. Thank you.
