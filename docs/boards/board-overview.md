@@ -1,3 +1,7 @@
+---
+description: "Explore the FluentBoards Boards page, the central hub where you view, search, and organize every project board in your WordPress workspace."
+---
+
 # Board Overview
 
 The **Boards** page is the central hub where you can view, manage, and organize all of your project boards. From here, you can navigate through your projects, search for specific boards, and customize your workspace layout.

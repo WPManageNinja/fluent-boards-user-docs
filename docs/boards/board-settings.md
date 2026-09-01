@@ -1,3 +1,7 @@
+---
+description: "Configure your FluentBoards Board Menu: board details, activity, notifications, labels, members, archived items, webhooks, export, and archiving."
+---
+
 # Board Settings
 
 FluentBoards has a **Menu** option for your Boards. This **Menu** option allows you to make some changes to your Board as you want. In this guideline, we will show you how you can set these settings.

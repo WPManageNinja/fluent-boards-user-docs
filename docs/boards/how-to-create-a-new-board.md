@@ -1,3 +1,7 @@
+---
+description: "Create a new board in FluentBoards with a title, description, stages, labels, members, and background, or start from a ready-made board template."
+---
+
 # Creating a New Board
 
 Creating a new board in FluentBoards is quick and straightforward. You can set up your board with a title, description, stages, labels, members, and background, or start with a ready-made template. This guide walks you through the steps to create and set up a new board for managing your projects.

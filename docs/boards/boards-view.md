@@ -1,3 +1,7 @@
+---
+description: "Switch between the Kanban, List, Table, Calendar, and Gantt Chart views in FluentBoards to visualize your project data the way that suits you."
+---
+
 # Board Views
 
 The FluentBoards plugin offers three impressive board views. These views allow you to visualize your board's information in different ways, helping you analyze and display reports on your board data more effectively.

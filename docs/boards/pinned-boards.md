@@ -1,3 +1,7 @@
+---
+description: "Pin your most-used project boards in FluentBoards for quick access. Learn how to pin, unpin, display, and filter pinned boards in your workspace."
+---
+
 # Pinned Boards
 
 The **Pinned Boards** feature allows users to mark specific project boards as pinned, enabling quick access to their most important or frequently used boards. This feature enhances user productivity by prioritizing key boards in the interface.

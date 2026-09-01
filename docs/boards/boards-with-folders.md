@@ -1,3 +1,7 @@
+---
+description: "Group related boards into folders in FluentBoards. Learn how to create a folder, add boards to it, and customize how your workspace is displayed."
+---
+
 # Organizing with Folders
 
 To keep your workspace organized, you can group related boards into folders. This guide will walk you through creating folders, adding boards to them, and customizing your view.
