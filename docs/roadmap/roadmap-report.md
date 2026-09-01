@@ -1,3 +1,7 @@
+---
+description: "Review your FluentBoards Roadmap performance: idea submissions over time, stage-wise totals, submission sources, popular ideas, and CSV export."
+---
+
 # Roadmap Report
 
 FluentBoards provides a dedicated **Roadmap Report** feature within the Reports section. This report offers a comprehensive overview of user-submitted product ideas, stage progression, submission channels, and community engagement metrics, helping you analyze public feedback and track your project roadmaps effectively.

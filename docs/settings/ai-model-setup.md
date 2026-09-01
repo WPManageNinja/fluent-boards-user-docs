@@ -1,3 +1,7 @@
+---
+description: "Connect an AI provider to FluentBoards. Enable AI, pick a model, configure OpenAI, Claude, or Gemini, verify the connection, and add instructions."
+---
+
 # AI Model Setup
 
 In **FluentBoards**, the **AI Model Setup** feature allows you to integrate artificial intelligence directly into your workspace. Once configured, AI assistance becomes available inside the task description editor, helping you generate, edit, or summarize content seamlessly.

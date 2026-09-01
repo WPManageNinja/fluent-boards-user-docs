@@ -1,3 +1,7 @@
+---
+description: "Customize what appears on your FluentBoards task cards, so your board shows exactly the information your team needs at a glance."
+---
+
 # Card View Preferences
 
 To enhance the effectiveness of your Task Card View, you can personalize the information displayed. Here's how you can customize your Task Card View:
