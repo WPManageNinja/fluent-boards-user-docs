@@ -66,14 +66,17 @@ export function zoomablePlugin(md: MarkdownRenderer) {
     const src = token.attrs[srcIndex][1];
     const alt = altText(token.children) || token.content || "";
 
-    // Pass src/alt as props - no slot. The component owns the <img>, so SSR and
-    // client render the exact same markup.
+    // Wrapped in <ClientOnly>, matching the reference implementation in
+    // essentials/theme (see its ZOOMABLE_PLUGIN_REPORT.md).
     //
-    // Deliberately NOT wrapped in <ClientOnly>: that skips server rendering, so
-    // every documentation image would be absent from the static HTML and
-    // invisible to crawlers along with its alt text. The component is SSR-safe
-    // (it touches window only from onMounted and event handlers), so it renders
-    // the <img> on the server and hydrates the zoom behaviour on top.
+    // ClientOnly makes the server render nothing here at all. With no
+    // server-rendered markup there is nothing for Vue to hydrate against, so
+    // the duplicate-image bug cannot occur by construction - the client builds
+    // the image once, from scratch, on every page.
+    //
+    // The cost is SEO: every documentation image, and its alt text, is absent
+    // from the static HTML. Crawlers that do not execute JavaScript see none of
+    // them. That is a deliberate trade in favour of certainty about duplicates.
     //
     // The relative src is rewritten by Vite's asset pipeline because config.mts
     // declares `ZoomableImage: ['src']` under vue.template.transformAssetUrls.
@@ -82,6 +85,6 @@ export function zoomablePlugin(md: MarkdownRenderer) {
     //
     // Explicit closing tag (not self-closing) - Vue's SSR-side parsing of
     // markdown-emitted markup is more reliable with an explicit close.
-    return `<ZoomableImage src="${escapeAttr(src)}" alt="${escapeAttr(alt)}"></ZoomableImage>`;
+    return `<ClientOnly><ZoomableImage src="${escapeAttr(src)}" alt="${escapeAttr(alt)}"></ZoomableImage></ClientOnly>`;
   };
 }

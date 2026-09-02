@@ -1,16 +1,32 @@
+<!--
+  Two independent guards against the duplicate-image bug. Either one alone
+  prevents it; both are in place because this bug is expensive to re-debug.
+
+  1. plugin-zoomable.ts wraps this component in <ClientOnly>, so the server
+     renders nothing here and there is no server markup to hydrate against.
+     This is the primary fix and matches essentials/theme.
+
+  2. Every wrapper below is a <span>, never a <div>. A markdown image renders as
+     <p><img></p>, so this component's markup sits INSIDE a paragraph. A <div>
+     there is invalid HTML: the browser's parser closes the <p> early and hoists
+     the div out, which is what made the server markup and the browser DOM
+     disagree in the first place. Spans are valid paragraph content, so nothing
+     gets restructured. The CSS below gives them the block layout the divs had,
+     so it changes nothing visually.
+-->
 <template>
-  <div ref="wrapperRef" class="image-wrapper">
-    <div
+  <span ref="wrapperRef" class="image-wrapper">
+    <span
       class="image-container"
       :class="{ clicked: isZoomed }"
       @click.stop="toggleZoom"
     >
-      <div class="image-padding-wrapper">
+      <span class="image-padding-wrapper">
         <img ref="imgRef" :src="src" :alt="alt" :key="src" loading="lazy" />
-      </div>
-    </div>
-    <div v-if="isZoomed" class="overlay" @click.stop="toggleZoom"></div>
-  </div>
+      </span>
+    </span>
+    <span v-if="isZoomed" class="overlay" @click.stop="toggleZoom"></span>
+  </span>
 </template>
 
 <script setup>
@@ -161,15 +177,12 @@ if (route) {
 }
 
 onMounted(() => {
-  nextTick(() => {
-    if (imgRef.value) {
-      imgRef.value.style.cursor = "zoom-in";
-      imgRef.value.style.transition = "transform 0.3s ease, box-shadow 0.3s ease";
-      imgRef.value.style.transformOrigin = "center center";
-    }
-
-    attachEventListeners();
-  });
+  // No inline styles here on purpose. cursor, transition and transform-origin
+  // are all set by the stylesheet below, and setting them inline made the
+  // inline value win over `.image-container.clicked img { cursor: zoom-out }` -
+  // so a zoomed image kept showing the zoom-in cursor and never signalled that
+  // clicking again would close it.
+  nextTick(attachEventListeners);
 });
 
 onBeforeUnmount(() => {
@@ -178,18 +191,25 @@ onBeforeUnmount(() => {
 </script>
 
 <style>
+/*
+  display: block on all three - these are spans (see the template comment), and
+  they need to lay out the way the original divs did.
+*/
 .image-wrapper {
+  display: block;
   position: relative;
   width: 100%;
   margin: 16px 0;
 }
 
 .image-container {
+  display: block;
   position: relative;
   z-index: 1;
 }
 
 .image-padding-wrapper {
+  display: block;
   padding: 0;
   transition: padding 0.3s ease;
 }
@@ -220,6 +240,7 @@ onBeforeUnmount(() => {
 }
 
 .overlay {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
