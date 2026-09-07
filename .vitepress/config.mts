@@ -217,6 +217,12 @@ export default defineConfig({
     // Site navigation
     nav: [
       { text: 'Home', link: '/' },
+      {
+        text: 'Try It Free',
+        link: 'https://try.wpmanageninja.com/?products=fluent-boards',
+        target: '_blank',
+        rel: 'noreferrer',
+      },
       { text: 'User Guide', link: '/get-started-with-fluentboards' },
       {
         text: 'Website',
