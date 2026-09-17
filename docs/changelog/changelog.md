@@ -7,6 +7,38 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.1.0
+
+Released on September 17, 2026
+
+::: code-group
+
+``` [✨ Newly Added]
+• Rich text formatting for comments and replies
+• Markdown attachment previews with Mermaid diagrams and full-screen mode
+• Import Trello boards via API
+• Label colors that adapt to light and dark modes
+```
+
+``` [🚀 Improvements]
+• Identify labels faster with colored backgrounds
+• Task descriptions now auto-save, with dedicated Save and Cancel buttons for added control
+• Task headers now show the current stage
+• Spot high-priority tasks faster with color-coded priorities
+• Refined task details and dashboard badges
+```
+
+``` [🐞 Bug fixes]
+• Table search persistence, Gantt scrolling, and date picker overlap
+• Timesheet reports, missing board descriptions, and task lookup errors
+• Tightened security for public boards and API responses
+• Other security issues
+• Other improvements and bug fixes
+```
+
+:::
+
+
 ## FluentBoards v2.0.12
 
 Released on August 20, 2026
