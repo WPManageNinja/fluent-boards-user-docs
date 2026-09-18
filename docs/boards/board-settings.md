@@ -85,14 +85,17 @@ In FluentBoards, you can use **Custom Fields** to add extra data fields to your 
 First, navigate to the board you want to add a custom field to. Click on the **Menu** from the top right corner of the board and select the **Custom Fields** option.
 
 1. You will now see the Custom Fields panel. Click on the **Create Custom Field** button to get started.
+
+![custom field board task](../public/images/boards/board-settings/custom-field-8.webp)
+
 2. A pop-up window will appear. Here you will need to fill in two options:
 
  * **Title:** This will be the display title for your custom field.
 
-3. **Type:** Choose the data type from the dropdown field, such as Number, Text, or Date.
-4. After filling in the required information, click the **Create** button.
+ * **Type:** Choose the data type from the dropdown field, such as Number, Text, or Date.
 
-![custom field board task](../public/images/boards/board-settings/custom-field-8.webp)
+3. After filling in the required information, click the **Create** button.
+
 
 ![custom field board task](../public/images/boards/board-settings/create-custom-field-9.webp)
 
@@ -131,7 +134,9 @@ Down here you will also be able to see the *Pending Invitations*.
 
 The **Archived Items** panel has two tabs: **Archived Tasks** and **Archived Stages**.
 
-Under **Archived Tasks**, you'll see every task you've archived, along with who archived it and when. Check the box next to a task, or click **Select All**, and use the **Restore** or **Delete** icon to bring it back or remove it for good. Once you've checked one or more boxes, a counter shows how many are selected, and you can use the **Actions** dropdown to **Restore Selected** or **Delete Selected** tasks all at once.
+Under **Archived Tasks**, you'll see every task you've archived, along with who archived it and when. Check the box next to a task, or click **Select All**, and use the **Restore** or **Delete** icon to bring it back or remove it for good. 
+
+Once you've checked one or more boxes, a counter shows how many are selected, and you can use the **Actions** dropdown to **Restore Selected** or **Delete Selected** tasks all at once.
 
 ![archived items ](../public/images/boards/board-settings/archived-items-12.webp)
 
@@ -162,7 +167,9 @@ Under **Board Contact**, you'll see the single contact linked to the board, alon
 
 ### Duplicate Board
 
-If you wish to duplicate the board, simply select the **Duplicate Board** option. Then, provide a title for your duplicate board and choose from the **Keep Tasks**, **Keep Labels**, and **Keep Templates** checkboxes which information you'd like to copy along with it. Once you're done, click the **Duplicate** button.
+If you wish to duplicate the board, simply select the **Duplicate Board** option. Then, provide a title for your duplicate board and choose from the **Keep Tasks**, **Keep Labels**, and **Keep Templates** checkboxes which information you'd like to copy along with it. 
+
+Once you're done, click the **Duplicate** button.
 
 ![board duplicate ](../public/images/boards/board-settings/duplicate-board-16.webp)
 
@@ -193,6 +200,8 @@ Here, the **JSON** is for exporting your board in JSON format, and the **CSV** b
 
 ### Archive Board
 
-If you no longer need a board in your active list, select **Archive Board**. A confirmation pop-up reminds you that archived boards can be restored at any time, but they won't appear in your active boards list until then. Click **Archive This Board** to confirm, or **Cancel** to back out.
+If you no longer need a board in your active list, select **Archive Board**. A confirmation pop-up reminds you that archived boards can be restored at any time, but they won't appear in your active boards list until then. 
+
+Click **Archive This Board** to confirm, or **Cancel** to back out.
 
 ![Archive the Board](../public/images/boards/board-settings/archive-the-board-20.webp)
