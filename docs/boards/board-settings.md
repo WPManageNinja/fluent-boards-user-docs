@@ -196,8 +196,6 @@ Here, the **JSON** is for exporting your board in JSON format, and the **CSV** b
 
 ![export feature 2](../public/images/boards/board-settings/export-feature-19.webp)
 
-
-
 ### Archive Board
 
 If you no longer need a board in your active list, select **Archive Board**. A confirmation pop-up reminds you that archived boards can be restored at any time, but they won't appear in your active boards list until then. 

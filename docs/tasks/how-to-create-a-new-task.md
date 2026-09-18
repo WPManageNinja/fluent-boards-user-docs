@@ -103,9 +103,14 @@ You can also paste a link instead. Simply add the URL under **Paste a Link**, gi
 
 Once added, your attachments appear in a list under the **Attachments** heading, and you'll see its own upload progress for every file, so you always know how each one is doing.
 
-Click a Markdown file to preview it, including any Mermaid diagrams inside it, without leaving the task. Click the **Toggle Fullscreen** icon in the preview to view it full-screen.
-
 ![attachment](../public/images/task-management/how-to-create-a-new-task/Attachment-11.webp)
+
+Click a Markdown file to preview it right inside the task, complete with its formatting and any Mermaid diagrams it contains, such as flowcharts or process diagrams. This makes technical documentation, flowcharts, and other structured Markdown content much easier to review, without downloading the file or switching tools.
+
+From the preview, click **Copy Markdown** to copy the file's raw content, **Open in new tab** to view it on its own page, or **Download** to save it. Click the **Toggle Fullscreen** icon for a larger view, or the **X** to close the preview.
+
+![markdown diagram preview](../public/images/task-management/how-to-create-a-new-task/markdown-diagram.webp)
+
 
 ### Adding Subtasks
 
