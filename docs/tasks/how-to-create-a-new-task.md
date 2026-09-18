@@ -18,7 +18,7 @@ You can also drag and drop or paste an image directly onto the Kanban view, and 
 
 A quick-create pop-up will appear. Give a **Title** for your **Task**, and add a description if you'd like. From here, you can also set the **Stage**, **Priority**, **Labels**, **Background**, and dates right away, or click **Start From Template** to create the task from an existing template. 
 
-Once you're done, click the **Create Task** button and your task will be added to your board stage.
+Once you're done, click the **Create Task** button and your task will be added to your board stage. Your new task then opens right in the Task Details Modal, so you can add more details straight away.
 
 ![adding task title](../public/images/task-management/how-to-create-a-new-task/adding-Task-details-2.webp)
 
@@ -26,7 +26,7 @@ Once you're done, click the **Create Task** button and your task will be added t
 
 Click on the task card, and you'll find many features here to help you manage your task effectively. 
 
-The redesigned Task Details Modal keeps all of these features in one clean view, with your task's **Properties**, **Labels**, and **CRM Contact** neatly organized on the right side. 
+The redesigned Task Details Modal keeps all of these features in one clean view, with your task's **Properties**, **Labels**, and **CRM Contact** neatly organized on the right side. The task header also shows the **Stage** the task currently sits in, so you always know where it is in your workflow.
 
 Below, we'll describe each of them in detail.
 
@@ -54,7 +54,7 @@ Once you've set a due date for a task or subtask, you can also add a reminder so
 
 ### Priority
 
-Click on the **Set Priority** button under **Properties** to designate the priority level of your task as **Urgent**, **High**, **Medium**, or **Low**, or leave it as **No Priority**. Also, you can customize task priority levels via the [filter hook](https://developers.fluentboards.com/hooks/filters/#fluent_boards_task_priorities){:target="_blank"}.
+Click on the **Set Priority** button under **Properties** to designate the priority level of your task as **Urgent**, **High**, **Medium**, or **Low**, or leave it as **No Priority**. Each priority level shows in its own color, so you can spot high-priority tasks at a glance. Also, you can customize task priority levels via the [filter hook](https://developers.fluentboards.com/hooks/filters/#fluent_boards_task_priorities){:target="_blank"}.
 
 ![task priority](../public/images/task-management/how-to-create-a-new-task/Task-Priority-6.webp)
 
@@ -62,7 +62,7 @@ Click on the **Set Priority** button under **Properties** to designate the prior
 
 You can add a **Label** to your task based on your needs. To add a label, click on the **Plus** icon button placed under **Labels**.
 
-A **Change or add labels** pop-up will appear with your board's default color labels. Simply check the **Checkbox** next to a label to apply it, or type in the search field to find or create a new one.
+A **Change or add labels** pop-up will appear with your board's default color labels. Simply check the **Checkbox** next to a label to apply it, or type in the search field to find or create a new one. Labels show with colored backgrounds so you can identify them faster, and their colors automatically adjust for light and dark mode.
 
 ![label 4](../public/images/task-management/how-to-create-a-new-task/Label-7.webp)
 
@@ -70,14 +70,17 @@ A **Change or add labels** pop-up will appear with your board's default color la
 
 You can provide a detailed description for your task right in the **Description** field. The editor has been rebuilt with full Markdown support. It handles tables and smart typography, and it stays fast and reliable even on longer descriptions.
 
-Type **/** to open the block menu, where you can insert a **Heading**, **Quote**, **Divider**, **Bullet List**, **Ordered List**, and more, just like a Markdown editor.
+Type **/** to open the block menu, where you can insert a **Heading**, **Quote**, **Divider**, **Bullet List**, **Ordered List**, and more, just like a Markdown editor. You can also select **Write with AI** right from this menu to open the **AI Writing Assistant**.
 
 Once you select or highlight your text, a formatting toolbar appears with **Bold**, **Italic**, **Strikethrough**, **Code**, **Link**, and list options, so you can format your description exactly how you'd like.
+
+Your description auto-saves as you type. Dedicated **Save** and **Cancel** buttons also let you confirm or undo your changes whenever you'd like more control.
 
 ![description 01](../public/images/task-management/how-to-create-a-new-task/description-8.webp)
 
 Simply click on the **AI** icon in the description toolbar to open the **AI Writing Assistant**. From here, you can ask it to write, improve, shorten, expand, format, or fix the grammar of your description, or give it a custom instruction of your own.
 
+> [!Note]
 > Your need to connect an AI provider (OpenAI, Claude, Gemini, or the WordPress AI client) before the **AI Writing Assistant** appears.
 
 ### AI Task Assistant
@@ -99,6 +102,8 @@ To add an attachment to your task, click the **Add Attachment** link. A pop-up w
 You can also paste a link instead. Simply add the URL under **Paste a Link**, give it a **Display Text**, and click the **Add Link** button.
 
 Once added, your attachments appear in a list under the **Attachments** heading, and you'll see its own upload progress for every file, so you always know how each one is doing.
+
+Click a Markdown file to preview it, including any Mermaid diagrams inside it, without leaving the task. Click the **Toggle Fullscreen** icon in the preview to view it full-screen.
 
 ![attachment](../public/images/task-management/how-to-create-a-new-task/Attachment-11.webp)
 
@@ -148,7 +153,9 @@ Enter a **Title** for your field, then choose its **Type**: **Text**, **Number**
 
 ### Task Comments and Activities
 
-Below, you'll find the **Activity** section for the task, redesigned for a cleaner look. Only board members have the ability to comment on tasks and reply to them.
+Below, you'll find the **Activity** section for the task, redesigned for a cleaner look. Only board members have the ability to comment on tasks and reply to them. Select your comment text to format it with **Bold**, **Italic**, **Strikethrough**, **Code**, and **Link**, just like the description editor.
+
+![activites](../public/images/task-management/how-to-create-a-new-task/activities-18.webp)
 
 Click on the **three-dot** icon next to **Activity** to filter the feed by **All**, **Comments**, or **Activities**.
 
@@ -157,8 +164,6 @@ Choosing **Comments** shows only the comments left on the task, and you can clic
 ![comments](../public/images/task-management/how-to-create-a-new-task/Comments-17.webp)
 
 Choosing **Activities** shows a complete, timestamped history of everything that happened on the task, from creation to every label, title, or status change since.
-
-![activites](../public/images/task-management/how-to-create-a-new-task/activities-18.webp)
 
 ## Task Filter
 
