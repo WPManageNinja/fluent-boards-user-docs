@@ -9,7 +9,7 @@ Open any task, then click the **Three Dot** icon in the top right corner of the 
 - **Copy Task Link**: Copies a shareable link to this task, so you can send it to someone directly.
 - **Pin Task**: Pin your most critical tasks so they stay at the top of your board, easy to find on busy boards.
 - **Join as Assignee / Leave Task**: If you're not assigned to the task yet, this shows as **Join as Assignee**, letting you add yourself with one click. Once you've joined, the same spot shows **Leave Task**, so you can remove yourself as an assignee just as easily.
-- **Move**: Allows you to move the task to any board and stage. This experience has been redesigned to make changing a task's stage or board quicker and clearer.
+- **Move**: Allows you to move the task to any board and stage. This experience has been redesigned to make changing a task's stage or board quicker and clearer. Its comments, replies, attachments, and time-tracking entries all move along with it.
 - **Watching**: The **Watching** option lets you stay updated on changes and activities for this specific task.
 - **Make Template**: This enables you to create a template from the task.
 - **Recurring Task**: Sets this task to repeat on a schedule you choose. For the full walkthrough, see the [Recurring Tasks](/recurring-task) guide.
