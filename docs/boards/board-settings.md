@@ -70,7 +70,7 @@ Turn on **Enable All** to receive every notification, or toggle individual optio
 
 ### Board Labels
 
-Click on **Board Labels**, and you will see all the existing labels listed here. To add a new label for your board, click on the **Add Label** button.
+Click on **Board Labels**, and you will see all the existing labels listed here, each shown next to its color. Use the **Change or add labels** search field to quickly find one, or click the **Add Label** button to create a new one.
 
 If you want to edit an existing label, click on the **Pencil** Icon button next to the label name. Also choose a **color** for your label from the default options or select a **custom color**. Once done, click on the **Save** button. If you want to remove a label, simply click on the **Delete** button.
 
