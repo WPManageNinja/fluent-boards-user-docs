@@ -18,6 +18,8 @@ A **Manage User Permissions** pop-up will appear. Click the **Promote to Full Ad
 
 Under **Manage Access**, you'll see every board this member has a role on, along with a dropdown to change their **Role** for each one. Click **+ Add New Board** to give them access to another board directly from here.
 
+Choose **No Access**, **Viewer**, **Member**, or **Manager** for each board in one go. Select **Remove from all boards** if you want to take away every board at once. Once you're done, click the **Update Access** button to save all your changes together.
+
 ![member role ](../public/images/settings/member-roles/manage-user-submission-2.webp)
 
 We are describing all the roles within FluentBoards:
