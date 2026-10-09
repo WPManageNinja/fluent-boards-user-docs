@@ -12,7 +12,7 @@ Go to your FluentBoards Dashboard and click on your **Profile** image in the top
 
 ![fluentboards profile view](../public/images/tasks/fluentboards-profile-and-task-overview/profile-view-1.webp)
 
-Your **Profile** page opens with a left sidebar showing five sections: **Overview**, **Tasks**, **Activities**, **Notifications**, and **Layouts**.
+Your **Profile** page opens with a left sidebar showing six sections: **Overview**, **Account**, **Tasks**, **Activities**, **Notifications**, and **Layouts**.
 
 ## Overview
 
@@ -28,6 +28,19 @@ Below your profile details, you'll find four stat cards that provide a quick sum
 Further down, the **Recent Tasks** section displays your latest assigned tasks along with their **Priority**, **Due Dat**e, and **Board**. Click **View All** to open your complete task list.
 
 ![fluentboards profile info](../public/images/tasks/fluentboards-profile-and-task-overview/profile-info-2.webp)
+
+## Account
+
+Select **Account** from the left sidebar to update how you appear in FluentBoards. You only see this tab on your own profile.
+
+Under **Profile**, you can change your photo and name:
+
+1. Click the **Change profile photo** button and pick an image from your computer. The photo must be 2 MB or smaller.
+2. Click the **Edit display name** icon next to your name, enter the new name in the **Display name** field, and click the **Save** button.
+
+Here you will also find the **MCP Connections** card, where you create keys to connect AI tools. Learn more in the [MCP for AI Agents](/mcp-for-ai-agents) guide.
+
+![Account](../public/images/tasks/fluentboards-profile-and-task-overview/account-3.webp)
 
 ## Tasks
 
