@@ -4,7 +4,7 @@ description: "Set up recurring tasks in FluentBoards so daily, weekly, monthly, 
 
 # Recurring Tasks
 
-A **Recurring Task** is a task that repeats at regular intervals (daily, weekly, monthly, and yearly.). Once the set interval is reached, FluentBoards will automatically recreate the task for you. No more manual task creation for recurring work!
+A **Recurring Task** is a task that repeats at regular intervals (daily, weekly, monthly, or yearly). Once the set interval is reached, FluentBoards will automatically recreate the task for you. No more manual task creation for recurring work!
 
 In this guideline, we will show you how you can enable and set a Recurring Task.
 
@@ -37,7 +37,11 @@ A **Recurring Task** pop-up will appear. Under **Time & Date**, pick the time yo
 - **Monthly**: The task repeats every set number of months.
 - **Yearly**: The task repeats every set number of years.
 
-Use the **Repeat every** field to set the interval, for example, every **1 day(s)** or every **2 week(s)**. The **Next run** box below shows a read-only preview of exactly when the next repeat will happen, based on your settings.
+Use the **Repeat every** field to set the interval, for example, every **1 day(s)** or every **2 week(s)**. Click the **Plus** or **Minus** button to change the number.
+
+With **Weekly** selected, you will also see the days of the week (**Sun** to **Sat**). Pick the days you want the task to repeat on.
+
+The **Next run** box below shows a read-only preview of exactly when the next repeat will happen, based on your settings.
 
 Under **Stage**, choose which stage the recreated task should start in.
 
@@ -49,6 +53,21 @@ Finally, choose how the repeat should behave:
 Once you're done, click the **Set** button to save your recurring schedule.
 
 ![FluentBoards Recurring Task](../public/images/task-management/recurring-task/recuring-task-4.webp)
+
+### Check or Stop a Recurring Schedule
+
+Once you set a schedule, a **Recurring Task** card appears in the task's details. Here you will see a summary such as **Repeats every 2 weeks** and the **Next Run Date**.
+
+To change the schedule, click the **Manage** button on this card. The **Recurring Task** pop-up opens again. To end the schedule, click the **Stop Repeating** button.
+
+## Find Your Recurring Tasks
+
+Want to see only the tasks that repeat? Click the **Filter** icon at the top right of your board. Under **Task**, check the **Recurring** box. Your board now shows just your recurring tasks. Uncheck it to see everything again.
+
+> [!Note]
+> The **Recurring** filter only appears when the Recurring Task module is turned on.
+
+![FluentBoards Recurring Task](../public/images/task-management/recurring-task/recurring-task-11.webp)
 
 ### Examples & Use Cases
 
