@@ -28,6 +28,9 @@ Here, you'll find various types of options for receiving notifications, which in
 
 ![notification settings](../public/images/settings/notification-settings/notification-settings-1.webp)
 
+> [!Note]
+> FluentBoards notification emails have a fresh design. They switch between light and dark mode automatically to match your email app's appearance setting.
+
 ## Board Notification Settings
 
 You have the option to get notifications for specific boards as well. To do this, navigate to the board for which you want to customize notifications, then click on the **Three Dot** button in the top right corner. A **Board Menu** popup will appear, select **Notification Settings** from here.
