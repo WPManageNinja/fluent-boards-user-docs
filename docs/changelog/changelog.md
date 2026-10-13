@@ -7,6 +7,23 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.2.1
+
+Released on October 13, 2026
+
+::: code-group
+
+``` [🐞 Bug fixes]
+• Upload directory warning issue
+• Cloud attachment downloads failing on some sites
+• Search briefly showing empty results while typing
+• CSV import upload error handling
+• Recurring task and reminder scheduling fixes
+• Minor stability and permission fixes
+```
+
+:::
+
 ## FluentBoards v2.2.0
 
 Released on October 12, 2026
