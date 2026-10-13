@@ -7,6 +7,47 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.2.0
+
+Released on October 12, 2026
+
+::: code-group
+
+``` [✨ Newly Added]
+• Browse, preview, and create boards from built-in templates, or save them for reuse
+• Ready-to-use board background images
+• OpenRouter support for AI writing assistance
+• Create MCP connection keys from your account, with admin-managed access
+• Import Fluent Boards exports without Pro
+• Filter recurring tasks and task templates
+• Drag and drop boards into folders
+```
+
+``` [🚀 Improvements]
+• Update your profile name and photo from your account
+• Redesigned notification emails with light and dark mode support
+• Easier member access management across multiple boards
+• Preserve more task data when duplicating boards, importing, and using templates
+• Richer comment formatting, slash commands, and easier description copying
+• Clearer recurring schedules, links to generated tasks, and custom-field activity history
+• Faster board lists, task activity feeds, and bulk stage moves
+• Simpler AI setup, updated model choices, and better translations
+```
+
+``` [🐞 Bug fixes]
+• Assignment notifications, comment email links, and incorrect archive emails when restoring tasks
+• Bulk task moves now apply stage defaults and trigger notifications and webhooks
+• Task and board deletion now cleans up related data and local or cloud attachments
+• Search and filters now work together, and failed status updates preserve the previous status
+• Recurring tasks retain custom fields and correctly update task counts and creation webhooks
+• Time-log dates, custom date fields, timesheet access, and CSV exports
+• Webhook event selection, task completion events, and missing-data handling
+• FluentCRM task assignments, template data, and contact-board associations
+• Task navigation, upload protection, and board permission checks
+```
+
+:::
+
 ## FluentBoards v2.1.0
 
 Released on September 17, 2026
