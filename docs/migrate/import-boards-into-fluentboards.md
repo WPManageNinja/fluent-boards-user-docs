@@ -15,6 +15,8 @@ In this article, we’ll walk you through the steps to import boards into your F
 > [!Note]
 > If you want to import your FluentBoards from another site or restore them from a backup, the first step is to export the boards from FluentBoards. To learn how to **Export** boards, check out the [Board Settings](/board-settings#export) guide.
 
+This option is available in the free version, so you don't need FluentBoards Pro to restore your own exports. Other import sources, such as Trello, Asana, and CSV, need FluentBoards Pro. Without Pro, they show a **Pro** badge and stay disabled.
+
 To import boards from another FluentBoards installation or restore a backup, follow these steps:
 
 Go to FluentBoards and click on **Boards** from the navigation bar. Then, click the **Import** dropdown at the top right corner of the boards dashboard and select **Import From FluentBoards**.
@@ -28,6 +30,8 @@ An **Import From FluentBoards** panel will open from the right. Click **Browse F
 ## Import CSV File
 
 FluentBoards allows you to import your task boards from a CSV file. This is especially useful if you’re switching from another platform or managing tasks in spreadsheets.
+
+This option needs FluentBoards Pro.
 
 To import a CSV file, go to FluentBoards and click on **Boards** from the navbar. Now, click on the **Import** dropdown in the top right corner of the boards dashboard, then select **Import From CSV**.
 

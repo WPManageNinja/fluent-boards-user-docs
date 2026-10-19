@@ -15,7 +15,7 @@ To keep your workspace organized, you can group related boards into folders. Thi
 
 ### How to Add Boards to a Folder
 
-You can add boards to a folder in two ways: by creating a new board directly inside it, or by adding an existing board.
+You can add boards to a folder in three ways: by creating a new board directly inside it, by adding an existing board, or by dragging a board onto it.
 
 **A. Create a New Board in a Folder**
 
@@ -34,6 +34,18 @@ You can add boards to a folder in two ways: by creating a new board directly ins
 4. Click the **Add Boards** button to confirm.
 
 ![Add Board To Folder](../public/images/boards/boards-with-folders/add-board-to-folder-3.webp)
+
+**C. Drag and Drop a Board into a Folder**
+
+1. On the **Boards** page, click and hold the board you want to move.
+2. Drag it over to the folder in the left sidebar. Folders that can accept the board light up, and folders that can't appear dimmed.
+3. Release the mouse button to drop the board into the folder.
+
+This is the quickest way to sort many boards at once. Feel free to drop boards into different folders one after another.
+
+
+![Drag and Drop Board](../public/images/boards/boards-with-folders/board-drag-and-drop-in-folder.gif)
+
 
 ### How to Edit or Delete a Folder
 

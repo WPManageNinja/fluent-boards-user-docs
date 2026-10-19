@@ -194,6 +194,8 @@ A **Filters** panel appears on the right. Now, you can filter your tasks.
 - **Open:** Shows tasks that are still open.
 - **Closed:** Shows tasks that have been marked as completed.
 - **Archived:** Shows tasks that have been archived.
+- **Recurring:** Shows only tasks that repeat on a schedule. This needs FluentBoards Pro, and the Recurring Task module must be turned on.
+- **Template:** Shows only tasks you've saved as templates. This needs FluentBoards Pro.
 
 **D. Due Date:** This section enables filtering based on task due dates.
 

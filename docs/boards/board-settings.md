@@ -167,7 +167,7 @@ Under **Board Contact**, you'll see the single contact linked to the board, alon
 
 ### Duplicate Board
 
-If you wish to duplicate the board, simply select the **Duplicate Board** option. Then, provide a title for your duplicate board and choose from the **Keep Tasks**, **Keep Labels**, and **Keep Templates** checkboxes which information you'd like to copy along with it. 
+If you wish to duplicate the board, simply select the **Duplicate Board** option. Then, provide a title for your duplicate board and choose from the **Keep Tasks**, **Keep Labels**, **Keep Members**, **Keep Custom Fields**, and **Keep Templates** checkboxes which information you'd like to copy along with it. 
 
 Once you're done, click the **Duplicate** button.
 

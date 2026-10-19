@@ -39,3 +39,7 @@ A **Task Templates** panel will appear, listing any existing templates you've sa
 ![task templates panel](../public/images/task-management/task-template/task-template-6.webp)
 
 That's all you need to know about creating and using task templates in FluentBoards.
+
+## Find Your Task Templates
+
+Click the **Filter** icon at the top right of your board. Under **Task**, check the **Template** box. Your board now shows only tasks marked as templates. Uncheck it to see all your tasks again.
