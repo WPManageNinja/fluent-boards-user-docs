@@ -7,6 +7,19 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.2.2
+
+Released on October 16, 2026
+
+::: code-group
+
+``` [🐞 Bug fixes]
+• Attachment previews disrupted by buffered output or PHP notices in Pro
+• Other bug fixes and improvements
+```
+
+:::
+
 ## FluentBoards v2.1.0
 
 Released on September 17, 2026
