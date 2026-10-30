@@ -144,7 +144,7 @@ Click on the **Circle** icon button next to your task title to mark your task as
 
 To clone a task, click the three-dot menu at the top of the task details panel and select **Clone Task**. Similarly, you can clone any subtask using its own three-dot menu, and it will be duplicated within the same task. Note: Cloning is only possible for items within the same board.
 
-This same menu also has your other task actions, like **Copy Task Link**, **Share Task**, **Pin Task**, **Watching**, **Move**, **Make Template**, **Convert to Subtask**, **Archive Task**, and **Delete Task**. Check out the [Task Actions](/task-action) guide to learn more about these.
+This same menu also has your other task actions, like **Copy Task Link**, **Pin Task**, **Watching**, **Move**, **Make Template**, **Convert to Subtask**, **Archive Task**, and **Delete Task**. Check out the [Task Actions](/task-action) guide to learn more about these.
 
 ![task clone](../public/images/task-management/how-to-create-a-new-task/TAsk-Clone-15.webp)
 
