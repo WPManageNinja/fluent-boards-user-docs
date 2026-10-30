@@ -179,6 +179,34 @@ If you wish to convert this board into a reusable template, select **Make Templa
 
 ![Make a Template](../public/images/boards/board-settings/make-template-17.webp)
 
+### Share Board
+
+The **Share Board** option lets you show your board to anyone on your website, without asking them to log in. Visitors can only view the board. They can't edit anything.
+
+> [!Note]
+> **Share Board** is available in FluentBoards Pro.
+
+Click the **Three Dot** button and select **Share Board**.
+
+![Share Boards](../public/images/boards/board-settings/share-boards-4.webp)
+
+Now turn on the **Public Access** toggle to switch on the public view. Then click the **Copy** icon next to **Public shortcode** and paste it into any WordPress page. Learn how in the [Shortcodes](/shortcodes#public-board-shortcode) guide.
+
+Under **What visitors can see**, choose how your public board looks and what it shows:
+
+- **Layouts**: Tick the views visitors can use: **Kanban**, **List**, or **Table**. Choose at least one.
+- **Default**: Choose the view visitors see first.
+- **Appearance**: Choose **Match site theme** to use your website's fonts, or **Fluent Boards style** to use the FluentBoards look.
+- **Visible stages**: Show **All stages**, or pick only the stages you want visitors to see. Tick **Show completed tasks** to include finished tasks.
+- **Task card fields**: Tick what each card shows: **Assignees**, **Labels**, **Dates**, **Priority**, and **Board Members**.
+- **Task details**: Tick **Allow visitors to open tasks** to let visitors read a task's details. Once it's on, you can also show the **Description**, **Subtasks**, **Attachments**, and **Comments**.
+
+Once you're done, click the **Save** button.
+
+Visitors can also search the board to find tasks quickly. Attachments stay hidden unless you turn them on.
+
+![Share Boards](../public/images/boards/board-settings/share-boards-5.webp)
+
 ### Export
 
 You can export your whole board as a **JSON** or **CSV** file in FluentBoards. The export will include all task details, but keep in mind that **assignee information won’t be included**.

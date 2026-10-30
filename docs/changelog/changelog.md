@@ -7,6 +7,29 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.2.5
+
+Released on October 19, 2026
+
+::: code-group
+
+``` [✨ Newly Added]
+• Share individual tasks through read-only links without requiring a login
+• Share Board controls for public layouts and content visibility
+```
+
+``` [🚀 Improvements]
+• Refreshed public board views with flexible layouts, search, and task details
+• Public boards can match your site theme or use Fluent Boards styling
+• Optional attachment access for visitors on public boards and shared task pages
+```
+
+``` [🐞 Bug fixes]
+• Rounded corners and outer spacing in Gmail notification emails
+```
+
+:::
+
 ## FluentBoards v2.2.2
 
 Released on October 16, 2026

@@ -37,7 +37,9 @@ The **Public Board Shortcode** works just like the Single Board Shortcode, but l
 [fluent_board_public id="12"]
 ```
 
-Replace `12` with your board's ID. Before using this shortcode, turn on the **Public Access** toggle for that board from the **About This Board** panel. If Public Access is off, this shortcode won't display anything.
+Replace `12` with your board's ID. Before using this shortcode, turn on the **Public Access** toggle for that board from the **Share Board** option in the Board Menu. If Public Access is off, this shortcode won't display anything.
+
+From the same **Share Board** panel, you can choose which layouts visitors get (Kanban, List, or Table), match your site theme or use the Fluent Boards style, and decide whether visitors can open tasks, see attachments, and more. Learn more in the [Share Board](/board-settings#share-board) section.
 
 ## Frontend Portal Shortcode
 
