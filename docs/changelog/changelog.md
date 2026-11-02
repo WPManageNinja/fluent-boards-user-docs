@@ -7,6 +7,43 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.3.0
+
+Released on October 30, 2026
+
+::: code-group
+
+``` [✨ Newly Added]
+• Read-only task share links, no login needed
+• Share Board controls for layouts and visibility
+• Emoji in comments and reactions
+• Pause notifications globally or per board, with scheduled or manual resume
+• Save and create another task
+• Task dependencies in task details, with search and blocked indicators
+```
+
+``` [🚀 Improvements]
+• Save boards and tasks as templates through MCP
+• Board filters persist, with an active count
+• Dates follow WordPress language and date settings
+• Trello import recovery and cover retries
+• Refreshed public boards with flexible layouts, search, task details, and theme styling
+```
+
+``` [🐞 Bug fixes]
+• Security hardening for board access on task covers, watchers, dependencies, CRM contact links, and template status
+• Duplicate comment and mention emails
+• Missing unread counts on Kanban cards
+• List view not loading more tasks on scroll
+• Recurring tasks use the site timezone
+• Invitations keep the selected role and clear once accepted
+• Missing or duplicate tasks in JSON imports
+• Field spacing in Fluent Forms task descriptions
+• Other improvements and bug fixes
+```
+
+:::
+
 ## FluentBoards v2.2.2
 
 Released on October 16, 2026
