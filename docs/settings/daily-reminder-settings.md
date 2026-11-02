@@ -18,6 +18,8 @@ Once you're done, click the **Save** button in the top right corner to save the 
 
 ![fluentboards](../public/images/settings/daily-reminder-settings/FluentBoards-scaled.webp)
 
+You'll also find the **Task Dependencies in Task Details** toggle on this tab. Turn it on to show the **Dependencies** section in task details on Kanban and List views. Learn more in the [Task Dependencies](/task-dependencies) guide.
+
 ## Run Daily Reminder with Scheduled Action
 
 You can send your Daily Reminder email notification anytime using WordPress Scheduled Action. To do this, go to your WordPress dashboard, hover over **Tools**, and select **Scheduled Actions**.

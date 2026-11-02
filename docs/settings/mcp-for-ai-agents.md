@@ -275,8 +275,9 @@ Once connected, you don't need to remember any technical commands. Just describe
 * **List your boards** and see what's available across your account.
 * **Get an overview** of a board, including its stages, labels, and members.
 * **Create a new board**, complete with custom stages and labels.
+* **Save a board or task as a template**, so it joins your template library and is ready to reuse. This needs FluentBoards Pro.
 
-**Try asking:** *"List all my FluentBoards."* or *"Create a board called 'Retainer Radar' with stages New Request, In Progress, Client Review, Delivered."*
+**Try asking:** *"List all my FluentBoards."* or *"Create a board called 'Retainer Radar' with stages New Request, In Progress, Client Review, Delivered."* or *"Save the Client Onboarding board as a template."*
 
 ### Tasks and Stages
 
