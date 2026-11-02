@@ -67,6 +67,12 @@ Turn on **Enable All** to receive every notification, or toggle individual optio
 
 ![board notification](../public/images/boards/board-settings/board-notification-settings-6.webp)
 
+#### Mute Notification
+
+Use the **Mute Notifications** section at the top of the panel. Click the **Pause notifications** dropdown and choose how long to pause, such as **Until tomorrow** or **Until I turn it back on**. Your other boards keep notifying you as usual. Learn more in the [Pause Notifications](/notification-settings#pause-notifications) guide.
+
+![pause board notifications](../public/images/boards/board-settings/pause-board-notifications-7.webp)
+
 
 ### Board Labels
 
