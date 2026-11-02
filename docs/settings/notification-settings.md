@@ -75,7 +75,7 @@ Here you will see the **Mute Notifications** section. Click the **Pause notifica
 
 ### Pause One Board
 
-Just head over to the board, click the **Three Dot** button, and select **Notification Settings**. The **Mute Notifications** section sits at the top of the panel. Choose a pause option from the **Pause notifications** dropdown. Your other boards keep notifying you as usual.
+Just head over to the board, click the **three Dot** button, and select **Notification Settings**. The **Mute Notifications** section sits at the top of the panel. Choose a pause option from the **Pause notifications** dropdown. Your other boards keep notifying you as usual.
 
 ![pause board notifications](../public/images/settings/notification-settings/pause-board-notifications-5.webp)
 

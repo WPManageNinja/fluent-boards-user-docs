@@ -22,6 +22,10 @@ Once you're done, click the **Create Task** button and your task will be added t
 
 ![adding task title](../public/images/task-management/how-to-create-a-new-task/adding-Task-details-2.webp)
 
+You can add several tasks at once. Just click the **Save & Create Another** button instead. Your task is saved, and the pop-up stays open, ready for the next one.
+
+![save and create another](../public/images/task-management/how-to-create-a-new-task/save-and-create-another-3.webp)
+
 ## Task Management Options
 
 Click on the task card, and you'll find many features here to help you manage your task effectively. 
@@ -170,6 +174,16 @@ Choosing **Comments** shows only the comments left on the task, and you can clic
 
 Choosing **Activities** shows a complete, timestamped history of everything that happened on the task, from creation to every label, title, or status change since.
 
+#### Emoji and Reactions
+
+You can add emoji right inside your comments and replies. Type **/** in the comment box and select **Emoji**. You can also type **:** followed by a word, like **:tada**, to see matching emoji.
+
+![emoji in comments](../public/images/task-management/how-to-create-a-new-task/emoji-in-comments-21.webp)
+
+Don't need a full reply? React to any comment or reply with an emoji in one click. Click the **Smiley** icon next to **Reply**, then search or browse by category to pick an emoji. Each comment can hold up to five different reactions. Click a reaction again to remove yours.
+
+![emoji reactions](../public/images/task-management/how-to-create-a-new-task/emoji-reactions-20.webp)
+
 ## Task Filter
 
 You can filter your tasks based on assignees, stages, due dates, priorities, labels, CRM contacts, and task status.
@@ -179,6 +193,8 @@ Click on the **Filter** icon from the top right corner of your board.
 ![filter 01](../public/images/task-management/how-to-create-a-new-task/filter-19.webp)
 
 A **Filters** panel appears on the right. Now, you can filter your tasks.
+
+Your filters stay selected when you leave the board and come back later. A count shows how many filters are on, so you always know when your view is filtered.
 
 **A. Assignees:** This section allows you to filter tasks based on who they are assigned to.
 
