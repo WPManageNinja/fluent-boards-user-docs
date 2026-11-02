@@ -1,5 +1,5 @@
 ---
-description: "Control how and when FluentBoards notifies you. Configure email notification settings and per-board notification preferences for your workflow."
+description: "Control how and when FluentBoards notifies you. Set email preferences, adjust per-board notifications, and pause notifications when you need focus."
 ---
 
 # Notification Settings
@@ -41,24 +41,42 @@ A **Notification Settings** panel will open for this board. Toggle **Same as Glo
 
 Otherwise, toggle **Enable All** or the individual options below to personalize the notifications for this particular board:
 
-**Watch created tasks:** Subscribe for notifications for cards you create.
-
-**Watch on commenting:** Subscribe for notifications for a task if you comment or reply on it.
-
-**Watch on assigning:** Subscribe for notifications for a task if you assign someone to it.
-
-**Comment:** Get alerts when someone leaves a new comment on a task you're watching.
-
-**Stage Changed:** Get alerts when a task you're following reaches a new stage.
-
-**Assigned to a task:** Get alerts whenever a new task is given to you.
-
-**Dates:** Get alerts when a task you are following updates in terms of its dates.
-
-**Task Archived:** Get alerts when a task you are watching is archived.
-
-**Removed from a task:** Get alerts when you are removed from a task.
+- **Watch created tasks:** Subscribe for notifications for cards you create.
+- **Watch on commenting:** Subscribe for notifications for a task if you comment or reply on it.
+- **Watch on assigning:** Subscribe for notifications for a task if you assign someone to it.
+- **Comment:** Get alerts when someone leaves a new comment on a task you're watching.
+- **Stage Changed:** Get alerts when a task you're following reaches a new stage.
+- **Assigned to a task:** Get alerts whenever a new task is given to you.
+- **Dates:** Get alerts when a task you are following updates in terms of its dates.
+- **Task Archived:** Get alerts when a task you are watching is archived.
+- **Removed from a task:** Get alerts when you are removed from a task.
 
 Once you're done, click the **Save** button to apply your notification changes.
 
 ![board notification settings](../public/images/settings/notification-settings/board-notification-settings-3.webp)
+
+## Pause Notifications
+
+Going on holiday or working toward a deadline? You can pause your email and in-app notifications for a while. A pause only affects you. Board invitations still arrive, so nobody is left waiting on you.
+
+### Pause All Boards
+
+Click on your **Profile Image** in the top right corner of your FluentBoards Dashboard, then select **Notifications** from the left sidebar.
+
+Here you will see the **Mute Notifications** section. Click the **Pause notifications** dropdown and choose how long to pause:
+
+- **Until tomorrow**
+- **Until next Monday**
+- **For one week**
+- **Until I turn it back on**
+- **Choose date and time...**: Pick your own date and time to resume.
+
+![pause all notifications](../public/images/settings/notification-settings/pause-all-notifications-4.webp)
+
+### Pause One Board
+
+Just head over to the board, click the **Three Dot** button, and select **Notification Settings**. The **Mute Notifications** section sits at the top of the panel. Choose a pause option from the **Pause notifications** dropdown. Your other boards keep notifying you as usual.
+
+![pause board notifications](../public/images/settings/notification-settings/pause-board-notifications-5.webp)
+
+Notifications come back on their own at the time you chose. To turn them back on sooner, open the same section and click **Resume notifications**.
