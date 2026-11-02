@@ -271,6 +271,7 @@ export default defineConfig({
           { text: 'Task Actions', link: '/task-action' },
           { text: 'Task Templates', link: '/task-template' },
           { text: 'Recurring Tasks', link: '/recurring-task' },
+          { text: 'Task Dependencies', link: '/task-dependencies' },
           { text: 'Time Tracking', link: '/task-time-tracking' },
           { text: 'Custom Fields', link: '/custom-fields-for-task' },
           { text: 'AI Task Features', link: '/ai-features-in-task-cards' }
