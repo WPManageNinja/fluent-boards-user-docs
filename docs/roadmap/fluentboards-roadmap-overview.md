@@ -46,7 +46,7 @@ To display your Roadmap Boards on the frontend, navigate to the specific board y
 
 Here you will see your board details, like the number of **Tasks**, **Stages**, **Labels**, and **Members**. 
 
-Below that, you'll find two shortcodes: the **Shortcode** for embedding the board itself, and the **Roadmap Shortcode** for embedding the public-facing Roadmap. 
+Below that, you'll find the **Roadmap Shortcode** for embedding the public-facing Roadmap.
 
 Turn on the **Public Access** toggle so anyone with the link can view your Roadmap.
 

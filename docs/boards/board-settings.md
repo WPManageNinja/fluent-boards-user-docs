@@ -29,7 +29,7 @@ A popup will come up with some options for your Board. We have discussed the opt
 
 Here, you can view details about the board, such as its Name, Description, Creator, and Creation date. Click the **Pencil** icon to edit the **Name** or **Description**.
 
-Under **Board Details**, you'll see quick counts for Tasks, Stages, Labels, and Members. Copy the **Shortcode** shown here to embed this board anywhere else on your website.
+Under **Board Details**, you'll see quick counts for Tasks, Stages, Labels, and Members.
 
 If your board is a Roadmap-type board, you'll also see a **Roadmap Shortcode**, a **Public Access** toggle to let anyone with the link view it, and a **View Roadmap Report** link. Down at the bottom, you'll also see which **Folder** the board belongs to.
 
@@ -196,7 +196,7 @@ Click the **Three Dot** button and select **Share Board**.
 
 ![Share Boards](../public/images/boards/board-settings/share-boards-4.webp)
 
-Now turn on the **Public Access** toggle to switch on the public view. Then click the **Copy** icon next to **Public shortcode** and paste it into any WordPress page. Learn how in the [Shortcodes](/shortcodes#public-board-shortcode) guide.
+Now turn on the **Public Access** toggle to switch on the public view. Then click the **Copy** icon next to **Public shortcode** and paste it into any WordPress page. Learn how in the [Shortcodes](/shortcodes#board-shortcode) guide.
 
 Under **What visitors can see**, choose how your public board looks and what it shows:
 
