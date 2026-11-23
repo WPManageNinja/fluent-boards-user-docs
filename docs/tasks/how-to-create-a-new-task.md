@@ -82,6 +82,8 @@ Your description auto-saves as you type. Dedicated **Save** and **Cancel** butto
 
 ![description 01](../public/images/task-management/how-to-create-a-new-task/description-8.webp)
 
+Want a closer look at an image in your description? Simply click it and it opens in a full-size viewer where you can zoom in and out and rotate it. Press **Esc** to close it. This works on locked descriptions too, and images that are links still open as links.
+
 Simply click on the **AI** icon in the description toolbar to open the **AI Writing Assistant**. From here, you can ask it to write, improve, shorten, expand, format, or fix the grammar of your description, or give it a custom instruction of your own.
 
 > [!Note]
@@ -108,6 +110,8 @@ You can also paste a link instead. Simply add the URL under **Paste a Link**, gi
 Once added, your attachments appear in a list under the **Attachments** heading, and you'll see its own upload progress for every file, so you always know how each one is doing.
 
 ![attachment](../public/images/task-management/how-to-create-a-new-task/Attachment-11.webp)
+
+You can attach HTML files too. FluentBoards saves them as text files, so they download safely instead of opening in your browser.
 
 Click a Markdown file to preview it right inside the task, complete with its formatting and any Mermaid diagrams it contains, such as flowcharts or process diagrams. This makes technical documentation, flowcharts, and other structured Markdown content much easier to review, without downloading the file or switching tools.
 
@@ -172,11 +176,13 @@ Choosing **Comments** shows only the comments left on the task, and you can clic
 
 ![comments](../public/images/task-management/how-to-create-a-new-task/Comments-17.webp)
 
+You can also drag images straight into the comment box. Each comment can hold up to 10 images.
+
 Choosing **Activities** shows a complete, timestamped history of everything that happened on the task, from creation to every label, title, or status change since.
 
 #### Emoji and Reactions
 
-You can add emoji right inside your comments and replies. Type **/** in the comment box and select **Emoji**. You can also type **:** followed by a word, like **:tada**, to see matching emoji.
+You can add emoji right inside your comments and replies. Type **/** in the comment box and select **Emoji**. You can also type **:** followed by a word, like **:tada**, to see matching emoji. Your recent and common emoji appear first.
 
 ![emoji in comments](../public/images/task-management/how-to-create-a-new-task/emoji-in-comments-21.webp)
 

@@ -31,7 +31,7 @@ Here, you can view details about the board, such as its Name, Description, Creat
 
 Under **Board Details**, you'll see quick counts for Tasks, Stages, Labels, and Members.
 
-If your board is a Roadmap-type board, you'll also see a **Roadmap Shortcode**, a **Public Access** toggle to let anyone with the link view it, and a **View Roadmap Report** link. Down at the bottom, you'll also see which **Folder** the board belongs to.
+If your board is a Roadmap-type board, you'll also see a **Roadmap Shortcode** and a **View Roadmap Report** link. Down at the bottom, you'll also see which **Folder** the board belongs to.
 
 > [!Note]
 > Learn more about Roadmap-type boards in our [Roadmap Overview](/fluentboards-roadmap-overview) guide.
@@ -145,6 +145,10 @@ Under **Archived Tasks**, you'll see every task you've archived, along with who 
 Once you've checked one or more boxes, a counter shows how many are selected, and you can use the **Actions** dropdown to **Restore Selected** or **Delete Selected** tasks all at once.
 
 ![archived items ](../public/images/boards/board-settings/archived-items-12.webp)
+
+Next to the **Search task** box, click the **Sort** icon to switch between **Newest** and **Oldest**. This sorts archived tasks by the date you archived them, so the most recently archived tasks can come first.
+
+![archived tasks sort](../public/images/boards/board-settings/archived-sort-25.webp)
 
 Switch to the **Archived Stages** tab to see any Stages you've removed from the board. Click the **Restore** icon next to a Stage to bring it back, or the **Delete** icon to remove it permanently.
 

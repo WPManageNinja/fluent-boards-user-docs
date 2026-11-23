@@ -20,6 +20,15 @@ Once you're done, click the **Save** button in the top right corner to save the 
 
 You'll also find the **Task Dependencies in Task Details** toggle on this tab. Turn it on to show the **Dependencies** section in task details on Kanban and List views. Learn more in the [Task Dependencies](/task-dependencies) guide.
 
+Two more switches sit at the bottom of this tab: **Board Sharing** and **Task Sharing**. Both are on by default, so nothing changes on your site until you turn one off.
+
+- **Board Sharing**: Lets board managers share a board publicly. While it's off, public board pages stop working.
+- **Task Sharing**: Lets board members create public share links for tasks. While it's off, existing task links stop working. Your links are kept, so turning it back on brings them back.
+
+While a switch is off, its tab is hidden in the board's **Share** panel and the share option inside a task is hidden too. Click the **Save** button in the top right corner to apply your changes.
+
+![board and task sharing switches](../public/images/settings/daily-reminder-settings/board-task-sharing-4.webp)
+
 ## Run Daily Reminder with Scheduled Action
 
 You can send your Daily Reminder email notification anytime using WordPress Scheduled Action. To do this, go to your WordPress dashboard, hover over **Tools**, and select **Scheduled Actions**.

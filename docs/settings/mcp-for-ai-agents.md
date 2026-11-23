@@ -6,7 +6,7 @@ description: "Connect FluentBoards to Claude Code, Claude Desktop, Codex, Cursor
 
 With FluentBoards, you can connect your boards to AI tools like **Claude Code**, **Claude Desktop**, **Codex**, **Cursor**, and **VS Code** using MCP (Model Context Protocol). Once connected, you can ask your AI assistant to read your boards, create tasks, move tasks, assign members, and add comments, all in plain language.
 
-Every connection uses a **connection key** that you create inside FluentBoards. Your AI assistant only ever has the same permissions as your own account. It never gets more access than you already have.
+You can connect with one URL and sign in through WordPress, or use a **connection key** that you create inside FluentBoards. Your AI assistant only ever has the same permissions as your own account. It never gets more access than you already have.
 
 > [!Note]
 > The AI tools available through MCP are different from the built-in AI features inside task cards. If you want AI to write task descriptions or summarize a card, check out the [AI Features in Task Cards](/ai-features-in-task-cards) guide instead.
@@ -58,6 +58,18 @@ Once the toggle is on and FluentHub is active, review the **Status** panel. It c
 > If **Tools Available** shows 0, double-check that the **Enable MCP for AI Agents** toggle from Step 1 is switched on.
 
 ![Check the connection status](../public/images/settings/mcp-for-ai-agents/connection-status-3.webp)
+
+### Connect with One URL
+
+When FluentHub is active, you can skip the connection key. Scroll down to the **Connect a client** card and look for **Connect with one URL**. **FluentHub sign-in** shows **Off** until you turn it on.
+
+Click the **Turn on FluentHub sign-in** button. Then pick your AI client and copy its ready-made setup code. When your AI app asks, sign in with your WordPress account. There is no password to copy.
+
+![connect with one URL](../public/images/settings/mcp-for-ai-agents/connect-with-one-url-15.webp)
+
+Site administrators can use the same URL for every Fluent plugin. FluentBoards admins can use it for FluentBoards. Board members can use it too while **Allow board members to use MCP** is on. This card also appears under **MCP Connections** in your account.
+
+Prefer a password? Click **Use an application password instead**, then follow Step 4 below.
 
 ## Step 4: Create a Connection Key
 

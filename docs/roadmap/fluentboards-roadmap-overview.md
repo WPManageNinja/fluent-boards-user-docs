@@ -48,7 +48,7 @@ Here you will see your board details, like the number of **Tasks**, **Stages**, 
 
 Below that, you'll find the **Roadmap Shortcode** for embedding the public-facing Roadmap.
 
-Turn on the **Public Access** toggle so anyone with the link can view your Roadmap.
+There is no separate access toggle. Anyone who opens the page can view the stages marked as public (the globe icon).
 
 ![fluentboards roadmap 4](../public/images/roadmap/fluentboards-roadmap-overview/roadmap-shortcode-7.webp)
 
