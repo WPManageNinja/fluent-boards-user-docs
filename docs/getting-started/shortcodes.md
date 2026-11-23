@@ -30,19 +30,36 @@ The **Board Shortcode** embeds one board on any page and lets anyone view it wit
 [fluent_board_public id="12"]
 ```
 
-To get your shortcode, click the **Three Dot** button on your board and select **Share Board**. Turn on the **Public Access** toggle, then click the **Copy** icon next to **Public shortcode**. Only board managers and admins can change these settings.
+To get your shortcode, click the **Three Dot** button on your board and select **Share**. Open the **Public board** tab and turn on the **Allow public access** toggle. Then click the **Copy** icon next to **Public shortcode**. Only board managers and admins can change these settings.
 
 ![public board shortcode 2](../public/images/getting-started/shortcodes/public-board-shortcode-2.webp)
 
-The shortcode won't display anything if **Public Access** is off or the board is archived.
+The shortcode won't display anything if **Allow public access** is off or the board is archived.
 
-From the same **Share Board** panel, you can choose which layouts visitors get (Kanban, List, or Table), match your site theme or use the Fluent Boards style, and decide whether visitors can open tasks, see attachments, and more. Learn more in the [Share Board](/board-settings#share-board) section.
+From the same **Public board** tab, you can choose which layouts visitors get (Kanban, List, or Table), match your site theme or use the Fluent Boards style, and decide whether visitors can open tasks, see attachments, and more. Learn more in the [Share](/board-settings#share) section.
 
 Here you will see how the public board looks on your page.
 
 ![public board shortcode 3](../public/images/getting-started/shortcodes/public-board-shortcode-3.webp)
 
 The board displays at wide width by default. To use the full page width, add `align="full"` to the shortcode, if your theme supports it. If the board looks cut off or off-center, add `align="none"` to keep it inside your page's content area.
+
+### Members-Only Board Shortcode
+
+The **Members-Only Board Shortcode** embeds one board on a page that only its members can open. Visitors who aren't logged in, or who aren't on the board, won't see it.
+
+> [!Note]
+> The **Members-Only Board Shortcode** is available in FluentBoards Pro.
+
+```
+[fluent_board id="12"]
+```
+
+To get your shortcode, click the **Three Dot** button on your board and select **Share**. Here you will see the **Members** tab. Click the **Copy** icon next to **Shortcode**, then paste it into any page.
+
+![members board shortcode 8](../public/images/getting-started/shortcodes/members-board-shortcode-8.webp)
+
+Admins and members of that board can open it. Your site admin can turn board sharing off in **General Settings**, which hides the **Members** tab.
 
 ## Frontend Portal Shortcode
 
