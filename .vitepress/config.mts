@@ -244,6 +244,7 @@ export default defineConfig({
           { text: 'Installation', link: '/fluentboards-installation-guide' },
           { text: 'License Activation', link: '/fluentboards-licence-activation' },
           { text: 'Dashboard Overview', link: '/fluentboards-dashboard-overview' },
+          { text: 'Global Search', link: '/global-search' },
           { text: 'First Board Setup', link: '/onboarding-board' },
           { text: 'Shortcodes', link: '/shortcodes' }
         ]
@@ -283,7 +284,8 @@ export default defineConfig({
         items: [
           { text: 'Member Roles', link: '/member-roles' },
           { text: 'Notifications', link: '/notification-settings' },
-          { text: 'Daily Reminders', link: '/daily-reminder-settings' }
+          { text: 'Daily Reminders', link: '/daily-reminder-settings' },
+          { text: 'Weekly Summary', link: '/weekly-summary-settings' }
         ]
       },
       {
