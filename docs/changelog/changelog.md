@@ -7,6 +7,43 @@ pageClass: changelog-page
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentBoards.
 
+## FluentBoards v2.4.0
+
+Released on November 23, 2026
+
+::: code-group
+
+``` [✨ Newly Added]
+• Global search, rebuilt with ranked results, filters, and keyboard shortcuts
+• Weekly task summary emails, with a custom schedule
+• Site-wide sharing controls and one Share panel for members, public boards, and task links
+• Copy stages with their tasks and details
+• Full-size image previews in task descriptions
+• Single-URL connections for AI agents through MCP
+```
+
+``` [🚀 Improvements]
+• Grouped task notifications, simpler preferences, and separate mention emails
+• Task emails follow each recipient's language
+• Recent and common emoji suggestions
+• Full activity dates and archive-date sorting
+• Clearer MCP tool instructions and responses
+• Members-only [fluent_board id] shortcode, now shown in the Share panel
+• Drop images straight into task comments
+• HTML attachments are saved as text files and downloaded safely
+```
+
+``` [🐞 Bug fixes]
+• Security hardening for REST requests, comment links, CSV imports, and CRM contact details
+• Unread counts and dependency badges not updating after viewing tasks
+• Inherited notification settings and Table View column preferences
+• Missing members in search and lost selections during searches or failed bulk actions
+• Timezone differences in Trello and Asana import dates
+• Duplicate site initials in email previews
+```
+
+:::
+
 ## FluentBoards v2.3.0
 
 Released on October 30, 2026
