@@ -144,6 +144,8 @@ Under **Archived Tasks**, you'll see every task you've archived, along with who 
 
 Once you've checked one or more boxes, a counter shows how many are selected, and you can use the **Actions** dropdown to **Restore Selected** or **Delete Selected** tasks all at once.
 
+If an action fails for some of the tasks, those tasks stay selected so you can retry.
+
 ![archived items ](../public/images/boards/board-settings/archived-items-12.webp)
 
 Next to the **Search task** box, click the **Sort** icon to switch between **Newest** and **Oldest**. This sorts archived tasks by the date you archived them, so the most recently archived tasks can come first.

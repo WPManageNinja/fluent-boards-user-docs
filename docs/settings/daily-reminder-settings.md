@@ -27,6 +27,9 @@ Two more switches sit at the bottom of this tab: **Board Sharing** and **Task Sh
 
 While a switch is off, its tab is hidden in the board's **Share** panel and the share option inside a task is hidden too. Click the **Save** button in the top right corner to apply your changes.
 
+> [!Note]
+> **Board Sharing** and **Task Sharing** are available in FluentBoards Pro.
+
 ![board and task sharing switches](../public/images/settings/daily-reminder-settings/board-task-sharing-4.webp)
 
 ## Run Daily Reminder with Scheduled Action

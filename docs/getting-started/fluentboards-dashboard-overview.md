@@ -41,6 +41,8 @@ Simply click on a board to open it directly, or click **View All** to see every 
 
 Below **My Boards**, the **Recent Activity** panel keeps you updated on what's happening across your boards. Use the **All**, **Mentions**, and **Updates** tabs to filter what you see here.
 
+Each item shows a relative time, such as "3 days ago". Simply hover over it to see the full date and time.
+
 ## My Tasks
 
 The **My Tasks** section is structured to optimize your user experience, categorized into several segments. You'll find **Today**, **Assigned**, **Upcoming**, and **Overdue** as tabs, with more options available under the **More** dropdown:

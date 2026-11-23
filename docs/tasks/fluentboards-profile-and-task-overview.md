@@ -58,6 +58,8 @@ Open the **Activities** tab from the left sidebar to view a timeline of your rec
 
 This timeline records activities such as assigning members, adding or removing labels, and other task-related updates. Each activity also shows when the action was performed.
 
+Hover over a relative time, such as "3 days ago", to see the exact date and time.
+
 ![fluentboards Activities](../public/images/tasks/fluentboards-profile-and-task-overview/activities-4.webp)
 
 ## Notifications
