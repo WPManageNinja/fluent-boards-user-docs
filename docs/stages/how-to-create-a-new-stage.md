@@ -22,7 +22,11 @@ If you'd rather start from a saved stage, click **Start From Template** instead 
 
 At the top right corner of your stage, you'll find a **Three Dot** icon button. Clicking on it will reveal several actions specific to this stage. Below, we'll detail all the available actions for your Stage.
 
-**Copy Stage:** This action duplicates the stage, creating another identical stage.
+**Copy Stage:** This action duplicates the stage and places the copy right after the original. A **Copy Stage** pop-up will appear with a name for the new stage. Edit it if you like.
+
+![copy stage pop-up](../public/images/stage-management/how-to-create-a-new-stage/copy-stage-4.webp)
+
+**Copy tasks with their details** is ticked by default. Each active task comes over with its assignees, labels, attachments, and subtasks, including subtask assignees. Comments stay with the original, and archived tasks aren't copied. You can copy up to 200 tasks at once. Untick it to copy an empty stage with the same name. Once you're done, click the **Copy Stage** button.
 
 **Set Status Closed:** This action toggles the stage status between open and closed.
 

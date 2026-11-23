@@ -7,7 +7,7 @@ description: "Open the Task Actions menu in FluentBoards to find extra options f
 Open any task, then click the **Three Dot** icon in the top right corner of the task pop-up to reveal the **Task Actions** menu. These actions give you extra options for organizing and managing that task:
 
 - **Copy Task Link**: Copies a link to this task, so you can send it to a teammate who already has access to the board.
-- **Share Task**: Creates a read-only link that anyone can open without logging in. See [Share a Task with a Read-Only Link](#share-a-task-with-a-read-only-link) below.
+- **Share Task**: Creates a read-only link that anyone can open without logging in. Your site admin can turn this option off for the whole site. See [Share a Task with a Read-Only Link](#share-a-task-with-a-read-only-link) below.
 - **Pin Task**: Pin your most critical tasks so they stay at the top of your board, easy to find on busy boards.
 - **Join as Assignee / Leave Task**: If you're not assigned to the task yet, this shows as **Join as Assignee**, letting you add yourself with one click. Once you've joined, the same spot shows **Leave Task**, so you can remove yourself as an assignee just as easily.
 - **Move**: Allows you to move the task to any board and stage. This experience has been redesigned to make changing a task's stage or board quicker and clearer. Its comments, replies, attachments, and time-tracking entries all move along with it.
@@ -45,6 +45,8 @@ Once you're done, click the **Create link** button. Then click **Copy share link
 ### Change or Turn Off a Share Link
 
 Reopen **Share Task** any time to change what visitors see. Your link stays the same, so you don't need to send it again.
+
+You can also manage every task link on a board in one place. Open the board's **Three Dot** menu, select **Share**, then open the **Task links** tab. Click **Manage link** next to a task to change it. Learn more in the [Share](/board-settings#share) section.
 
 To stop sharing, click the **Disable link** button. The old link stops working right away. If you share the task again later, FluentBoards creates a brand-new link.
 
