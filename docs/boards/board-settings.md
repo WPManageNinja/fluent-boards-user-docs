@@ -185,18 +185,33 @@ If you wish to convert this board into a reusable template, select **Make Templa
 
 ![Make a Template](../public/images/boards/board-settings/make-template-17.webp)
 
-### Share Board
+### Share
 
-The **Share Board** option lets you show your board to anyone on your website, without asking them to log in. Visitors can only view the board. They can't edit anything.
+The **Share** option puts every way to share your board in one place. You can embed the board for your members, show it to anyone on your website, and manage your task links.
 
 > [!Note]
-> **Share Board** is available in FluentBoards Pro.
+> The **Members** and **Public board** tabs are available in FluentBoards Pro. Anyone who can edit the board can use **Task links**.
 
-Click the **Three Dot** button and select **Share Board**.
+Click the **Three Dot** button and select **Share**. A **Share** panel will open with three tabs.
 
-![Share Boards](../public/images/boards/board-settings/share-boards-4.webp)
+![share menu](../public/images/boards/board-settings/share-menu-21.webp)
 
-Now turn on the **Public Access** toggle to switch on the public view. Then click the **Copy** icon next to **Public shortcode** and paste it into any WordPress page. Learn how in the [Shortcodes](/shortcodes#board-shortcode) guide.
+> [!Note]
+> Your site admin can turn board and task sharing off for the whole site in **General Settings**. While a switch is off, its tab is hidden from the **Share** panel.
+
+#### Members
+
+Use the **Members** tab to embed the board on a page that only its members can open. Click the **Copy** icon next to **Shortcode** and paste it into any WordPress page. Admins and members of this board can see it. Everyone else can't.
+
+![share members tab](../public/images/boards/board-settings/share-members-22.webp)
+
+Learn how to add it to a page in the [Shortcodes](/shortcodes#members-only-board-shortcode) guide.
+
+#### Public board
+
+Use the **Public board** tab to show your board to anyone on your website, without asking them to log in. Visitors can only view the board. They can't edit anything.
+
+Turn on the **Allow public access** toggle to switch on the public view. Then click the **Copy** icon next to **Public shortcode** and paste it into any WordPress page. Learn how in the [Shortcodes](/shortcodes#board-shortcode) guide.
 
 Under **What visitors can see**, choose how your public board looks and what it shows:
 
@@ -211,7 +226,21 @@ Once you're done, click the **Save** button.
 
 Visitors can also search the board to find tasks quickly. Attachments stay hidden unless you turn them on.
 
-![Share Boards](../public/images/boards/board-settings/share-boards-5.webp)
+![share public board tab](../public/images/boards/board-settings/share-public-23.webp)
+
+#### Task links
+
+Use the **Task links** tab to see every task on this board that has a public link. Under **Public links**, you will find each task, who shared it, and when.
+
+Click the **Manage link** button next to a task. A **Share Task** pop-up will appear. From here, you can:
+
+- Change what visitors see on the shared page, then click the **Save** button.
+- Click the **Reset link** button to give the task a brand-new link. The old link stops working.
+- Click the **Disable link** button to stop sharing the task.
+
+To create a new link, open the task and select **Share Task** from the **Three Dot** menu. Learn more in [Share a Task with a Read-Only Link](/task-action#share-a-task-with-a-read-only-link).
+
+![share task links tab](../public/images/boards/board-settings/share-task-links-24.webp)
 
 ### Export
 
